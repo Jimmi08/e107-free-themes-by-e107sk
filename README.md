@@ -26,6 +26,10 @@ Last check: 09/2019
 Minimal e107 version: 2.2.2
 Next development: possible
 
+## Relive Bootstrap 3 theme
+
+Last check: 10/2018 
+
 ## RideBlue2 Bootstrap 3 theme
 
 Last check: 07/2017 

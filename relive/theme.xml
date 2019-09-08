@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Relive Bootstrap 3 theme" version="1.0.0" date="2018-10-01" compatibility="2.0">
+	<author name ="Jimako" email="" url="" />
+	<summary>Blog and travel bootstrap theme </summary>
+	<description>Blog and travel bootstrap theme inspired by Tesla Themes. Warning: Demo content will overrride your own content.</description>
+	<category>blog</category>
+	<plugins>
+		<plugin name='gallery' url='core' />
+		<plugin name='social' url='core' />
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+	</keywords>
+	<screenshots>
+		<image>preview_frontend.jpg</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='homepage' title='Homepage' default='false'>
+			<custompages>FRONTPAGE</custompages>	
+		</layout>
+		<layout name='full' title='Full width page'  >
+        <custompages>forum</custompages>    
+		</layout>
+		<layout name='sidebar_right' title='Sidebar-right' default='true' >
+			<custompages>/news</custompages>		
+		</layout>
+		<layout name='contact' title='Contact' default='false' >
+			<custompages>/contact</custompages>	
+		</layout>
+		<layout name='page' title='Single Page' default='false' >
+			<custompages>/page</custompages>	
+		</layout>
+	</layouts>
+</e107Theme>

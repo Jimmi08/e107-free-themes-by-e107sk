@@ -1,0 +1,176 @@
+.pagination > li > a, .pagination > li > span {
+    color: #e08b1d;
+    padding: 10px 18px;
+}
+
+.pagination > li > a:hover {
+    border: 2px solid #e08b1d;
+}
+
+
+.pagination > li.active > a {
+  background-color: #e08b1d;
+  color: white;
+}
+ 
+
+/* fix for date */
+
+.blog-post.wide-post .post-header h4.customdate span:first-child {
+    margin-bottom: 20px;
+}
+.blog-post .post-header h4.customdate span:first-child {
+    color: #181818;
+    font-size: 14px;
+    line-height: 1.5em;
+    margin: 0 0 15px;
+    font-weight: 400;
+    display: inline;
+}
+
+.home-blog-posts .blog-post .post-header h4.customdate span:first-child {
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+
+/* fix for newsletter */ 
+.widget-newsletter form input[type="text"] {         
+   border-radius: 0px;
+   box-shadow: none;
+   height: initial;
+   transition: initial;
+ }
+ 
+.comments-area .comment-box input[type="text"] {
+   border-radius: 0px;
+   box-shadow: none;
+   color: initial;
+   font-size: initial;
+   height: initial;
+   line-height: initial;
+   transition: initial;
+}
+
+.comments-area .comment-box textarea {
+   border-radius: 0px;
+   box-shadow: none;
+   color: initial;
+   font-size: initial;
+   height: initial;
+   line-height: initial;
+   transition: initial;
+}
+
+.comments-area .comment-box span {
+    display: initial;
+}
+
+.comments-container {
+
+}
+
+/* missing social icons */
+.post-footer .socials-post li a i.fa-google-plus,
+.main-sidebar .widget-about .socials-about li a i.fa-google-plus {
+	background: #d34836;
+}
+
+
+ a.btn.btn-primary, .button.btn-primary  {
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+    color: #e08b1d;
+    border: 3px solid rgba(0,0,0,0);
+    border-right: 3px solid #e08b1d;
+    font-weight: 700;
+    font-size: 16px;
+    padding: 12px 25px 12px 31px;
+    display: inline-block;
+}
+
+a.btn:hover {
+    border: 3px solid #e08b1d;
+}
+
+.btn-primary:hover {
+  background: none;
+  color: #e08b1d;
+  border: 3px solid #e08b1d;
+}
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #e08b1d;
+    background-color: transparent;
+    border-color: #e08b1d;
+}
+
+ 
+
+.btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .open>.dropdown-toggle.btn-primary.focus, .open>.dropdown-toggle.btn-primary:focus, .open>.dropdown-toggle.btn-primary:hover {
+    color: #e08b1d;
+    background-color: transparent;
+    border-color: #e08b1d;
+}
+
+
+ul.online-menu li  {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 11px;
+    color: #6d6d6d;
+    background: #d7d7d7;
+    padding: 10px;
+    line-height: 1.5em;
+}
+
+.contact-page header {
+    margin-bottom: -262px;
+    padding-bottom: 262px;
+}
+
+.contact-page header {
+  background: url(images/contact-bg.jpg) top center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/contact-bg.jpg); 
+      background-size: cover;
+}
+
+.contact-form textarea, .contact-form input[type="email"] {
+    width: 100%;
+    background: none;
+    color: #f1f1f1;
+    padding: 10px 0;
+    margin-bottom: 30px;
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+}
+
+.contact-form input[type="email"]:focus {
+	border-bottom: 2px solid rgba(255,255,255,0.6);
+}
+.contact-form input[type="email"]::-moz-placeholder {
+	color: #cfcfcf;
+}
+.contact-form input[type="email"]:-ms-input-placeholder {
+	color: #cfcfcf;
+}
+.contact-form input[type="email"]::-webkit-input-placeholder {
+	color: #cfcfcf;
+}
+
+.contact-form   {
+    color: #ffffff;
+}
+
+.contact-form textarea, .contact-form input[type="text"] {
+   border-radius: 0px;
+   box-shadow: none;
+   border: none;
+   border-bottom: 2px solid rgba(255,255,255,0.2);
+   font-size: initial;
+   height: initial;
+   line-height: initial;
+   transition: initial;
+}
