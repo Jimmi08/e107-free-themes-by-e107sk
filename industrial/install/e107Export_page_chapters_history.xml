@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.5 (git)" timestamp="1488465432" >
+	<database>
+	<dbTable name="page_chapters">
+		<item>
+			<field name="chapter_id">21</field>
+			<field name="chapter_parent">0</field>
+			<field name="chapter_name">Pages</field>
+			<field name="chapter_sef">pages</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">0</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">22</field>
+			<field name="chapter_parent">21</field>
+			<field name="chapter_name">Our History</field>
+			<field name="chapter_sef">our-history</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">0</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    }
+}</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

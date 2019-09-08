@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.5 (git)" timestamp="1487686937" >
+	<database>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">68</field>
+			<field name="page_title">MANUFACTURING</field>
+			<field name="page_sef">manufacturing</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">manufacturing</field>
+			<field name="menu_title">MANUFACTURING</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image1.jpg</field>
+			<field name="menu_icon">industry.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">69</field>
+			<field name="page_title">Energy engineering</field>
+			<field name="page_sef">energyengineering</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">energyengineering</field>
+			<field name="menu_title">Energy engineering</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image2.jpg</field>
+			<field name="menu_icon">plug.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">70</field>
+			<field name="page_title">CNC Industry</field>
+			<field name="page_sef">cncindustry</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">cncindustry</field>
+			<field name="menu_title">CNC Industry</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image4.jpg</field>
+			<field name="menu_icon">cog.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">71</field>
+			<field name="page_title">oilindustry</field>
+			<field name="page_sef">manufacturing</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">oilindustry</field>
+			<field name="menu_title">Oil industry</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image5.jpg</field>
+			<field name="menu_icon">fire.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">72</field>
+			<field name="page_title">Chemical industry</field>
+			<field name="page_sef">chemicalindustry</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">chemicalindustry</field>
+			<field name="menu_title">Chemical industry</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image6.jpg</field>
+			<field name="menu_icon">industry.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">73</field>
+			<field name="page_title">Material engineering</field>
+			<field name="page_sef">materialengineering</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">manufacturing</field>
+			<field name="menu_title">materialengineering</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image1.jpg</field>
+			<field name="menu_icon">puzzle-piece.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

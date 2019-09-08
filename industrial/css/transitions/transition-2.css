@@ -1,0 +1,103 @@
+a#sticky-logo img{
+/*	-webkit-transition: all 100ms ease-out 0.1s;
+    transition: all 100ms ease-out 0.1s;*/
+}
+
+.nav-wrap .site-logo a img {
+	/*-webkit-transition: all 100ms ease-out 0.1s;
+    transition: all 100ms ease-out 0.1s;*/
+}
+
+a#sticky-logo img{
+  opacity: 0;
+}
+
+.nav-wrap.sticky .site-logo a img {
+	opacity: 0;
+}
+
+.nav-wrap.sticky  a#sticky-logo img {
+	opacity: 1;
+	-webkit-animation: anpstopdown 0.2s; 
+	-moz-animation:    anpstopdown 0.2s; 
+  animation: anpstopdown 0.2s;
+}
+
+
+.nav-wrap  .site-logo a img  {
+
+		border-right: 1px solid transparent; 
+}
+
+.nav-wrap.unstick  .site-logo a img {
+
+	  color: transparent;
+	background: transparent;
+	border: none;
+	text-decoration: none;
+	border-right: 1px solid transparent; 
+	padding:1px;
+	outline: 0px solid transparent;
+	-webkit-animation: anpsbottomup 0.2s; 
+	-moz-animation:    anpsbottomup 0.2s; 
+  animation: anpsbottomup 0.2s;
+
+}
+
+
+@keyframes anpsopacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes anspscale {
+  0% {
+    -ms-transform: scale(5); 
+    -webkit-transform: scale(5); 
+    -moz-transform: scale(5); 
+    transform: scale(5);
+  }
+  100% {
+    -ms-transform: scale(1); 
+    -webkit-transform: scale(1); 
+    -moz-transform: scale(1); 
+    transform: scale(1);
+  }
+}
+
+@keyframes anpstopdown {
+  0% {
+    -webkit-transform: translate(0,-350px); /** Chrome & Safari **/
+    -o-transform: translate(0,-350px); /** Opera **/
+    -moz-transform: translate(0,-350px); /** Firefox **/
+    transform: translate(0,-350px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate(0,0); /** Chrome & Safari **/
+    -o-transform: translate(0,0); /** Opera **/
+    -moz-transform: translate(0,0); /** Firefox **/
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}
+@keyframes anpsbottomup {
+  0% {
+    -webkit-transform: translate(0,350px); /** Chrome & Safari **/
+    -o-transform: translate(0,350px); /** Opera **/
+    -moz-transform: translate(0,350px); /** Firefox **/
+    transform: translate(0,350px);    
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translate(0,0); /** Chrome & Safari **/
+    -o-transform: translate(0,0); /** Opera **/
+    -moz-transform: translate(0,0); /** Firefox **/
+    transform: translate(0,0);
+    opacity: 1;
+  }
+}

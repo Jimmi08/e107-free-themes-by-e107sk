@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Industrial e107 theme" version="2.0.1" date="2018-06-15" compatibility="2.1.8">
+	<author name ="Jimako" email="jimako@jimako.sk" url="https://www.e107.sk/" />
+	<summary>Industrial e107 theme</summary>
+	<description>Industrial is a e107 business theme ported from free HTML theme. It is focused on building websites in the Industrial, manufacturing, factory company niches. </description>
+	<category>generic</category>
+	<plugins>
+		<plugin name='featurebox' url='core' />
+		<plugin name='social' url='core' />
+		<plugin name='contactpage' />
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+	</keywords>
+	<screenshots>
+		<image>preview.jpg</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='homepage' title='Homepage Option 1' default='false'>
+			<custompages>FRONTPAGE</custompages>	
+		</layout>
+		<layout name='sidebar_right' title='Sidebar-right' default='true' >
+			<custompages>/news</custompages>	
+		</layout>
+		<layout name='full' title='Full page' default='false' >
+			<custompages>/project</custompages>	
+		</layout>
+		<layout name='full-no-title' title='Full page without title' default='false' >
+			<custompages>/page</custompages>	
+		</layout>
+		<layout name='contact' title='Contact' default='false' >
+			<custompages>/contact</custompages>	
+		</layout>
+	</layouts>
+	<themePrefs>
+		<pref name='sitelogomain'>{e_THEME}industrial/images/logo.png</pref>
+		<pref name='sitelogosticky'>{e_THEME}industrial/images/logo_sticky.png</pref>
+		<pref name='sitelogomobile'>{e_THEME}industrial/images/logo_mobile.png</pref>
+		<pref name='sitelogomfooter'>{e_THEME}industrial/images/footer_logo.png</pref>
+	</themePrefs>
+</e107Theme>

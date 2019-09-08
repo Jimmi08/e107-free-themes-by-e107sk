@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.5 (git)" timestamp="1487671292" >
+	<database>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">9</field>
+			<field name="page_title">Get a quote</field>
+			<field name="page_sef">get-a-quote</field>
+			<field name="page_chapter">19</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487669753</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11010</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">get-a-quote</field>
+			<field name="menu_title">Get a quote</field>
+			<field name="menu_text"><![CDATA[[html]<p><span>FAST AND RELIABLE SERVICE FOR YOUR PROJECT OR A QUICK FIX, WE DO IT ALL!</span></p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/getaquote.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">get-the-quote</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url">contact.php</field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

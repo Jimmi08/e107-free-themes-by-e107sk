@@ -1,0 +1,61 @@
+/*navbar*/
+
+.site-header.sticky .nav-wrap {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+
+}
+
+.site-header.sticky .nav-wrap.sticky {
+  -webkit-transition: all 100ms ease-out 0s;
+  -moz-transition: all 100ms ease-out 0s;
+  -o-transition: all 100ms ease-out 0s;
+  transition: all 100ms ease-out 0s;
+}
+
+/*logo*/
+a#sticky-logo img{
+  -webkit-transition: all 100ms ease-out 0.1s;
+  -moz-transition: all 100ms ease-out 0.1s;
+  -o-transition: all 100ms ease-out 0.1s;
+  transition: all 100ms ease-out 0.1s;
+}
+
+.nav-wrap .site-logo a img {
+  -webkit-transition: all 100ms ease-out 0.1s;
+  -moz-transition: all 100ms ease-out 0.1s;
+  -o-transition: all 100ms ease-out 0.1s;
+  transition: all 100ms ease-out 0.1s;
+  
+}
+
+a#sticky-logo img{
+  opacity: 0;
+}
+
+.nav-wrap.sticky .site-logo a img {
+	opacity: 0;
+}
+
+.nav-wrap.sticky  a#sticky-logo img {
+	opacity: 1;
+}
+
+
+
+@keyframes anpsopacity {
+  0% {
+    opacity: 1;
+  }
+  30% {
+  	opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

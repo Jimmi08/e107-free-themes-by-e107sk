@@ -1,0 +1,119 @@
+/* LayerSlider Default Skin */
+
+.ls-move {
+	background: #f7f7f7;
+	position: relative;
+}
+
+.ls-move .ls-bottom-nav-wrapper {
+	margin: 15px auto 0px auto;
+}
+
+.ls-move .ls-playvideo {
+	width: 50px;
+	height: 50px;
+	margin-left: -25px;
+	margin-top: -25px;
+}
+
+.ls-move .ls-nav-prev,
+.ls-move .ls-nav-next {
+	color: #fff;
+	font-size: 23px;
+	z-index: 10000;
+	top: 50%;
+	margin-top: -25px;
+	width: 60px !important;
+	height: 60px;
+	position: absolute;
+	opacity: .8;
+}
+
+.ls-move .ls-nav-prev:hover,
+.ls-move .ls-nav-next:hover {
+	opacity: 1;
+}
+
+.ls-move .ls-nav-prev {
+	left: 20px !important;
+}
+
+.ls-move .ls-nav-next {
+	right: 20px !important;
+}
+
+.ls-move .ls-bottom-slidebuttons {
+	background: none;
+	position: absolute;
+	bottom: 50px;
+	right: 40px;
+}
+
+.ls-move .ls-bottom-slidebuttons,
+.ls-move .ls-bottom-slidebuttons a,
+.ls-move .ls-nav-start,
+.ls-move .ls-nav-stop,
+.ls-move .ls-nav-sides {
+	height: 16px;
+}
+
+.ls-move .ls-bottom-slidebuttons,
+.ls-move .ls-bottom-slidebuttons a,
+.ls-move .ls-nav-start,
+.ls-move .ls-nav-stop,
+.ls-move .ls-nav-sides {
+	display: inline-block;
+}
+
+.ls-move .ls-nav-start,
+.ls-move .ls-nav-stop {
+	width: 16px;
+}
+
+.ls-move .ls-bottom-slidebuttons a {
+	background: #fff;
+	border-radius: 100%;
+	opacity: .5;
+	margin-left: 14px;
+	width: 16px;
+}
+
+.ls-move .ls-bottom-slidebuttons a.ls-nav-active,
+.ls-move .ls-bottom-slidebuttons a:hover {
+	opacity: 1;
+}
+
+.ls-thumbnail-hover {
+	display: none !important;
+}
+
+.ls-move .ls-nav-sides {
+	width: 6px;	
+}
+
+.ls-move .ls-loading-indicator {
+	width: 22px;
+	height: 22px;
+	margin-top: 9px;
+	background-image: url(loading.gif);	
+}
+
+.ls-move .ls-fullscreen {
+	width: 30px;
+	height: 30px;
+	right: 10px;
+	top: 10px;
+	background-position: -525px -150px;
+}
+
+.ls-move .ls-fullscreen:hover {
+	background-position: -525px -190px;
+}
+
+.ls-shadow {
+	display: none;
+}
+
+.ls-circle-timer {
+	display: none !important;
+}

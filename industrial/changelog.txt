@@ -1,0 +1,10 @@
+What is new in version 2.0.1:
+
+* FIXED:  missing demo content for testimonial pages
+* ADDED:  support for Welcome Message
+* UPDATED:  images folder to clear demo and theme images. 
+* ADDED:  image_source.txt to img folder for source of used image (to be sure that they are free)
+* UPDATED: cleared install.xml
+* FIXED: missing demo content for contactpage plugin
+* FIXED: missing demo content for featurebox plugin
+* UPDATED: theme preferencies

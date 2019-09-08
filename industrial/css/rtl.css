@@ -1,0 +1,46 @@
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+/* # RTL fixes */
+
+.rtl .testimonials .owl-nav .fa,
+.rtl .recent-news .owl-nav .fa,
+.rtl .owl-nav-style-2 .fa,
+.rtl .widget_pages a:before,
+.rtl .menu a:before,
+.rtl ul.page-numbers .fa {
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.rtl .projects-pagination .fa,
+.rtl .breadcrumb li:before {
+  -webkit-transform: translateY(-50%) translateX(50%) scaleX(-1);
+  -ms-transform: translateY(-50%) translateX(50%) scaleX(-1);
+  transform: translateY(-50%) translateX(50%) scaleX(-1);
+}
+
+.rtl .widget_pages a:before {
+  float: right;
+}
+
+.rtl .divider-modern {
+  clear: both;
+}
+
+.rtl .divider-modern:not(.heading-content) span {
+  float: right;
+}
+
+/* Swipebox fix */
+
+html.swipebox-html {
+  overflow: hidden !important;
+}
+
+html.swipebox-html #swipebox-overlay{
+  direction: ltr;
+}

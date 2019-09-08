@@ -1,0 +1,173 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+ .breadcrumb {
+ 
+    background-color: transparent;
+ 
+}
+
+.color2 {
+color: #a9b9c7;
+}
+
+
+.featurebox.carousel .carousel-inner {
+    height: auto;
+ 
+}
+
+ 
+ /* Get Quote */
+
+.get-quote {
+    background-size: cover;
+    padding: 33px 0;
+}
+
+.get-quote-text {
+    color: #fff;
+    font-family: "Montserrat";
+    font-size: 18px;
+    margin-top: 13px;
+}
+
+@media (max-width: 992px) {
+    .get-quote {
+        padding: 25px 0;
+    }
+
+    .get-quote-text {
+        margin-bottom: 15px;
+        margin-top: 0;
+    }
+}
+
+ 
+
+/* services 1 */
+.heading-left.divider-sm span:before, .heading-middle.divider-sm span:before, .heading-middle span:before, .heading-left span:before, .divider-modern:not(.heading-content) span:after {
+    background-color: #3498db;
+}
+
+.vc_column-inner {
+ padding-top: 35px;
+}
+
+/* videobackground */
+#video-background {
+  position: absolute;
+  right: 0; 
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  width: auto; 
+  height: auto;
+  z-index: 1;
+}
+
+#video-background.collapsing {
+  display:none;
+}
+
+
+#video-landing {
+	height: 500px;
+  position: relative;
+  overflow-y: hidden;
+  color: white;
+  overflow-x: hidden;
+}
+
+@media (max-width: 992px) {
+#video-landing {
+	height: 300px;
+}
+}
+
+#video-landing video {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+ 
+  left: 0;
+  bottom: 0;
+  right: 0;
+ /* z-index: -100;   */
+}
+
+#video-landing h1{
+ 	font-size: 3em; 
+}
+
+.video-captions  {
+ padding-top: 5%;
+ }
+ 
+input#code-verify.tbox.form-control   {
+		border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    color: inherit;
+    padding: 15px 20px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: 15px;
+    height: initial;
+}
+input#code-verify.tbox.form-control:hover  {
+ outline-color: #2a76a9;
+ border-color: #2a76a9;
+ box-shadow: none;
+ transition:none;
+ height: initial;
+}
+input#code-verify.tbox.form-control:focus  {
+ outline-color: #2a76a9;
+ border-color: #2a76a9;
+ box-shadow: none;
+ transition:none;
+ height: initial;
+}
+
+
+/* projects */
+.projects-item .thumbnail {
+    padding: 0px;
+    margin-bottom: 20px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 0px;
+    border-radius: 0px;
+    transition: none;
+}
+
+main {
+    background-color: #fff;
+    position: relative;
+    z-index: 3;
+}
+
+
+.breadcrumb {
+    margin-bottom: 0px;
+}
+
+
+
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {
+    position: absolute;
+    margin-left: -20px;
+    margin-top: 4px \9;
+    width: initial;
+}
+
+/*  fix for thumbnail */
+.thumbnail {
+	border: 0px; 
+	border-radius: 0px;  
+ }
+ 
+ 
+/* fix for button a in sidebar */
+a.btn-default,  a.btn-default:hover {
+ color:white;
+}

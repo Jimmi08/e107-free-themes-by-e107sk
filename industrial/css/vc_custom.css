@@ -1,0 +1,78 @@
+body .vc_shortcodes_container {
+	background: none;
+}
+body .vc_shortcodes_container .wpb_column_container {
+	padding-left: 4px;
+}
+/* VC custom table field */
+.anps_custom_val {
+    display: none;
+}
+.anps-table-field {
+    position: relative;
+}
+.anps-table-field:after {
+    clear: both;
+    content: '';
+    display: table;
+}
+.anps-table-field-vals th {
+    color: #000;
+    font-size: 14px;
+}
+.anps-table-field-vals td {
+    color: #555;
+    font-size: 12px;
+}
+.anps-table-field-vals,
+.anps-table-field-add-rows,
+.anps-table-field-remove-cells {
+    width: 90%;
+    margin-left: 5%;
+}
+.anps-table-field-add-cells,
+.anps-table-field-remove-rows {
+    bottom: 32px;
+    position: absolute;
+    width: 5%;
+    top: 37px;
+}
+.anps-table-field-add-cells button,
+.anps-table-field-add-rows button {
+    color: green;
+}
+.anps-table-field-remove-cells button,
+.anps-table-field-remove-rows button {
+    color: red;
+}
+.anps-table-field-add-cells {
+    right: 0;
+}
+.anps-table-field-remove-rows {
+    left: 0;
+}
+.anps-table-field-remove-rows button {
+    height: 40px;
+}
+.anps-table-field-add-rows {
+    text-align: center;
+}
+.anps-table-field button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;
+}
+.anps-table-field-add-cells button,
+.anps-table-field-add-rows button,
+.anps-table-field-remove-cells button {
+    height: 100%; 
+}
+#setting-error-tgmpa {
+    display: block;
+    margin: 13px;
+}
+[name="icon"] {
+    font-family: FontAwesome;
+}

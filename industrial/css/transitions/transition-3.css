@@ -1,0 +1,107 @@
+/*navbar*/
+
+.site-header.sticky .nav-wrap {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+
+}
+
+.site-header.sticky .nav-wrap.sticky {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+  -webkit-animation: anpsopacity 1s; 
+  -moz-animation:    anpsopacity 1s; 
+  -o-animation: anpsopacity 1s;
+    animation: anpsopacity 1s;
+}
+
+
+
+a#sticky-logo img{
+  -webkit-transition: all 100ms ease-out 0.1s;
+  -moz-transition: all 100ms ease-out 0.1s;
+  -o-transition: all 100ms ease-out 0.1s;
+  transition: all 100ms ease-out 0.1s;
+}
+
+.nav-wrap .site-logo a img {
+  -webkit-transition: all 100ms ease-out 0.1s;
+  -moz-transition: all 100ms ease-out 0.1s;
+  -o-transition: all 100ms ease-out 0.1s;
+  transition: all 100ms ease-out 0.1s;
+}
+
+a#sticky-logo img{
+  opacity: 0;
+}
+
+.nav-wrap.sticky .site-logo a img {
+	opacity: 0;
+}
+
+.nav-wrap.sticky  a#sticky-logo img {
+	opacity: 1;
+}
+
+.nav-wrap.unstick  a#sticky-logo img {
+	opacity: 0;
+	  -ms-transform: scale(0,0); 
+    -webkit-transform: scale(0,0); 
+    transform: scale(0,0);
+    -webkit-transition: all 100ms ease-out 0s;
+    -moz-transition: all 100ms ease-out 0s;
+    -o-transition: all 100ms ease-out 0s;
+    transition: all 100ms ease-out 0s;
+}
+
+.nav-wrap  .site-logo a img  {
+
+		border-right: 1px solid transparent; 
+}
+
+.nav-wrap.unstick  .site-logo a img {
+
+	  -webkit-animation: anspscale 0.2s; 
+	  -moz-animation:    anspscale 0.2s; 
+    animation: anspscale 0.2s;
+	  color: transparent;
+	background: transparent;
+	border: none;
+	text-decoration: none;
+	border-right: 1px solid transparent; 
+	padding:1px;
+	outline: 0px solid transparent;
+
+
+/*	-ms-transform: scale(1); 
+    -webkit-transform: scale(1); 
+    transform: scale(1);*/
+/*    transition: all 1000ms ease-out 0s;
+    webkit-transition: all 1000ms ease-out 0s;*/
+}
+
+@keyframes anpsopacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes anspscale {
+  0% {
+    -ms-transform: scale(4); 
+    -webkit-transform: scale(4); 
+    transform: scale(4);
+  }
+  100% {
+    -ms-transform: scale(1); 
+    -webkit-transform: scale(1); 
+    transform: scale(1);
+  }
+}

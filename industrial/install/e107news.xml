@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.5 (git)" timestamp="1487772672" >
+	<database>
+	<dbTable name="news">
+		<item>
+			<field name="news_id">1</field>
+			<field name="news_title">Game Mask PC Review</field>
+			<field name="news_sef">welcome-to-e107</field>
+			<field name="news_body"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, no meis semper dicunt est, petentium eloquentiam quo ne. At vero facer eam. Ex nam altera oportere, nisl natum prima id pro. Rebum augue dissentiet eum te, vel veniam eirmod option ea, at eos velit repudiare. Ius sumo dicit adolescens id, an cum efficiantur concludaturque.<br><br>Summo sensibus cum ne, et duo torquatos conceptam. No aeque elitr constituam qui. Nostro corpora nec no, diam verterem tincidunt has et. Altera accumsan urbanitas pro eu, ei assum voluptaria sed. Eam tibique nominavi consequuntur an.<br><br>Ei perfecto delicata usu, quo eius noster blandit te. Eu doctus volumus pri. Meis argumentum an nam, eos odio prima autem an. Te complectitur intellegebat pro, ius id alterum maiestatis. Ea facer accusata sed, ex illum antiopam quo.<br><br>Altera putent pri ad, in phaedrum dissentiunt per. Te eum everti dolores. Ut mea vero autem viderer, mel brute harum senserit id. Minim senserit eloquentiam duo in, sit ei justo graece petentium. Sea id homero oporteat invenire.<br><br>Pri semper dolorum ad. Cu eius repudiare eos. Eum in eleifend necessitatibus. Ne has mutat intellegebat.</p>[/html]]]></field>
+			<field name="news_extended"><![CDATA[[html]<p><strong>Lorem ipsum</strong> is a pseudo-Latin text used in web design, typography, layout, and printing in place of English to emphasise design elements over content. It&#039;s also called placeholder (or filler) text. It&#039;s a convenient tool for mock-ups. It helps to outline the visual elements of a document or presentation, eg typography, font, or layout. Lorem ipsum is mostly a part of a Latin text by the classical author and philosopher Cicero. Its words and letters have been changed by addition or removal, so to deliberately render its content nonsensical; it&#039;s not genuine, correct, or comprehensible Latin anymore.</p>
+<p>While <strong>lorem ipsum</strong>&#039;s still resembles classical Latin, it actually has no meaning whatsoever. As Cicero&#039;s text doesn&#039;t contain the letters K, W, or Z, alien to latin, these, and others are often inserted randomly to mimic the&nbsp; typographic appearence of European languages, as are digraphs not to be found in the original.</p>[/html]]]></field>
+			<field name="news_meta_keywords">welcome,new website</field>
+			<field name="news_meta_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec molestie augue ac enim ultricies mattis ut ac massa. Ut malesuada bibendum felis sit amet aliquam. In facilisis nunc id velit egestas luctus. Aliquam dictum dolor et eros sagittis gravida. Vivamus aliquam rutrum fermentum. Pellentesque a eros quis ipsum molestie fringilla. Integer cursus augue in tellus sodales adipiscing. Integer nec orci bibendum, accumsan mauris...</field>
+			<field name="news_datestamp">1454367600</field>
+			<field name="news_author">1</field>
+			<field name="news_category">1</field>
+			<field name="news_allow_comments">0</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0,3</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary">Summary of the news item</field>
+			<field name="news_thumbnail">{e_THEME}voux/install/gasmask.jpg</field>
+			<field name="news_sticky">0</field>
+		</item>
+		<item>
+			<field name="news_id">2</field>
+			<field name="news_title">Ways To Remember Something</field>
+			<field name="news_sef">ways-to-remember-something</field>
+			<field name="news_body"><![CDATA[[html]<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis</p>[/html]]]></field>
+			<field name="news_extended"></field>
+			<field name="news_meta_keywords">break,food</field>
+			<field name="news_meta_description">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis. Ut wisi enim ad minim...</field>
+			<field name="news_datestamp">1459822800</field>
+			<field name="news_author">1</field>
+			<field name="news_category">3</field>
+			<field name="news_allow_comments">0</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary"></field>
+			<field name="news_thumbnail">{e_THEME}voux/install/DeathtoStock_NYC5-840x512.jpg</field>
+			<field name="news_sticky">0</field>
+		</item>
+		<item>
+			<field name="news_id">3</field>
+			<field name="news_title">My Style Statement</field>
+			<field name="news_sef">my-style-statement</field>
+			<field name="news_body"><![CDATA[[html]<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis</p>[/html]]]></field>
+			<field name="news_extended"></field>
+			<field name="news_meta_keywords">break,food</field>
+			<field name="news_meta_description">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis. Ut wisi enim ad minim...</field>
+			<field name="news_datestamp">1461259800</field>
+			<field name="news_author">1</field>
+			<field name="news_category">3</field>
+			<field name="news_allow_comments">0</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0,2,3</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary"></field>
+			<field name="news_thumbnail">{e_THEME}voux/install/DeathtoStock_Portraits-4-840x512.jpg</field>
+			<field name="news_sticky">0</field>
+		</item>
+		<item>
+			<field name="news_id">4</field>
+			<field name="news_title">Draught Vaein Mynel</field>
+			<field name="news_sef">draught-vaein-mynel</field>
+			<field name="news_body"><![CDATA[[html]<p>Mauris sem sem, maximus ac sem auctor, cursus congue massa. Aliquam erat volutpat. Donec maximus libero turpis, sed consequat sapien semper quis aliquet posuere dui, quis elementum sem maximus quis. Mauris sem sem, maximus ac sem auctor, cursus congue massa. Aliquam erat volutpat. Donec maximus libero turpis, sed consequat sapien semper quis. Ut aliquet posuere dui, quis elementum sem maximus quis. Sed volutpat iaculis augue vitae ullamcorper.<br><br>&nbsp;&nbsp;&nbsp; Aenean dignissim, enim eu condimentum varius, ante justo consequat elit, ut consequat urna leo ut diam. Fusce suscipit urna a dolor ullamcorper, non egestas leo consectetur.<br><br><br>Nam sit amet felis libero. Nullam pharetra justo ac nisi consequat, ac dapibus dolor fermentum. Fusce dolor neque,Quisque id efficitur nibh, in volutpat erat. Morbi vel facilisis nulla, id posuere velit. Maecenas tempor lorem ut molestie malesuada. Nulla facilisi. Pellentesque fermentum, felis vel lacinia pulvinar, erat neque tincidunt sapien, sit amet varius lacus justo id nisi. Nunc euismod lacus lectus, ac ullamcorper neque lacinia eget. Phasellus et odio et justo consectetur egestas.<br><br><br>Phasellus et odio et justo consectetur egestas Donec velit quam, ultricies pharetra elit ut, pharetra vulputate libero. Proin ac justo aliquam, egestas felis vel, feugiat lectus. Nulla vel consequat lacus, ut congue nisl. Fusce sit amet ipsum sit amet dolor imperdiet congue. Vestibulum blandit vel metus vitae vehicula. Aenean fermentum ornare turpis, eget iaculis ligula molestie quis. Phasellus vulputate vestibulum mi, id aliquam odio sagittis nec. Phasellus at sagittis est, quis ullamcorper tortor. Pellentesque est libero, convallis nec sollicitudin non, congue in nulla. Nunc ac tincidunt leo, non convallis purus. Proin sed dui non metus blandit pharetra at eu ante. Suspendisse tristique mauris ac dignissim gravida. Suspendisse nec dolor non ex finibus</p>[/html]]]></field>
+			<field name="news_extended"></field>
+			<field name="news_meta_keywords">food,sport,vimeo</field>
+			<field name="news_meta_description">Mauris sem sem, maximus ac sem auctor, cursus congue massa. Aliquam erat volutpat. Donec maximus libero turpis, sed consequat sapien semper quis aliquet posuere dui, quis elementum sem maximus quis. Mauris sem sem, maximus ac sem auctor, cursus congue massa. Aliquam erat volutpat. Donec maximus libero turpis, sed consequat sapien semper quis. Ut aliquet posuere dui, quis elementum sem maximus quis. Sed volutpat...</field>
+			<field name="news_datestamp">1462469100</field>
+			<field name="news_author">1</field>
+			<field name="news_category">3</field>
+			<field name="news_allow_comments">0</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary"></field>
+			<field name="news_thumbnail">{e_THEME}voux/install/post5-1080x720.jpg</field>
+			<field name="news_sticky">0</field>
+		</item>
+		<item>
+			<field name="news_id">5</field>
+			<field name="news_title">Papilion Minter Savior</field>
+			<field name="news_sef">papilion-minter-savior</field>
+			<field name="news_body"><![CDATA[[html]<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>[/html]]]></field>
+			<field name="news_extended"><![CDATA[[html]<p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis</p>[/html]]]></field>
+			<field name="news_meta_keywords">fashion,food,slider</field>
+			<field name="news_meta_description">Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis. Ut wisi enim ad minim...</field>
+			<field name="news_datestamp">1464637347</field>
+			<field name="news_author">1</field>
+			<field name="news_category">3</field>
+			<field name="news_allow_comments">0</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary"></field>
+			<field name="news_thumbnail">{e_THEME}voux/install/2_.jpg,{e_THEME}voux/install/8.jpg</field>
+			<field name="news_sticky">0</field>
+		</item>
+		<item>
+			<field name="news_id">30</field>
+			<field name="news_title">e107 v2.1.2 Bootstrap CMS Released</field>
+			<field name="news_sef">e107-v2-1-2-bootstrap-cms-released</field>
+			<field name="news_body"><![CDATA[[html]<p>We&#039;re happy to announce the release of e107 v2.1.2.</p>
+<h4>Fixes/Improvements:</h4>
+<ul>
+<li>Strongest PHP Password Encryption added as default</li>
+<li>Numerous fixes related to MySQL and PDO handling</li>
+<li>Removal of many hardcoded LAN phrases, allowing for translation</li>
+<li>Replaced e_tohtml.php addon with e_parse.php allowing for more functionality and customization</li>
+<li>Improved e_sitelink.php addon to support easy-to-make mega drop-down menu&#039;s</li>
+<li>Rewrite of &#036;frm-&gt;userpicker() method to allow for maximum customization</li>
+<li>And literally hundreds of additional bug fixes and enhancements in all areas</li>
+</ul>
+<h4>New features:</h4>
+<ul>
+<li>News Grid Menu added (see <a href=&quot;https://github.com/e107inc/e107/issues/1512&quot; target=&quot;_blank&quot;>#1512</a>)</li>
+<li>New Tagcloud plugin</li>
+<li>New shortcode in News: {NEWS_VISIBILITY}</li>
+<li>New-user statistics added to Admin Area dashboard</li>
+<li>Developers can now hook into the meta-tags and alter them (see <a href=&quot;https://github.com/e107inc/e107/issues/1946&quot; target=&quot;_blank&quot;>#1946</a>)</li>
+<li>New e_event.php addon to register events (see the _blank plugin for an example)</li>
+</ul>
+<p>For a full list of changes, please <a href=&quot;https://github.com/e107inc/e107/milestone/8?closed=1&quot; target=&quot;_blank&quot;>go here.</a></p>
+<p>Please see our <a href=&quot;/get-started&quot;>downloads section</a> to download a copy.</p>
+<p></p>[/html]]]></field>
+			<field name="news_extended"></field>
+			<field name="news_meta_keywords">Blog</field>
+			<field name="news_meta_description"></field>
+			<field name="news_datestamp">1477609200</field>
+			<field name="news_author">1</field>
+			<field name="news_category">1</field>
+			<field name="news_allow_comments">1</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary"></field>
+			<field name="news_thumbnail">{e_MEDIA_IMAGE}2017-02/blog2.jpg,,,,</field>
+			<field name="news_sticky">0</field>
+		</item>
+		<item>
+			<field name="news_id">31</field>
+			<field name="news_title">Consequat bibendum quam liquam viverra</field>
+			<field name="news_sef">consequat-bibendum-quam-liquam-viverra</field>
+			<field name="news_body"><![CDATA[[html]<p>We&#039;re happy to announce the release of e107 v2.1.3 in time for Xmas!</p>
+<p>This release contains mostly bug fixes and security enhancements and we recommend everyone upgrade immediately.&nbsp;</p>
+<h3>Fixes/Improvements:</h3>
+<ul>
+<li>Improved error handling when downloading plugins/themes from admin area</li>
+<li>Avatar and photograph uploading fixes</li>
+<li>More flexibility to forum templating added</li>
+<li>Caching functionality optimized for better performance</li>
+<li>Accessibility improvements to contact form</li>
+<li>Fixed installation errors on some PHP versions</li>
+<li>Better backwards compatibility for javascript loading in v1 plugins</li>
+<li>Several fixes to social login functionalities</li>
+<li>Timezone handling changes</li>
+<li>PHP 7.1 fixes (not completely stable yet)</li>
+<li>Numerous hardcoded LANs are now translatable and optimized</li>
+<li>And many more minor bugfixes and improvements</li>
+</ul>
+<h3>New features:</h3>
+<ul>
+<li>More flexible templates for custom admin area dashboard layout</li>
+<li>Error pages: ability to change error page content and template (documentation coming)</li>
+<li>e_admin addon now allows for plugin to hook into batch admin UI actions (see _blank plugin for an example)</li>
+<li>Ability to set a &quot;scope&quot; for HybridAuth provider (social logins)</li>
+<li>New events added: <code>user_xup_updated</code>, <code>user_news_item_viewed</code>, <code>user_page_item_viewed</code>, <code>user_comment_posted</code> and <code>user_comment_deleted</code> (see Event documentation)</li>
+<li>SEF URLs can be enabled/disabled on a per plugin basis</li>
+<li>Banner plugin now support external image URLs</li>
+<li>Bootstrap navigation now supports sub-links of sublinks</li>
+</ul>
+<h3>Other notes:</h3>
+<ul>
+<li>Tagwords plugin removed from core, replaced by TagCloud plugin (introduced in v2.1.2)</li>
+<li>PHP 5.4 is now the minimal required version</li>
+<li>Disabled the loading of legacy core path e107_themes/templates/ (v1 legacy override still available)</li>
+</ul>
+<p></p>
+<p>For a full list of changes, please <a href=&quot;https://github.com/e107inc/e107/milestone/9?closed=1&quot; target=&quot;_blank&quot;>go here.</a></p>
+<p>Please see our <a href=&quot;/get-started&quot;>downloads section</a> to download a copy.</p>
+<p>Thank you for continuing to use e107. We wish everyone a safe and joyful Xmas season!.</p>
+<p></p>[/html]]]></field>
+			<field name="news_extended"></field>
+			<field name="news_meta_keywords">Blog</field>
+			<field name="news_meta_description"></field>
+			<field name="news_datestamp">1482516000</field>
+			<field name="news_author">1</field>
+			<field name="news_category">1</field>
+			<field name="news_allow_comments">1</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary">Curabitur quis libero leo, pharetra mattis eros. Praesent consequat libero eget dolor convallis vel rhoncus magna scelerisque. Donec nisl ante, elementum eget posuere a, consectetur a metus. Proin a adipiscing sapien. Suspendisse vehicula porta lectus vel</field>
+			<field name="news_thumbnail">{e_MEDIA_IMAGE}2017-02/blog1.jpg,,,,</field>
+			<field name="news_sticky">0</field>
+		</item>
+		<item>
+			<field name="news_id">32</field>
+			<field name="news_title">e107 v2.1.4 Bootstrap CMS Released</field>
+			<field name="news_sef">e107-v2-1-4-bootstrap-cms-released</field>
+			<field name="news_body"><![CDATA[[html]<p>We&#039;re happy to announce the release of e107 v2.1.4. Our first release of 2017!</p>
+<h3>Fixes/Improvements:</h3>
+<ul>
+<li>Menu Manager rewritten (menu selection is now separated from theme layout, providing a more accurate preview)</li>
+<li>Theme thumbnails added to installation wizard.</li>
+<li>Fixes for PHP 7.1 - installation now works again</li>
+<li>Fix for uploading of forum attachments</li>
+<li>Fix for incorrect forum avatar showing in some cases</li>
+<li>Added check to prevent server IP from getting banned</li>
+<li>Various fixes for the user extended fields (both admin and frontend)</li>
+<li>Possible fix for session issues on some server configurations</li>
+<li>Cosmetic changes to the admin area</li>
+<li>Numerous LAN and templating improvements (allowing for translation and customisation)</li>
+<li>And many more minor fixes</li>
+</ul>
+<h3>New features:</h3>
+<ul>
+<li>New theme &quot;landingzero&#039; with embedded video.</li>
+<li>Notification and automatic updating of new versions of plugins and themes</li>
+<li>Ability to export/import plugin preferences</li>
+<li>Support for custom font-icon sets in themes with user selection from those sets within the admin area (theme.xml).</li>
+<li>Bootstrap 4 &#039;Cards&#039; support. New setContent() method added for breakdown of &#036;text into separate elements for use by <code>tablestyle()</code> when available</li>
+<li>New Constant: THEME_LEGACY added. Old themes will have a value of true, new themes (using theme.xml) as false</li>
+<li>New forum shortcodes: <code>&#123;TOPIC_TITLE&#125;</code> and <code>&#123;TOPIC_URL&#125;</code>
+</li>
+<li>Theme config can now use plugin &#036;fields markup and save prefs to own table</li>
+<li>New event added: user_profile_edit (see event documentation)</li>
+</ul>
+<p>For a full list of changes, please <a href=&quot;https://github.com/e107inc/e107/milestone/10?closed=1&quot; target=&quot;_blank&quot;>go here.</a></p>
+<p>Please see our <a href=&quot;/get-started&quot;>downloads section</a> to download a copy.</p>
+<p>Thank you for continuing to use e107.</p>
+<p></p>[/html]]]></field>
+			<field name="news_extended"></field>
+			<field name="news_meta_keywords">Blog</field>
+			<field name="news_meta_description"></field>
+			<field name="news_datestamp">1484695800</field>
+			<field name="news_author">1</field>
+			<field name="news_category">1</field>
+			<field name="news_allow_comments">1</field>
+			<field name="news_start">0</field>
+			<field name="news_end">0</field>
+			<field name="news_class">0</field>
+			<field name="news_render_type">0</field>
+			<field name="news_comment_total">0</field>
+			<field name="news_summary"></field>
+			<field name="news_thumbnail">{e_THEME}voux/install/8.jpg,,,,</field>
+			<field name="news_sticky">0</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

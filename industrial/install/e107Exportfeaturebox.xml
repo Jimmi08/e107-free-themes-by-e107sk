@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.5 (git)" timestamp="1487764129" >
+	<pluginPrefs>
+		<featurebox name="menu_category">bootstrap3_carousel</featurebox>
+	</pluginPrefs>
+	<database>
+	<dbTable name="featurebox">
+		<item>
+			<field name="fb_id">4</field>
+			<field name="fb_title">e107 Theme</field>
+			<field name="fb_text"><![CDATA[[html]<p class=&quot;hero-desc&quot;>Ideal theme for any industrial business you need <br>Converted from free HTML theme by anpsthemes.</p>
+<div class=&quot;hero-buttons&quot;>
+<a href=&quot;https://anpsthemes.com/freebies/&quot; class=&quot;btn btn-md&quot;>Original</a> <a href=&quot;https://anpsthemes.com/freebies/&quot; class=&quot;btn btn-md btn-green&quot;>Download</a>
+</div>[/html]]]></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">3</field>
+			<field name="fb_image">{e_MEDIA_IMAGE}2017-02/slider2.jpg</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">6</field>
+			<field name="fb_title">Slide 2</field>
+			<field name="fb_text"><![CDATA[[html]<p>Suspendisse ac dui purus. Cras eleifend, velit sed dapibus pharetra, elit dolor mattis tellus, ac luctus nisi massa at ligula. Ut sagittis, neque consequat elementum convallis, lorem nulla molestie arcu, eu rutrum velit quam at metus! Nullam eu eleifend magna. Praesent eget leo felis, vel euismod nibh. Morbi sem eros, pellentesque eu scelerisque id, pretium id enim. Mauris aliquet molestie dui vel ultricies. Etiam consequat quam sed tellus facilisis sollicitudin. Vivamus malesuada iaculis metus.</p>[/html]]]></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">4</field>
+			<field name="fb_image">{e_THEME}afmetal/install/slider1.jpg</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">10</field>
+			<field name="fb_title">Slide 3</field>
+			<field name="fb_text"><![CDATA[[html]<p>Suspendisse ac dui purus. Cras eleifend, velit sed dapibus pharetra, elit dolor mattis tellus, ac luctus nisi massa at ligula. Ut sagittis, neque consequat elementum convallis, lorem nulla molestie arcu, eu rutrum velit quam at metus! Nullam eu eleifend magna. Praesent eget leo felis, vel euismod nibh. Morbi sem eros, pellentesque eu scelerisque id, pretium id enim. Mauris aliquet molestie dui vel ultricies. Etiam consequat quam sed tellus facilisis sollicitudin. Vivamus malesuada iaculis metus.</p>[/html]]]></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">4</field>
+			<field name="fb_image">{e_THEME}afmetal/install/slider3.jpg</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

@@ -1,0 +1,52 @@
+/*navbar*/
+
+.site-header.sticky .nav-wrap {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.site-header.sticky .nav-wrap.sticky {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+/*logo*/
+a#sticky-logo img{
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.nav-wrap .site-logo a img {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+a#sticky-logo img{
+  opacity: 0;
+}
+
+.nav-wrap.sticky .site-logo a img {
+	opacity: 0;
+}
+
+.nav-wrap.sticky  a#sticky-logo img {
+	opacity: 1;
+}
+
+
+@keyframes anpsopacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

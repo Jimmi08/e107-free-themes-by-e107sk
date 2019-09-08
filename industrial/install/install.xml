@@ -1,0 +1,572 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.5 (git)" timestamp="1487671434" >
+	<pluginPrefs>
+		<featurebox name="menu_category">bootstrap3_carousel</featurebox>
+		<contactpage name="contact_name">Company name</contactpage>
+		<contactpage name="contact_email">Company email</contactpage>
+		<contactpage name="contact_phone">Company phone</contactpage>
+		<contactpage name="contact_fax">Contact Fax</contactpage>
+		<contactpage name="contact_mobile">Contact Mobile</contactpage>
+		<contactpage name="business_hours"><![CDATA[<table class=&quot;working-hours&quot;><tbody>
+<tr>
+<th>Monday</th>
+                                <td>9am &gt; 5pm</td>
+                            </tr>
+<tr>
+<th>Tuesday</th>
+                                <td>9am &gt; 1pm</td>
+                            </tr>
+<tr>
+<th>Wendsday</th>
+                                <td>9am &gt; 1pm</td>
+                            </tr>
+<tr>
+<th>Thursday</th>
+                                <td>9am &gt; 1pm</td>
+                            </tr>
+<tr>
+<th>Friday</th>
+                                <td>9am &gt; 1pm</td>
+                            </tr>
+<tr>
+<th>Saturday</th>
+                                <td>9am &gt; 1pm</td>
+                            </tr>
+<tr>
+<th class=&quot;important&quot;>Sunday</th>
+                                <td class=&quot;important&quot;>Closed</td>
+                            </tr>
+</tbody></table>]]></contactpage>
+		<contactpage name="contact_address">112 Your Adress 23</contactpage>
+		<contactpage name="text_contact_info">Contact Info</contactpage>
+		<contactpage name="text_business_hours"><![CDATA[<h3 class=&quot;widget-title&quot;>Working Hours</h3>
+                    <div class=&quot;textwidget&quot;>Visit us at our HQ for a mean cup of coffe and a fantastic consulting team.</div>]]></contactpage>
+		<contactpage name="text_contact_title">We Want To Hear From You</contactpage>
+		<contactpage name="text_contact_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec vehicula felis, ac porttitor lacus. Nam at dui diam. Quisque mollis vulputate lectus nec dictum. Suspendisse luctus, ipsum a dapibus iaculis, tortor velit ornare odio, ut laoreet arcu lorem at libero. Mauris sit amet nunc enim.</contactpage>
+		<contactpage name="google_maps_embed"></contactpage>
+		<contactpage name="mapmarker"></contactpage>
+		<contactpage name="contact_adress">Company adress</contactpage>
+		<contactpage name="googlemapsapikey"></contactpage>
+	</pluginPrefs>
+	<database>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">1</field>
+			<field name="page_title">Jack Hanover</field>
+			<field name="page_sef">jack-hanover</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487699785</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11012</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">testimonials-1</field>
+			<field name="menu_title">Testing company ltd.</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id interdum tellus. In hac habitasse platea dictumst. Vestibulum gravida id arcu at malesuada. Proin dictum auctor ante in condimentum. &nbsp;Nam sollici udin eros quis nulla.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/testimonials1.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">home-tests</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">2</field>
+			<field name="page_title">Jack Hanover</field>
+			<field name="page_sef">jack-hanover</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487699785</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11012</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">testimonials-1</field>
+			<field name="menu_title">Testing company ltd.</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id interdum tellus. In hac habitasse platea dictumst. Vestibulum gravida id arcu at malesuada. Proin dictum auctor ante in condimentum. &nbsp;Nam sollici udin eros quis nulla.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/testimonials3.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">home-tests</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">3</field>
+			<field name="page_title">Jack Hanover</field>
+			<field name="page_sef">jack-hanover</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487699785</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11012</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">testimonials-1</field>
+			<field name="menu_title">Testing company ltd.</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id interdum tellus. In hac habitasse platea dictumst. Vestibulum gravida id arcu at malesuada. Proin dictum auctor ante in condimentum. &nbsp;Nam sollici udin eros quis nulla.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/testimonials2.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">home-tests</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">4</field>
+			<field name="page_title">Jack Hanover</field>
+			<field name="page_sef">jack-hanover</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487699785</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11012</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">testimonials-1</field>
+			<field name="menu_title">Testing company ltd.</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id interdum tellus. In hac habitasse platea dictumst. Vestibulum gravida id arcu at malesuada. Proin dictum auctor ante in condimentum. &nbsp;Nam sollici udin eros quis nulla.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/testimonials1.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">home-tests</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">5</field>
+			<field name="page_title">Jack Hanover</field>
+			<field name="page_sef">jack-hanover</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487699785</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11012</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">testimonials-1</field>
+			<field name="menu_title">Testing company ltd.</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id interdum tellus. In hac habitasse platea dictumst. Vestibulum gravida id arcu at malesuada. Proin dictum auctor ante in condimentum. &nbsp;Nam sollici udin eros quis nulla.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/testimonials3.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">home-tests</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">6</field>
+			<field name="page_title">Jack Hanover</field>
+			<field name="page_sef">jack-hanover</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487699785</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11012</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">testimonials-1</field>
+			<field name="menu_title">Testing company ltd.</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id interdum tellus. In hac habitasse platea dictumst. Vestibulum gravida id arcu at malesuada. Proin dictum auctor ante in condimentum. &nbsp;Nam sollici udin eros quis nulla.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/testimonials2.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">home-tests</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">7</field>
+			<field name="page_title">Jack Hanover</field>
+			<field name="page_sef">jack-hanover</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487699785</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11012</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">testimonials-1</field>
+			<field name="menu_title">Testing company ltd.</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent id interdum tellus. In hac habitasse platea dictumst. Vestibulum gravida id arcu at malesuada. Proin dictum auctor ante in condimentum. &nbsp;Nam sollici udin eros quis nulla.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/testimonials1.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">home-tests</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>		
+	</dbTable>
+	<dbTable name="page_chapters">
+		<item>
+			<field name="chapter_id">1</field>
+			<field name="chapter_parent">0</field>
+			<field name="chapter_name">Homepage</field>
+			<field name="chapter_sef">general</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">0</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">19</field>
+			<field name="chapter_parent">1</field>
+			<field name="chapter_name">Get the quote</field>
+			<field name="chapter_sef">home-get-the-quote</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">0</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">20</field>
+			<field name="chapter_parent">1</field>
+			<field name="chapter_name">What we do</field>
+			<field name="chapter_sef">home-what-we-do</field>
+			<field name="chapter_meta_description">Our Services</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">0</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">2</field>
+			<field name="chapter_parent">1</field>
+			<field name="chapter_name">Testimonials</field>
+			<field name="chapter_sef">home-testimonials</field>
+			<field name="chapter_meta_description"> </field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_order">0</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    }
+}</field>
+		</item>		
+	</dbTable>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">68</field>
+			<field name="page_title">MANUFACTURING</field>
+			<field name="page_sef">manufacturing</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">manufacturing</field>
+			<field name="menu_title">MANUFACTURING</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image1.jpg</field>
+			<field name="menu_icon">industry.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">8</field>
+			<field name="page_title">Energy engineering</field>
+			<field name="page_sef">energyengineering</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">energyengineering</field>
+			<field name="menu_title">Energy engineering</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image2.jpg</field>
+			<field name="menu_icon">plug.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">9</field>
+			<field name="page_title">CNC Industry</field>
+			<field name="page_sef">cncindustry</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">cncindustry</field>
+			<field name="menu_title">CNC Industry</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image4.jpg</field>
+			<field name="menu_icon">cog.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">10</field>
+			<field name="page_title">oilindustry</field>
+			<field name="page_sef">manufacturing</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">oilindustry</field>
+			<field name="menu_title">Oil industry</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image5.jpg</field>
+			<field name="menu_icon">fire.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">11</field>
+			<field name="page_title">Chemical industry</field>
+			<field name="page_sef">chemicalindustry</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">chemicalindustry</field>
+			<field name="menu_title">Chemical industry</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image6.jpg</field>
+			<field name="menu_icon">industry.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">12</field>
+			<field name="page_title">Material engineering</field>
+			<field name="page_sef">materialengineering</field>
+			<field name="page_chapter">20</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1487674206</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">11011</field>
+			<field name="page_fields"></field>
+			<field name="menu_name">manufacturing</field>
+			<field name="menu_title">materialengineering</field>
+			<field name="menu_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris convallis bibendum odio, vel suscipit justo finibus.</p>[/html]]]></field>
+			<field name="menu_image">{e_THEME}industrial/install/demo/frontpage_image1.jpg</field>
+			<field name="menu_icon">puzzle-piece.glyph</field>
+			<field name="menu_template">what-we-do</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	<dbTable name="featurebox_category">
+		<item>
+			<field name="fb_category_id">1</field>
+			<field name="fb_category_title">Carousel</field>
+			<field name="fb_category_icon"></field>
+			<field name="fb_category_template">bootstrap3_carousel</field>
+			<field name="fb_category_random">0</field>
+			<field name="fb_category_class">0</field>
+			<field name="fb_category_limit">0</field>
+			<field name="fb_category_parms"></field>
+		</item>
+		<item>
+			<field name="fb_category_id">2</field>
+			<field name="fb_category_title">Tabs</field>
+			<field name="fb_category_icon"></field>
+			<field name="fb_category_template">bootstrap_tabs</field>
+			<field name="fb_category_random">0</field>
+			<field name="fb_category_class">0</field>
+			<field name="fb_category_limit">0</field>
+			<field name="fb_category_parms"></field>
+		</item>
+		<item>
+			<field name="fb_category_id">3</field>
+			<field name="fb_category_title">Unassigned</field>
+			<field name="fb_category_icon"></field>
+			<field name="fb_category_template">unassigned</field>
+			<field name="fb_category_random">0</field>
+			<field name="fb_category_class">255</field>
+			<field name="fb_category_limit">0</field>
+			<field name="fb_category_parms"></field>
+		</item>
+	</dbTable>
+	<dbTable name="featurebox">
+		<item>
+			<field name="fb_id">1</field>
+			<field name="fb_title">e107 Industrial Theme</field>
+			<field name="fb_text"><![CDATA[[html]<p class=&quot;hero-desc&quot;>This is ported free html theme for CMS e107 Bootstrap (see footer for source). For carousel is used the featurebox plugin. Optimal image size for background is 2000x550px.</p>[/html]]]></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">1</field>
+			<field name="fb_image">{e_THEME}industrial/images/slider1.jpg</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">2</field>
+			<field name="fb_title">Support</field>
+			<field name="fb_text"><![CDATA[[html]<p class=&quot;hero-desc&quot;>Any questions? Any need of new feature? Any problem?</p>
+<div class=&quot;hero-buttons&quot;><a href=&quot;https://www.e107.sk/forum/industrial-bootstrap-e107-theme/&quot; class=&quot;btn btn-md&quot; target=&quot;_blank&quot;>Support forum</a></div>[/html]]]></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">2</field>
+			<field name="fb_image">{e_THEME}industrial/images/slider2.jpg</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">3</field>
+			<field name="fb_title">Download</field>
+			<field name="fb_text"><![CDATA[[html]<p class=&quot;hero-desc&quot;>Curious to try it?</p>
+<div class=&quot;hero-buttons&quot;>
+<a href=&quot;https://www.e107.sk/download/category/7/industrial-theme-for-e107/&quot; class=&quot;btn btn-md btn-green&quot;>Download</a>
+</div>[/html]]]></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">3</field>
+			<field name="fb_image">{e_THEME}industrial/images/slider3.jpg</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>
