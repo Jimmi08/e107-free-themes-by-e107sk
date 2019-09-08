@@ -1,0 +1,615 @@
+/* 
+dark color: #1d1d1d
+mid color: #2a2a2a
+light color: #474747
+
+*/
+
+body {
+font-size: 11px; 
+cursor: default; 
+color: #fff; 
+
+font-family:  arial, helvetica, verdana, sans-serif; 
+text-decoration: none;
+}
+
+textarea {
+/*background-image: url(../forums/images/submit.gif);*/
+background-repeat: repeat-x;
+color:#fff;
+background-color : #1d1d1d;
+font:11px arial,helvetica,sans-serif;
+border-top: #1d1d1d 1px solid; 
+border-bottom: #474747 1px solid; 
+border-left: #1d1d1d 1px solid; 
+border-right: #474747 1px solid;
+}
+p {
+font-size: 11px; 
+color: #fff; 
+line-height: 1.4; 
+font-family:  arial, helvetica, verdana, sans-serif; 
+text-decoration: none;
+}
+table {
+font-size: 11px; 
+color: #fff; 
+font-family:  arial, helvetica, verdana, sans-serif; 
+text-decoration: none;
+}
+
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+border: 1px solid #1d1d1d;
+border-right: #1d1d1d 1px solid;
+border-top: #474747 2px solid;
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid; 
+}
+
+
+.table-bordered>tbody>tr>td.content {
+
+font-size: 11px;
+color: #fff;
+text-decoration: none;
+font-family:  arial, helvetica, verdana, sans-serif;
+}
+
+.table-bordered>tbody>tr>td.extra {
+background: #2a2a2a; 
+border-right: #000000 1px solid; 
+border-top: #474747 1px solid; 
+border-bottom: #000000 1px solid;
+border-left: #474747 1px solid;
+}
+.table-bordered>tbody>tr>td.info1 {
+color : #fff;
+font: normal 11px arial, helvetica, sans-serif;
+border-top: #000000 1px solid; 
+border-bottom: #474747 1px solid; 
+border-left: #000000 1px solid; 
+border-right: #474747 1px solid;
+background: #2a2a2a;
+}
+.table-bordered>tbody>tr>td.extras {
+background: #2a2a2a; 
+border-right: #000000 1px solid; 
+border-top: #474747 1px solid; 
+border-bottom: #000000 1px solid;
+border-left: #474747 1px solid;
+}
+
+hr {
+border-top: 1px dashed #1d1d1d;
+border-bottom: 0;
+margin-top: 5px;
+width: 98%;
+}
+
+ul 			{ list-style-type: square }
+.center 	{ text-align: center }
+.justify 	{ text-align: justify }
+.right 		{ text-align: right }
+
+h1 {
+font-weight: bold; 
+font-size: 11px; 
+color: #fff; 
+font-family:  arial, helvetica, verdana, sans-serif; 
+letter-spacing: 0px; 
+text-decoration: none;
+}
+.heading {
+font-weight: bold; 
+font-size: 11px; 
+color: #fff; 
+font-family: tahoma; 
+letter-spacing: 0px; 
+text-decoration: none;
+}
+
+/* the drop down select boxes */
+select {
+background-image: url(forums/images/submit.gif);
+background-repeat: repeat-x;
+color:#fff;
+font:11px helvetica, geneva, verdana, sans-serif;
+background-color : #1d1d1d;
+font:11px helvetica, geneva, verdana, sans-serif;
+border-top: #1d1d1d 1px solid; 
+border-bottom: #474747 1px solid; 
+border-left: #1d1d1d 1px solid; 
+border-right: #474747 1px solid;
+
+}
+
+/*only ie will show for the scroller style */
+body {
+scrollbar-face-color: #1d1d1d; 
+scrollbar-highlight-color: #474747; 
+scrollbar-shadow-color: #303030; 
+scrollbar-3dlight-color: #474747; 
+scrollbar-arrow-color: #fff; 
+scrollbar-track-color: #2a2a2a; 
+scrollbar-darkshadow-color: #1d1d1d;
+ }
+
+/* this is the border line & background colour round the entire page */
+.bodyline	{ 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+background: #2a2a2a;
+}
+.tablein {
+color : #fff;
+font: normal 11px arial, helvetica, sans-serif;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+background: #2a2a2a;
+}
+.tableout {
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}	
+
+/* this is the outline round the main forum tables */
+.forumline	{ 
+border-right: #1d1d1d 2px solid; 
+border-top: #1d1d1d 2px solid; 
+border-bottom: #1d1d1d 2px solid;
+border-left: #1d1d1d 2px solid;
+}
+
+/* main table cell colours and backgrounds */
+/* a lot of these are for the extras like arcade especially */
+.table-bordered>tbody>tr>td.row1	{
+background-image: url('../forums/images/row1.gif');
+background-repeat: repeat-x;
+background-color : #2a2a2a;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+
+.table-bordered>tbody>tr>td.row2	{
+background-image: url('../forums/images/row2.gif');
+background-repeat: repeat-x;
+background-color : #1d1d1d;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+.table-bordered>tbody>tr>td.row3 {
+background-image: url('../forums/images/row3.gif');
+background-repeat: repeat-x;
+background-color : #563614;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+.table-bordered>tbody>tr>td.rowpic {		
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+.table-bordered>tbody>tr>td.rowpic1 {
+color: #fff;
+font-size: 11px; 
+font-weight : bold;
+background-image: url(../forums/images/cellpic1.gif);
+background-repeat: repeat-x;
+background-color : #5a5649;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+
+/*forum main catogorie backgrounds left*/
+.table-bordered>tbody>tr>td.rowpicleft {
+background-image: url(../forums/images/rowpicleft.gif);
+background-repeat: repeat-x;
+background-color : #2a2a2a;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+
+}
+/*forum main catogorie backgrounds right*/
+.table-bordered>tbody>tr>td.rowpicright {
+background-image: url(../forums/images/rowpicright.gif);
+background-repeat: repeat-x;
+background-color : #2a2a2a;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+
+.table-bordered>tbody>tr>th	{
+color: #fff; 
+font-size: 11px; 
+font-weight : bold;
+background-image: url(../forums/images/cellpic6.gif);
+background-repeat: repeat-x;
+background-color : #2a2a2a;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+
+}
+
+td.cat,td.cathead,td.catsides,td.catleft,td.catright,td.catbottom {
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+height: 28px;
+}
+
+
+/*
+  setting additional nice inner borders for the main table cells.
+  the names indicate which sides the border will be on.
+  don't worry if you don't understand this, just ignore it :-)
+*/
+.table-bordered>tbody>tr>td.cat,.table-bordered>tbody>tr>td.cathead,.table-bordered>tbody>tr>td.catbottom {
+height: 29px;
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+.table-bordered>tbody>tr>th.thhead,.table-bordered>tbody>tr>th.thsides,.table-bordered>tbody>tr>th.thtop,
+.table-bordered>tbody>tr>th.thleft,
+.table-bordered>tbody>tr>th.thright,
+.table-bordered>tbody>tr>th.thbottom,
+.table-bordered>tbody>tr>th.thcornerl,
+.table-bordered>tbody>tr>th.thcornerr {
+font-weight: bold; background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+height: 28px;
+}
+td.row3right,td.spacerow {
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+th.thhead,td.cathead { 
+font-size: 11px; background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+th.thsides,td.catsides,td.spacerow	 { 
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+th.thright,td.catright,td.row3right	 { 
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+th.thleft,td.catleft	  { 
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+th.thbottom,td.catbottom  { 
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+th.thtop	 { 
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+th.thcornerl { 
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+th.thcornerr { 
+background: #2a2a2a; 
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+
+/* the largest text used in the index page title and toptic title etc. */
+.maintitle,h1,h2	{
+font-weight: bold; font-size: 22px; font-family: arial, verdana, helvetica, sans-serif;
+text-decoration: none; 
+line-height : 120%; 
+color : #fff;
+}
+
+
+/* general text */
+.gen { font-size : 11px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 11px; }
+.gen,.genmed,.gensmall { color : #fff; }
+a.gen,a.genmed,a.gensmall { color: #fff; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #fff; text-decoration: none; }
+
+
+/* the register, login, search etc links at the top of the page */
+.mainmenu		{ font-size : 11px; color : #fff;}
+a.mainmenu		{ text-decoration: none; color : #fff;}
+a.mainmenu:hover{ text-decoration: none; color : #fff;}
+
+
+/* forum category titles */
+.cattitle		{ font-weight: bold; font-size: 11px ; letter-spacing: 0px; color : #fff}
+a.cattitle		{ text-decoration: none; color : #fff; }
+a.cattitle:hover{ text-decoration: none; color : #fff;}
+
+
+/* forum title: text and link to the forums used in: index.php */
+.forumlink		{ font-weight: bold; font-size: 11px; color : #fff; }
+a.forumlink 	{ text-decoration: none; color : #fff; }
+a.forumlink:hover{ text-decoration: none; color : #fff; }
+
+
+/* used for the navigation text, (page 1,2,3 etc) and the navigation bar when in a forum */
+
+#forum .nav			{ font-weight: bold; font-size: 11px; color : #fff;}
+#forum a.nav			{ text-decoration: none; color : #fff; }
+#forum a.nav:hover		{ text-decoration: none; color : #fff;}
+#forum    .nav:after, #forum .nav:before  { display: inline;}
+
+/* titles for the topics: could specify viewed link colour too */
+.topictitle			{ font-weight: bold; font-size: 11px; color : #1d1d1d; }
+a.topictitle:link   { text-decoration: none; color : #1d1d1d; }
+a.topictitle:visited { text-decoration: none; color : #1d1d1d; }
+a.topictitle:hover	{ text-decoration: none; color : #1d1d1d; }
+
+
+/* name of poster in viewmsg.php and viewtopic.php and other places */
+#forum .name			{ font-size : 11px; color : #fff;}
+
+/* location, number of posts, post date etc */
+.postdetails		{ font-size : 11px; color : #fff; }
+
+
+/* the content of the posts (body of text) */
+.postbody { font-size : 11px;}
+a.postlink:link	{ text-decoration: none; color : #fff; }
+a.postlink:visited { text-decoration: none; color : #fff; }
+a.postlink:hover { text-decoration: none; color : #fff}
+
+.navlink { font-size : 11px;}
+a.navlink:link	{ text-decoration: none; color : #fff; }
+a.navlink:visited { text-decoration: none; color : #fff; }
+a.navlink:hover { text-decoration: none; color : #fff;}
+
+
+/* quote & code blocks */
+#forum .code {
+	font-family: verdana, arial, helvetica, sans-serif; font-size: 11px; color: #eda514; line-height: 125%;
+	background-color: #2a2a2a; border: #454442; border-style: solid;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+#forum .quote {
+	font-family: verdana, arial, helvetica, sans-serif; font-size: 11px; color: #b9bf15; line-height: 125%;
+	background-color: #2d2a27; border: #454442; border-style: solid;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+}
+
+
+/* form elements */
+/*where uses login and the search boxes and news title areas*/
+#forum input {
+background-image: url(../forums/images/submit.gif);
+background-repeat: repeat-x;
+color:#fff;
+background-color : #2a2a2a;
+font:11px helvetica, geneva, verdana, sans-serif;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 1px solid;
+border-left: #474747 2px solid;
+
+}
+#forum input.noborder {
+background-image: url(themes/counterstrike/images/submit.gif);
+background-repeat: repeat-x;
+color:#b9ab90;
+background-color : #2a2a2a;
+font:11px helvetica, geneva, verdana, sans-serif;
+border-top: #1d1d1d 1px solid; 
+border-bottom: #474747 1px solid; 
+border-left: #1d1d1d 1px solid; 
+border-right: #474747 1px solid;
+}
+
+/* the text input fields background colour */
+#forum input.post, textarea.post, select {
+	background-color : #1d1d1d;
+}
+
+#forum input { text-indent : 2px; }
+
+/* the buttons used for bbcode styling in message post */
+#forum input.button, button.button {
+color : #fff;
+font: normal 11px verdana, arial, helvetica, sans-serif;
+background: #2a2a2a; 
+border-top: #474747 1px solid; 
+border-bottom: #1d1d1d 1px solid; 
+border-left: #474747 1px solid; 
+border-right: #1d1d1d 1px solid;
+}
+
+/* the main submit button option */
+#forum input.mainoption {
+background-image: url(../forums/images/hit.gif);
+background-repeat: repeat-x;
+color:#fff;
+background-color : #2a2a2a;
+font:11px helvetica, geneva, verdana, sans-serif;
+border-top: #474747 1px solid; 
+border-bottom: #1d1d1d 1px solid; 
+border-left: #474747 1px solid; 
+border-right: #1d1d1d 1px solid;
+}
+
+/* none-bold submit button */
+#forum input.liteoption {
+background-image: url(../forums/images/hit.gif);
+background-repeat: repeat-x;
+color:#fff;
+background-color : #2a2a2a;
+font:11px helvetica, geneva, verdana, sans-serif;
+border-top: #474747 1px solid; 
+border-bottom: #1d1d1d 1px solid; 
+border-left: #474747 1px solid; 
+border-right: #1d1d1d 1px solid;
+}
+#forum input.liteoption1 {
+background-image: url(../forums/images/hit.gif);
+background-repeat: repeat-x;
+color:#fff;
+background-color : #2a2a2a;
+font:11px helvetica, geneva, verdana, sans-serif;
+border-top: #474747 1px solid; 
+border-bottom: #1d1d1d 1px solid; 
+border-left: #474747 1px solid; 
+border-right: #1d1d1d 1px solid;
+}
+#forum input.liteoption2 {
+background-image: url(../forums/images/hit.gif);
+background-repeat: repeat-x;
+color:#fff;
+background-color : #2a2a2a;
+font:11px helvetica, geneva, verdana, sans-serif;
+border-top: #474747 1px solid; 
+border-bottom: #1d1d1d 1px solid; 
+border-left: #474747 1px solid; 
+border-right: #1d1d1d 1px solid; }
+/* this is the line in the posting page which shows the rollover
+  help line. this is actually a text box, but if set to be the same
+  colour as the background no one will know ;)
+*/
+.helpline {
+background-image: url(../forums/images/hit.gif);
+background-repeat: repeat-x;
+color:#fff;
+background-color : #2a2a2a;
+font:1px helvetica, geneva, verdana, sans-serif;
+border-top: #1d1d1d 1px solid; 
+border-bottom: #474747 1px solid; 
+border-left: #1d1d1d 1px solid; 
+border-right: #474747 1px solid;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: transparent; 
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: transparent;
+}
+
+.panel-default>.panel-heading {
+    background-color: transparent;
+    color:white;
+}
+
+#forum-viewtopic li.forum-viewtopic-post:nth-child(odd) {
+    background: #474747!important;
+}
+#forum-viewtopic li.forum-viewtopic-post {
+    border: 1px solid #eee;
+    padding: 15px 10px;
+}
+
+/*forum main catogorie backgrounds left*/
+.table-bordered>tbody>tr>th.rowpicleft {
+background-image: url(../forums/images/rowpicleft.gif);
+background-repeat: repeat;
+background-color : #2a2a2a;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 2px solid;
+border-left: #474747 2px solid;
+ 
+}
+
+
+/*forum main catogorie backgrounds right*/
+.table-bordered>tbody>tr>th.rowpicright {
+background-image: url(../forums/images/rowpicright.gif);
+background-repeat: repeat;
+background-color : #2a2a2a;
+border-right: #1d1d1d 1px solid; 
+border-top: #474747 2px solid; 
+border-bottom: #1d1d1d 2px solid;
+border-left: #474747 2px solid;
+}
+
+.table>tbody>tr>td.newflag {
+padding: 1px;
+}
+
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    vertical-align: middle;
+}
+
+
+.row1 {
+    background-image: url(../forums/images/row1.gif);
+    background-repeat: repeat-x;
+    background-color: #2a2a2a;
+    border-right: #1d1d1d 1px solid;
+    border-top: #474747 2px solid;
+    border-bottom: #1d1d1d 1px solid;
+    border-left: #474747 2px solid;
+}

@@ -1,0 +1,130 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.3 (git)" timestamp="1482067216" >
+	<database>
+	<dbTable name="featurebox">
+		<item>
+			<field name="fb_id">4</field>
+			<field name="fb_title">Slide 1</field>
+			<field name="fb_text"></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">1</field>
+			<field name="fb_image">{e_THEME}counterstrike/install/1.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">6</field>
+			<field name="fb_title">Slide 2</field>
+			<field name="fb_text"></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">3</field>
+			<field name="fb_image">{e_THEME}counterstrike/install/3.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">10</field>
+			<field name="fb_title">Slide 3</field>
+			<field name="fb_text"></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">5</field>
+			<field name="fb_image">{e_THEME}counterstrike/install/5.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">11</field>
+			<field name="fb_title">Slide 4</field>
+			<field name="fb_text"></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">7</field>
+			<field name="fb_image">{e_THEME}counterstrike/install/7.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">12</field>
+			<field name="fb_title">Slide 5</field>
+			<field name="fb_text"></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">9</field>
+			<field name="fb_image">{e_THEME}counterstrike/install/9.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">13</field>
+			<field name="fb_title">Slide 6</field>
+			<field name="fb_text"></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">11</field>
+			<field name="fb_image">{e_THEME}counterstrike/install/11.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+		<item>
+			<field name="fb_id">14</field>
+			<field name="fb_title">Slide 7</field>
+			<field name="fb_text"></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">13</field>
+			<field name="fb_image">{e_THEME}counterstrike/install/13.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">1</field>
+		</item>
+	</dbTable>
+	<dbTable name="featurebox_category">
+		<item>
+			<field name="fb_category_id">1</field>
+			<field name="fb_category_title">Carousel</field>
+			<field name="fb_category_icon"></field>
+			<field name="fb_category_template">bootstrap3_carousel</field>
+			<field name="fb_category_random">0</field>
+			<field name="fb_category_class">0</field>
+			<field name="fb_category_limit">0</field>
+			<field name="fb_category_parms"></field>
+		</item>
+		<item>
+			<field name="fb_category_id">2</field>
+			<field name="fb_category_title">Tabs</field>
+			<field name="fb_category_icon"></field>
+			<field name="fb_category_template">bootstrap_tabs</field>
+			<field name="fb_category_random">0</field>
+			<field name="fb_category_class">0</field>
+			<field name="fb_category_limit">0</field>
+			<field name="fb_category_parms"></field>
+		</item>
+		<item>
+			<field name="fb_category_id">3</field>
+			<field name="fb_category_title">Unassigned</field>
+			<field name="fb_category_icon"></field>
+			<field name="fb_category_template">unassigned</field>
+			<field name="fb_category_random">0</field>
+			<field name="fb_category_class">255</field>
+			<field name="fb_category_limit">0</field>
+			<field name="fb_category_parms"></field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

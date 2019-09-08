@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="CounterStrike Bootstrap 3 theme" version="2.0" date="2016-12-08" compatibility="2.0">
+	<author name ="Jimako" email="e107@arabeska.sk" url="http://e107.sk" />
+	<summary>CounterStrike Bootstrap 3 e107 theme</summary>
+	<description>a bootstrap 3 theme for the frontend</description>
+	<category>generic</category>
+	<plugins>
+		<plugin name='featurebox' url='core' />
+		<plugin name='gallery' url='core' />
+    <plugin name='rss_menu' url='core' />
+		<plugin name='social' url='core' />
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+	</keywords>
+	<screenshots>
+		<image>preview_frontend.png</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='homepage' title='Homepage Welcome' default='false'>
+			<custompages>FRONTPAGE</custompages>	
+		</layout>
+		<layout name='default' title='Standard 2 colums' default='true' >
+			<custompages>/news</custompages>	
+		</layout>
+		<layout name='forum' title='Only left column' default='false' >
+			<custompages>/forum</custompages>	
+		</layout>
+	</layouts>
+</e107Theme>
