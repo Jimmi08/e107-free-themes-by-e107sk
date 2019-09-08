@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.2.2 (git)" timestamp="1562871834" >
+	<database>
+	<dbTable name="jmlayout">
+		<item>
+			<field name="layout_id">5</field>
+			<field name="layout_mode">home</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Home Page</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_transparent</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">6</field>
+			<field name="layout_mode">full</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Full</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_dark</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">7</field>
+			<field name="layout_mode">sidebar_left</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Sidebar (left)</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_default</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">8</field>
+			<field name="layout_mode">sidebar_right</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Sidebar (right)</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_default</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">9</field>
+			<field name="layout_mode">singlelogin</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Login Screen</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_dark</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">10</field>
+			<field name="layout_mode">singlesignup</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Register Page</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_dark</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">11</field>
+			<field name="layout_mode">singlecontact</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Contact page</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_default</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">12</field>
+			<field name="layout_mode">bare</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Starter Bare template</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_default</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.2.2 (git)" timestamp="1562871565" >
+	<database>
+	<dbTable name="menus">
+		<item>
+			<field name="menu_id">592</field>
+			<field name="menu_name">shortcode_menu</field>
+			<field name="menu_location">0</field>
+			<field name="menu_order">0</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages">0</field>
+			<field name="menu_path">jmtheme3/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">593</field>
+			<field name="menu_name">shortcode_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">jmtheme3/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"><![CDATA[{
+    "shortcode_menuCaption": {
+        "English": ""
+    },
+    "shortcode_menuCode": "{ELEMENTS: mode=masthead&template=imageheader}",
+    "shortcode_menuTableStyle": "admin"
+}]]></field>
+		</item>
+		<item>
+			<field name="menu_id">594</field>
+			<field name="menu_name">shortcode_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">5</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">jmtheme3/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"><![CDATA[{
+    "shortcode_menuCaption": {
+        "English": ""
+    },
+    "shortcode_menuCode": "{ELEMENTS: mode=services&template=services}",
+    "shortcode_menuTableStyle": ""
+}]]></field>
+		</item>
+		<item>
+			<field name="menu_id">595</field>
+			<field name="menu_name">shortcode_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">4</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">jmtheme3/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"></field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

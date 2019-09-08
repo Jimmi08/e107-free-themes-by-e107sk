@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.3 (git)" timestamp="1481899040" >
+	<database>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">7</field>
+			<field name="page_title">ABOUT</field>
+			<field name="page_sef">freelancer-about-1</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p><span>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</span></p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1371420000</field>
+			<field name="page_rating_flag">1</field>
+			<field name="page_comment_flag">1</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">9999</field>
+			<field name="menu_name">freelancer-about-1</field>
+			<field name="menu_title">About Me</field>
+			<field name="menu_text"><![CDATA[[html]<p><span>Whether you&#039;re a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</span></p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">about</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text">Download Theme</field>
+		</item>
+		<item>
+			<field name="page_id">11</field>
+			<field name="page_title">ABOUT FREELANCER</field>
+			<field name="page_sef">about-freelancer</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1482311566</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10004</field>
+			<field name="menu_name">footer-3</field>
+			<field name="menu_title">ABOUT FREELANCER</field>
+			<field name="menu_text"><![CDATA[[html]<p><span>Freelance is a free to use, open source Bootstrap theme created by </span><a href=&quot;http://startbootstrap.com/&quot;>Start Bootstrap</a>&nbsp;and customized for e107 Bootstrap CMS. It&#039;s one page theme, but can be used now as multipage solution.<span></span></p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	<dbTable name="page_chapters">
+		<item>
+			<field name="chapter_id">2</field>
+			<field name="chapter_parent">1</field>
+			<field name="chapter_name">Portfolio</field>
+			<field name="chapter_sef">portfolio</field>
+			<field name="chapter_meta_description">Lorem ipsum dolor sit amet consectetur.</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_image"></field>
+			<field name="chapter_order">20</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">1</field>
+			<field name="chapter_parent">0</field>
+			<field name="chapter_name">Home Page</field>
+			<field name="chapter_sef">home-page</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_image"></field>
+			<field name="chapter_order">10</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+	</dbTable>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">1</field>
+			<field name="page_title">Log Cabin</field>
+			<field name="page_sef">portfolio_01</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">2</field>
+			<field name="page_title">Tasty Cake</field>
+			<field name="page_sef">portfolio_02</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">3</field>
+			<field name="page_title">Circus Tent</field>
+			<field name="page_sef">portfolio_03</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">4</field>
+			<field name="page_title">Controller</field>
+			<field name="page_sef">portfolio_04</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">5</field>
+			<field name="page_title">Locked Safe</field>
+			<field name="page_sef">portfolio_05</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">6</field>
+			<field name="page_title">Submarine</field>
+			<field name="page_sef">portfolio_05</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

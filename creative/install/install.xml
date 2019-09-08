@@ -1,0 +1,498 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.2.2 (git)" timestamp="1562790259" >
+	<database>
+	<dbTable name="jmelement">
+		<item>
+			<field name="element_id">1</field>
+			<field name="element_mode">masthead</field>
+			<field name="element_setting">imageheader</field>
+			<field name="element_description"></field>
+			<field name="element_items">0</field>
+			<field name="element_title">Master Head</field>
+			<field name="element_image">{e_THEME}creative/install/elements/element_masthead.jpg</field>
+			<field name="element_template">imageheader</field>
+			<field name="element_order">1</field>
+			<field name="element_options">{
+    "fields": {
+        "section_title": "YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES",
+        "section_subtitle": "Start Bootstrap can help you build better websites using the Bootstrap framework! Just download a theme and start customizing, no strings attached!",
+        "section_bgimage": "{e_THEME}creative/install/elements/bg-masthead.jpg",
+        "section_text": "See More",
+        "section_url": "#",
+        "section_intro": ""
+    }
+}</field>
+		</item>
+		<item>
+			<field name="element_id">2</field>
+			<field name="element_mode">about</field>
+			<field name="element_setting">about</field>
+			<field name="element_description"></field>
+			<field name="element_items">0</field>
+			<field name="element_title">About Section</field>
+			<field name="element_image">{e_THEME}creative/install/elements/element_about.jpg</field>
+			<field name="element_template">about</field>
+			<field name="element_order">2</field>
+			<field name="element_options">{
+    "fields": {
+        "section_title": "We've got what you need!",
+        "section_subtitle": "Start Bootstrap has everything you need to get your new website up and running in no time! Choose one of our open source, free to download, and easy to use themes! No strings attached!",
+        "button_text": "Get Started",
+        "button_url": "#",
+        "section_bgimage": ""
+    }
+}</field>
+		</item>
+		<item>
+			<field name="element_id">3</field>
+			<field name="element_mode">services</field>
+			<field name="element_setting">services</field>
+			<field name="element_description"></field>
+			<field name="element_items">4</field>
+			<field name="element_title">Service section</field>
+			<field name="element_image">{e_THEME}creative/install/elements/element_services.jpg</field>
+			<field name="element_template">services</field>
+			<field name="element_order">3</field>
+			<field name="element_options">{
+    "fields": {
+        "section_title": "At Your Service",
+        "section_subtitle": "",
+        "section_bgimage": ""
+    },
+    "items": [
+        {
+            "service_icon": "fas fa-4x fa-gem text-primary mb-4",
+            "service_title": "Sturdy Themes",
+            "service_desc": "Our themes are updated regularly to keep them bug free!"
+        },
+        {
+            "service_icon": "fas fa-4x fa-laptop-code text-primary mb-4",
+            "service_title": "Up to Date",
+            "service_desc": "All dependencies are kept current to keep things fresh."
+        },
+        {
+            "service_icon": "fas fa-4x fa-globe text-primary mb-4",
+            "service_title": "Ready to Publish",
+            "service_desc": "You can use this design as is, or you can make changes!"
+        },
+        {
+            "service_icon": "fas fa-4x fa-heart text-primary mb-4",
+            "service_title": "Made with Love",
+            "service_desc": "Is it really open source if it's not made with love?"
+        }
+    ]
+}</field>
+		</item>
+	</dbTable>
+	<dbTable name="menus">
+		<item>
+			<field name="menu_id">592</field>
+			<field name="menu_name">shortcode_menu</field>
+			<field name="menu_location">0</field>
+			<field name="menu_order">0</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages">0</field>
+			<field name="menu_path">jmtheme3/</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">593</field>
+			<field name="menu_name">shortcode_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">jmtheme3/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"><![CDATA[{
+    "shortcode_menuCaption": {
+        "English": ""
+    },
+    "shortcode_menuCode": "{ELEMENTS: mode=masthead&template=imageheader}",
+    "shortcode_menuTableStyle": "admin"
+}]]></field>
+		</item>
+		<item>
+			<field name="menu_id">594</field>
+			<field name="menu_name">shortcode_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">5</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">jmtheme3/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"><![CDATA[{
+    "shortcode_menuCaption": {
+        "English": ""
+    },
+    "shortcode_menuCode": "{ELEMENTS: mode=services&template=services}",
+    "shortcode_menuTableStyle": ""
+}]]></field>
+		</item>
+		<item>
+			<field name="menu_id">595</field>
+			<field name="menu_name">shortcode_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">4</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">jmtheme3/</field>
+			<field name="menu_layout">home</field>
+			<field name="menu_parms"></field>
+		</item>
+	</dbTable>
+  	<dbTable name="page">
+		<item>
+			<field name="page_id">7</field>
+			<field name="page_title">ABOUT</field>
+			<field name="page_sef">freelancer-about-1</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p><span>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</span></p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1371420000</field>
+			<field name="page_rating_flag">1</field>
+			<field name="page_comment_flag">1</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">9999</field>
+			<field name="menu_name">freelancer-about-1</field>
+			<field name="menu_title">About Me</field>
+			<field name="menu_text"><![CDATA[[html]<p><span>Whether you&#039;re a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</span></p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">about</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text">Download Theme</field>
+		</item>
+		<item>
+			<field name="page_id">11</field>
+			<field name="page_title">ABOUT FREELANCER</field>
+			<field name="page_sef">about-freelancer</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1482311566</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10004</field>
+			<field name="menu_name">footer-3</field>
+			<field name="menu_title">ABOUT FREELANCER</field>
+			<field name="menu_text"><![CDATA[[html]<p><span>Freelance is a free to use, open source Bootstrap theme created by </span><a href=&quot;http://startbootstrap.com/&quot;>Start Bootstrap</a>&nbsp;and customized for e107 Bootstrap CMS. It&#039;s one page theme, but can be used now as multipage solution.<span></span></p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	<dbTable name="page_chapters">
+		<item>
+			<field name="chapter_id">2</field>
+			<field name="chapter_parent">1</field>
+			<field name="chapter_name">Portfolio</field>
+			<field name="chapter_sef">portfolio</field>
+			<field name="chapter_meta_description">Lorem ipsum dolor sit amet consectetur.</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_image"></field>
+			<field name="chapter_order">20</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">1</field>
+			<field name="chapter_parent">0</field>
+			<field name="chapter_name">Home Page</field>
+			<field name="chapter_sef">home-page</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_image"></field>
+			<field name="chapter_order">10</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+	</dbTable>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">1</field>
+			<field name="page_title">Log Cabin</field>
+			<field name="page_sef">portfolio_01</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">2</field>
+			<field name="page_title">Tasty Cake</field>
+			<field name="page_sef">portfolio_02</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">3</field>
+			<field name="page_title">Circus Tent</field>
+			<field name="page_sef">portfolio_03</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">4</field>
+			<field name="page_title">Controller</field>
+			<field name="page_sef">portfolio_04</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">5</field>
+			<field name="page_title">Locked Safe</field>
+			<field name="page_sef">portfolio_05</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">6</field>
+			<field name="page_title">Submarine</field>
+			<field name="page_sef">portfolio_05</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}creative/install/650x350.jpg</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	<dbTable name="jmlayout">
+		<item>
+			<field name="layout_id">5</field>
+			<field name="layout_mode">home</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Home Page</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_transparent</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">6</field>
+			<field name="layout_mode">full</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Full</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_dark</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">7</field>
+			<field name="layout_mode">sidebar_left</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Sidebar (left)</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_default</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">8</field>
+			<field name="layout_mode">sidebar_right</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Sidebar (right)</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_default</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">9</field>
+			<field name="layout_mode">singlelogin</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Login Screen</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_dark</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">10</field>
+			<field name="layout_mode">singlesignup</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Register Page</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_dark</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">11</field>
+			<field name="layout_mode">singlecontact</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Contact page</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_default</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+		<item>
+			<field name="layout_id">12</field>
+			<field name="layout_mode">bare</field>
+			<field name="layout_setting">default</field>
+			<field name="layout_title">Starter Bare template</field>
+			<field name="layout_order">0</field>
+			<field name="layout_options"></field>
+			<field name="layout_theme">creative</field>
+			<field name="layout_header">header_default</field>
+			<field name="layout_footer">footer_default</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>
