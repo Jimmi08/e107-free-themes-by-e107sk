@@ -17,6 +17,12 @@ Last check: 06/2019
 Minimal e107 version: 2.2.2
 Next development: not planned
 
+## SkyApp Bootstrap 3 theme
+
+Last check: 09/2019 
+Minimal e107 version: 2.2.2
+Next development: possible
+
 
 
 

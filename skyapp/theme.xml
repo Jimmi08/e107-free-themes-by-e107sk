@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="SkyApp" version="1.0.1" date="2019-08-30" compatibility="2.2.2">
+	<author name ="Jimako" email="jimako@107sk.com" url="https://www.e107sk.com/" />
+	<summary>SkyApp Simple HTML5 Boostrap theme</summary>
+	<description>SkyApp Simple HTML5 Boostrap theme for the frontend insipired by template by Brad Traversy</description>
+	<category>generic</category>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+	</keywords>
+	<screenshots>
+		<image>preview_frontend.png</image>
+		<image>preview_responsive.png</image>
+	</screenshots>
+	<libraries>
+		<library name="bootstrap" scope="all"/>
+		<library name="fontawesome" scope="all"/>
+	</libraries>
+	<layouts>
+		<layout name='jumbotron_home' title='Jumbotron (home)' default='false'>
+			<custompages>FRONTPAGE</custompages>	
+		</layout>
+		<layout name='full' title='Full-width page'  >
+            <custompages>forum</custompages>
+		</layout>
+		<layout name='contact' title='Contact page'  >
+            <custompages>contact</custompages>
+		</layout>
+		<layout name='blog' title='Blog Layout' default='true' >
+			<custompages>/news</custompages>
+			<menuPresets>
+				<area id='1'>
+					<menu name='news_categories' />
+					<menu name='other_news' />
+					<menu name='other_news2' />
+					<menu name='blogcalendar' />
+				</area>
+			</menuPresets>	
+		</layout>
+	</layouts>
+	<themePrefs>
+		<pref name='branding'>sitename</pref>
+		<pref name='nav_alignment'>right</pref>
+		<pref name='usernav_placement'>top</pref>
+	</themePrefs>
+</e107Theme>
