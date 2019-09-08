@@ -26,6 +26,19 @@ Last check: 09/2019
 Minimal e107 version: 2.2.2
 Next development: possible
 
+## RideBlue2 Bootstrap 3 theme
+
+Last check: 07/2017 
+
+## Solid Bootstrap 3 theme
+
+Last check: 02/2017 
+
+
+
+
+
+
 ## Donate with [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKG5N3F6QL99J)
 
 If you think this theme is useful and you want it will be futher supported, then donating a small amount would be very cool.

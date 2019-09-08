@@ -1,0 +1,150 @@
+.navbar-nav > li > a {
+ text-transform: uppercase;
+}
+.dropdown-menu > li > a {
+text-transform: uppercase;
+}
+
+.dropdown-menu > li > a > span.glyphicon, .dropdown-menu > li > a > span.fa
+{
+padding-right: 10px;
+}
+
+
+#footerwrap span.fa {
+ font-size: 30px;
+ color: #bfc9d3;
+ padding-right: 25px;
+}
+
+
+ 
+.btn-cpage {
+  color: #fff;
+  background-color: #384452;
+  border-color: #384452;
+  margin: 4px;
+}
+.btn-cpage:hover,
+.btn-cpage:focus,
+.btn-cpage:active,
+.btn-cpage.active,
+.open .dropdown-toggle.btn-theme {
+  color: #fff;
+  background-color: #00b3fe;
+  border-color: #00b3fe;
+}
+
+ 
+
+ul.nav.nav-list.news-menu-latest>li>a:hover, ul.nav.nav-list.news-menu-latest>li>a:focus {
+    text-decoration: none;
+    color: #01b2fe;
+    background: none;
+}
+
+
+.btn.btn-primary.button{
+  color: #fff;
+  background-color: #384452;
+  border-color: #384452;
+  margin: 4px;
+}
+.btn.btn-primary.button:hover,
+.btn.btn-primary.button:focus,
+.btn.btn-primary.button:active,
+.btn.btn-primary.button.active {
+  color: #fff;
+  background-color: #00b3fe;
+  border-color: #00b3fe;
+}
+
+div.tagcloud-menu {
+   opacity: 1;  
+}
+ 
+a.tag {
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    
+    color: #fff;
+    background-color: #384452;
+    border-color: #384452;
+    margin: 4px;
+}
+
+/* tags */
+.tag {
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    background-color: #384452;
+    border-color: #384452;
+    margin: 4px;
+}
+ 
+ 
+ #portfoliowrap {
+    padding-top: 5px;  
+}
+
+.news-menu-latest>li>a {
+       padding-left: 0px;
+}
+
+#footerwrap span.fa-fw {
+    width: initial;
+}
+
+.badge {
+    background-color: #00b3fe;
+}
+
+.featurebox.carousel .carousel-inner {
+    height: 450px;
+}
+ 
+#layout-homepage .carousel-control.right  {
+  background: none;
+}
+
+#layout-homepage .carousel-control.left  {
+  background: none;
+}
+
+/* to remove shadow background under slider */ 
+.carousel-control.left {
+  background-image: none;
+}
+
+.carousel-control.right {
+  background-image: none;
+}

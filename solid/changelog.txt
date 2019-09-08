@@ -1,0 +1,8 @@
+### Version 2.1.2 (git)– 
+- Fix hardcoded date on project page with shortcode
+- Added theme shortcode cmenu_button_text
+- Fix hardcoded client name with theme shortcode
+- Added language support for theme prefs (it needs e107 2.1.5)
+
+
+### Version 2.1.1 – January 18th, 2017
