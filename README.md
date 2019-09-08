@@ -30,6 +30,10 @@ Next development: possible
 
 Last check: 10/2018 
 
+## Khatru2 Bootstrap 3 theme
+
+Last check: 6/2018 
+
 ## RideBlue2 Bootstrap 3 theme
 
 Last check: 07/2017 

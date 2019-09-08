@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="khatru2" version="2.1" date="2018-06-09" compatibility="2.0">
+	<author name ="Jimako" email="jimako@jimako.sk" url="https://www.e107.sk" />
+	<summary>khatru theme by Steve Dunstan with bootstrap </summary>
+	<description>khatru theme by Steve Dunstan  with bootstrap</description>
+	<category>generic</category>
+	<plugins>
+		<plugin name='gallery' url='core' />
+		<plugin name='social' url='core' />
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>legacy</word>
+	</keywords>
+	<screenshots>
+		<image>preview.png</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='standard' title='Standard 3 column layout' default='true'>	
+		</layout>
+	</layouts>
+</e107Theme>
