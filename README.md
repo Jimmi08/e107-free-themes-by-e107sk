@@ -32,11 +32,15 @@ Last check: 10/2018
 
 ## Industrial Bootstrap 3 theme
 
-Last check: 6/2018 
+Last check: 06/2018 
 
 ## Khatru2 Bootstrap 3 theme
 
-Last check: 6/2018 
+Last check: 06/2018 
+
+## NightVision2 Bootstrap 3 theme
+
+Last check: 01/2018 
 
 ## RideBlue2 Bootstrap 3 theme
 

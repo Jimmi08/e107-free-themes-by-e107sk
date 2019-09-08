@@ -1,0 +1,54 @@
+//@import "../src/less/bootstrap.less";
+
+// Core variables and mixins
+@import "../src/less/variables.less";
+@import "../src/less/mixins.less";
+// Utility classes
+@import "../src/less/utilities.less";
+@import "../src/less/responsive-utilities.less";
+
+
+/* New Column Class for width < 558px */
+@media (max-width: 558px) { 
+	.col-xxs-12 {
+	  position: relative;
+	  min-height: 1px;
+	  width: 100%;
+	 } 
+} 
+
+.badge {
+  margin-left: 10px;
+}
+
+
+
+@import "../src/less/navs.less";
+@import "../src/less/navbar.less";
+
+.nav > li > a:hover, .nav > li > a:focus {
+  color: @gray;
+}
+
+@import "../src/less/forms.less";
+
+.form-control:focus {
+    border-color: #edd400;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+@import "../src/less/pagination.less";
+@import "../src/less/badges.less";
+@import "../src/less/buttons.less";
+@import "../src/less/breadcrumbs.less"; 
+@import "../src/less/labels.less";
+
+.label-info {
+  color: @gray;
+}
+
+
+
+      

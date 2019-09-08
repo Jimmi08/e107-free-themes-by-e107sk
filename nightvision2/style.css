@@ -1,0 +1,239 @@
+/* fix for not able template chatbox */
+
+#sidebar li #chatbox, .sidebar li #chatbox {
+    padding: 15px 20px;
+    line-height: 200%;
+}
+ 
+.dropdown-menu {
+  background-color: black;
+}
+
+.pager li>a, .pager li>span {
+    background-color: #AAFF00;
+     color: white;
+    color: #333333;
+        padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+
+.pager li>a:hover, .pager li>span:hover {
+    color: #333333;
+    background-color: #88cc00;
+    border-color: #70a800;
+}
+
+#menu {
+    background-size: cover;
+}
+
+
+/* fix for stupid login form */
+
+h2.form-signin-heading {
+ margin-bottom: 17px;
+}
+
+#login-page .btn-large {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+}
+
+#login-page p {
+    margin: 0 0 10px;
+    line-height: 100%;  
+}
+
+.default_item {
+  margin-bottom: 30px;
+}
+
+.caption {
+  height: 30px;
+  padding: 0 0 0 30px;
+  margin-bottom: 20px;
+}
+
+#sidebar h2, .sidebar h2 {
+    height: 45px;
+    padding: 11px 0 0 30px;
+}
+/*  forum style */
+#forum   {
+	border-color: black;
+}
+
+#forum .table-bordered>tbody>tr>td, 
+#forum .table-bordered>tbody>tr>th, 
+#forum .table-bordered>tfoot>tr>td, 
+#forum .table-bordered>tfoot>tr>th, 
+#forum .table-bordered>thead>tr>td, 
+#forum .table-bordered>thead>tr>th {
+    border: 1px solid black; 
+}
+
+ 
+#forum .table-bordered>tbody>tr>th 
+ {
+ //   background: #333!important;
+}
+
+#forum .table-bordered>tbody>tr.forum-title>th 
+ {
+  //  background: #AAFF00!important;
+}
+
+#forum .table-bordered>tbody>tr>td 
+ {
+    background: #333!important;
+}
+
+#forum tr.forum-title {
+	background-color: #AAFF00!important;
+}   
+#forum tr.forum-parent {
+ background-color: #AAFF00;
+} 
+
+#forum .table-hover>tbody>tr:hover {
+    background-color: #edd400;
+}
+
+#forum-viewtopic li.forum-viewtopic-post {
+   border: 1px solid black;
+}
+
+#forum-viewtopic li.forum-viewtopic-post:nth-child(odd) {
+    background-color: #333;
+}
+
+#forum-viewforum .table-bordered>tbody>tr:hover {
+  background-color: black;
+}
+
+#forum-viewforum .table-bordered>tbody>tr>th {
+  background-color: #AAFF00;
+}
+
+.table-striped>tbody>tr:nth-of-type(odd) {
+    background-color: #333;
+}
+
+#forum-viewforum  .dropdown-menu>li>a {
+    color: #AAFF00;
+}
+
+#forum-viewforum .dropdown-menu>li>a:focus, #forum-viewforum .dropdown-menu>li>a:hover {
+    color: black;
+    background-color: #AAFF00;
+}
+
+
+#forum-viewtopic  .dropdown-menu>li>a {
+    color: #AAFF00;
+}
+
+#forum-viewtopic .dropdown-menu>li>a:focus, #forum-viewtopic .dropdown-menu>li>a:hover {
+    color: black;
+    background-color: #AAFF00;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #AAFF00;
+}
+
+#forum-viewforum .panel {
+    color: white;
+    background-color: #333;
+    border: 1px solid #AAFF00;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+
+#forum-viewforum .panel-default>.panel-heading {
+    background-color: #AAFF00;
+    border-radius: 0px;
+}
+
+
+/* CUSTOM Responsive Styles */
+
+
+/* Extra small devices Phones (<768px)  .col-xs */
+@media all and (max-width: 767px) { 
+
+	#header {
+	    height: auto;
+	    /* margin: 0 auto; */
+	}
+
+	#logo h1 {
+	    height: inherit;
+	    padding: 2px;  
+	    font-size: 4em;
+	    float: none;
+	    text-align: center;
+	}
+	
+	#logo p {
+	    margin: 0 ; 	    
+			padding: 5px 0 0 0; 
+	    line-height: normal;
+	    letter-spacing: -1px;
+	    font-size: 1.2em;
+	    font-weight: bold;
+	    text-align: center;
+	    float:none;
+	}
+	
+	#rss {
+    padding: 10px 0px 10px 0;
+    text-align: center;
+  }
+  
+  .search {
+	   padding: 10px 0 10px 0;
+	}
+	
+	#menu {
+    height: auto;
+    margin: 0;
+    background: inherit;
+
+	}
+
+  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+	    padding-bottom: 20px;
+	}
+	
+	#search {
+    float: none;
+    height: auto;
+    background: inherit;
+	}
+}
+
+/* Small devices Tablets .col-sm */
+@media all and (min-width: 768px) and (max-width: 991px)  {
+	.news-images-main       { padding-left: 0; padding-bottom:5px }
+}
+
+/* Medium devices Desktops (≥992px)  .col-md */
+@media all and (min-width: 992px) and (max-width: 1199px)  {
+	.news-images-main { padding-left: 0; padding-bottom:5px}
+	
+ }
+
+/* Large devices (large desktops, 1200px and up).col-lg  */
+@media all and (min-width: 1200px) {
+
+	.news-images-main { padding-left: 0; padding-bottom:5px}
+}
+
+

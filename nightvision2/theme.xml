@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Nightvision Bootstrap 3 theme" version="2.2.1" date="2018-09-03" compatibility="2.1">
+	<author name ="Jimako" email="jimako@jimako.sk" url="https://www.e107.sk" />
+	<summary>Nightvision Bootstrap 3 e107 theme</summary>
+	<description>Nightvision theme from Free CSS Templates ported for e107. Lite version.</description>
+	<category>generic</category>
+	<plugins>
+		<plugin name='gallery' url='core' />
+		<plugin name='social' url='core' />
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+	</keywords>
+	<screenshots>
+		<image>preview_frontend.png</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='standard' title='Standard 2 column layout' default='true'>
+    </layout>	
+		<layout name='fullwidth' title='Full Width No sidebars' default='false' >
+			<custompages>/forum</custompages>	
+		</layout>
+	</layouts>
+</e107Theme>
