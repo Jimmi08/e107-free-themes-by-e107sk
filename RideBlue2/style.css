@@ -1,0 +1,480 @@
+.innerside.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.innerside .col-md-12 {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+ 
+.headcontbanner {
+    margin-top: 10px;
+}
+
+#headbar {
+/* IE10+ */ 
+background-image: -ms-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(100, #DDDDDD));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #DDDDDD 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to bottom, #FFFFFF 0%, #DDDDDD 100%);
+}
+
+#footbar {
+/* IE10+ */ 
+background-image: -ms-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+
+/* Mozilla Firefox */ 
+background-image: -moz-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+
+/* Opera */ 
+background-image: -o-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+
+/* Webkit (Safari/Chrome 10) */ 
+background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0, #FFFFFF), color-stop(100, #DDDDDD));
+
+/* Webkit (Chrome 11+) */ 
+background-image: -webkit-linear-gradient(bottom, #FFFFFF 0%, #DDDDDD 100%);
+
+/* W3C Markup */ 
+background-image: linear-gradient(to top, #FFFFFF 0%, #DDDDDD 100%);
+}
+
+#headbar {
+ float: none;
+ text-align: center;
+}
+.headcontbanner img.e-banner {
+ display: inherit;
+}
+#nav li li a {	
+line-height: inherit;
+}
+
+.navbar-inverse {
+    border-color: transparent;
+}
+ 
+.navbar-toggle {
+    background-color: #3EA9F6;   
+    border: 1px solid transparent;
+    color: white;
+}
+ 
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+    background-color: #063c6d;
+     
+}
+ 
+
+#nav {background: #0054A6}
+#nav li#active a,
+#nav li a:hover, 
+#nav li.sfhover a, 
+#nav li:hover a {
+	background: #3da7f4;
+	color: #fff;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: white;
+}
+
+
+.btn {
+    color: #0054a6;
+    font-weight: bold;
+    padding: 2px;
+    margin: 2px;
+    border-color:  #0054a6;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    color: buttontext;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 2px 6px 3px;
+    font-size: 12px;
+    border-radius: 0px;
+}
+
+.btn:active, .btn:focus, .btn:hover {
+   color: #063c6d;
+   border-color:  #0054a6;
+   background-color: white;
+}
+
+.form-control {
+    width: 100%;
+    padding: 2px;
+    border: 1px solid #e8e8e8;
+    color: #444;
+    background-color: #F9F9F9;
+}
+
+#leftsidecont ul.nav {
+    padding: 1px;
+    margin-bottom: 10px;
+}
+
+
+#sidecont ul.nav {
+    padding: 1px;
+    margin-bottom: 10px;
+}
+
+.nav-header {
+    padding: 8px 0 15px 10px;
+    color: white;
+    font-size: 12px;
+    background: url(css/images/barbg.gif) repeat-x left top;
+}
+ 
+ 
+/* New Column Class for width < 558px */
+@media (max-width: 558px) { 
+	.col-xxs-12 {
+	  position: relative;
+	  min-height: 1px;
+	  width: 100%;
+	 } 
+	.headcontbanner {  
+	       padding-right: 1px; 
+         padding-left: 1px; 
+	 }         
+}         
+
+
+@media all and (max-width: 767px)   {
+
+	#bodybar {
+	    width: 100%;
+	    margin: 1px;
+	    padding: 1px;
+	}
+  
+}
+
+@media all and (max-width: 991px)   {
+
+	#bodybar {
+	    width: 100%;
+	    margin: 1px;
+	    padding: 1px;
+	}
+ 
+	#maincont {
+    padding-right: 1px;
+    padding-left: 1px;
+ 
+	} 
+	
+	#leftsidecont, #sidecont {
+    padding-right: 1px;
+    padding-left: 1px;	
+	}
+}
+
+/* Small devices Tablets .col-sm */
+@media all and (min-width: 768px)   {
+  #container {
+	  background: #DDDDDD;
+	}
+	
+	#bodybar {
+	  background: white;
+	  padding-top: 10px;
+	}
+	
+  .navbar {
+	  margin-bottom: 0px;
+	}
+	
+	.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+	    color: #fff;
+	    background-color: #3da7f4;
+	    padding-top: 15px;
+	    padding-bottom: 11px;
+	    margin-top: -5px;
+	}
+		
+  #headbar {
+	 float: none;
+	 text-align: center; 
+	 min-height: 81px; 
+	}
+ 
+	#headcont {margin-left: 0px; margin-right: 0px;}
+	
+	#menubar {background-image: url(css/images/menubarbg.png); }
+	#menucont ul {list-style: none;  margin-left: 15px; padding-top: 10px}
+	#menucont ul li {float: left; margin: 0 2px;}
+	#menucont ul a {position: relative; font-weight: bold; padding: 13px 15px 13px; color: white; font-size: 14px; height: 27px;}
+	#menucont ul a:hover.selected {text-decoration: none; cursor: pointer}
+	#menucont ul a.selected {background: #3da7f4}
+  #nav {background: transparent}
+
+
+	/* separators */
+	div.dropSep { width: 1px; height: 33px; }
+	#nav li.fs-linkSep { background-image: none !important;}
+	
+	/* all list items */
+	#nav, 
+	#nav ul { 
+		padding: 0;	
+		margin: 0;
+		list-style: none;
+		line-height: 33px; 
+		cursor: pointer;
+	}
+	
+	#nav li { 
+		float: left;
+		margin: 0px 1px 0px 1px;
+	}
+	
+	/* top level */
+	#nav li { 
+	
+	}
+	#nav li a {
+		
+	}
+	
+	#nav li a {
+		display: block;
+		text-decoration: none;
+		font-size: 14px;
+		font-weight: bold;
+		color: #fff;
+	}
+	
+	#nav li#active a,
+	#nav li a:hover, 
+	#nav li.sfhover a, 
+	#nav li:hover a {
+		background: #3da7f4;
+		color: #fff;
+	}
+	
+	#nav li#active,
+	#nav li.sfhover, 
+	#nav li:hover { 
+		background: #063c6d;
+		cursor: pointer;
+	}
+	
+	#nav li.sub-sfhover,
+	#nav li.sub:hover { 
+		cursor: pointer;
+	}
+ 
+	.navbar-nav>li>a {
+	  padding-top: 11px;
+	    padding-bottom: 11px;
+	}
+	
+	#nav li#active a,
+	#nav li a:hover, 
+	#nav li.sfhover a, 
+	#nav li:hover a {
+		display: block;
+		text-decoration: none;
+		background: #3da7f4;
+		padding-top: 15px;
+    padding-bottom: 11px;
+    margin-top: -5px;
+	}
+	
+	
+	#nav li#active,
+	#nav li.sfhover, 
+	#nav li:hover { 
+		cursor: pointer;
+	}
+	
+	
+	#nav li.sub-sfhover,
+	#nav li.sub:hover { 
+		cursor: pointer;
+	}
+		
+	/* LEVEL 2 */
+	#nav li li a {
+		margin-left: 0px;
+		display: block;
+		padding: 0;
+		float: none;
+		padding-left: 15px;
+		width: 180px;
+		width/* */:/**/165px;	
+		width: /**/165px;
+		color: #fff;
+		font-size: 12px;
+		font-weight: bold;
+	}
+	
+	#nav li li a:hover {
+		color: #063c6d;
+	}
+	
+	#nav li ul { /* second-level lists */
+		position: absolute;
+		z-index: 1000;
+		left: -999em; /* using left instead of display to hide menus because display: none isn't read by screen readers */
+		background-color: #3da7f4;
+		line-height: 28px;
+	}
+	
+	#nav li:hover ul,
+	#nav li.sfhover ul,
+	#nav li.sub-sfhover ul { 
+		background-image: none;
+		background-repeat: no-repeat;
+		background-position: 0px 100%;
+	}
+	
+	#nav li.sub-sfhover ul.sub,
+	#nav li.sub:hover ul.sub {
+		margin-left: 0px;
+		padding-bottom: 0px;
+	}
+	
+	#nav li ul ul { /* third-and-above-level lists */
+		margin: -28px 0 0 180px;
+	}
+	
+	#nav ul.sub li,
+	#nav ul.sub li a,
+	#nav ul.sub li a:hover,
+	#nav ul.sub li:hover,
+	#nav ul.sub li:hover a,
+	#nav ul.sub li.sfhover a,
+	#nav ul.sub li:hover a:hover,
+	#nav ul.sub li.sfhover a:hover,
+	#nav li.sub ul.sub a
+		{ background-image: none; }
+	
+	#nav li#active ul.sub li,
+	#nav li#active ul.sub li a,
+	#nav li#active ul.sub li a:hover,
+	#nav li#active ul.sub li:hover,
+	#nav li#active ul.sub li:hover a,
+	#nav li#active ul.sub li.sfhover a,
+	#nav li#active ul.sub li:hover a:hover,
+	#nav li#active ul.sub li.sfhover a:hover,
+	#nav li.sub ul.sub a
+		{ background-image: none; }
+	
+	#nav li:hover ul ul, 
+	#nav li:hover ul ul ul, 
+	#nav li:hover ul ul ul ul, 
+	#nav li.sfhover ul ul, 
+	#nav li.sfhover ul ul ul, 
+	#nav li.sfhover ul ul ul ul,
+	#nav li.sub-sfhover ul ul, 
+	#nav li.sub-sfhover ul ul ul, 
+	#nav li.sub-sfhover ul ul ul ul {
+		left: -999em;
+	}
+	
+	#nav li:hover ul, 
+	#nav li li:hover ul, 
+	#nav li li li:hover ul, 
+	#nav li li li li:hover ul, 
+	#nav li.sfhover ul, 
+	#nav li li.sfhover ul, 
+	#nav li li li.sfhover ul, 
+	#nav li li li li.sfhover ul,
+	#nav li.sub-sfhover ul, 
+	#nav li.sub-sfhover li.sfhover ul, 
+	#nav li.sub-sfhover li li.sfhover ul, 
+	#nav li.sub-sfhover li li li.sfhover ul { /* lists nested under hovered list items */
+		left: auto;
+	}
+	#nav a.sub {
+		background-color: red;
+	}
+	#nav a.sub:hover {
+	  background-color: red;
+	}
+
+
+}
+
+/* Medium devices Desktops (≥992px)  .col-md */
+@media all and (min-width: 992px)  {
+	.headcontlogo { float: left; text-align:left;  }
+	.headcontbanner { float: right; margin-top:22px; border: 0 none;  }
+
+ }
+
+/* Large devices (large desktops, 1200px and up).col-lg  */
+@media all and (min-width: 1200px) {
+
+  .headcontlogo { float: left; text-align:left;}
+	.headcontbanner { float: right; margin-top:22px; border: 0 none; text-align: right; }
+	.headcont{  margin-right: 1px;    margin-left: 1px; }
+ 
+}
+
+
+#login-template {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#login-page .forumheader {
+   text-align: center;
+   border: 0px;
+}
+
+
+.news-menu-category .badge {
+    margin-left: 5px;
+}
+
+/* fix for blogcalendar menu */
+.label-info {
+    background-color: #3da7f4;
+}
+
+.blogcalendar-day-active, .indent   {
+ background-color: #3da7f4;
+ background: #3da7f4; 
+}
+
+.blogcalendar-day-active .label  {
+ padding:  initial;
+}
+
+.headerbox h2 span   {
+	margin-top: -8px;
+}
+ 
+ 
+/* fix for search menu */
+#search_menu {
+ padding: 10px 5px;
+}
+
+#search_menu button {
+		padding: 8px;
+    margin-top: -1px;
+    background: #0054a6;
+    color: white;
+}

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="RideBlue2" version="2.0.2" date="2017-10-23" compatibility="2.1.7">
+	<author name ="Jimako" email="" url="http://e107.sk" />
+	<summary>RideBlue theme by veskoto with e107 Bootstrap</summary>
+	<description>RideBlue theme by veskoto with e107 Bootstrap</description>
+	<category>generic</category>
+	<plugins>
+		<plugin name='featurebox' url='core' />
+		<plugin name='gallery' url='core' />
+		<plugin name='social' url='core' />
+		<plugin name='banner' url='core' />				
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>core</word>
+	</keywords>
+	<screenshots>
+		<image>preview.jpg</image>
+		<image>preview_responsive.jpg</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='3columns' title='3 colums' default='true'>
+			<custompages>FRONTPAGE</custompages>	
+		</layout>
+		<layout name='full' title='Full width page'  >
+            <custompages>forum</custompages>																	            
+		</layout>
+		<layout name='sidebar_right' title='Blog sidebar-right'  >
+			<custompages>user.php signup.php content/ sgallery/ calendar_menu/ blogcalendar_menu/</custompages>	
+		</layout>
+	</layouts>
+</e107Theme>

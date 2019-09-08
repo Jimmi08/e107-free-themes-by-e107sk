@@ -5,10 +5,13 @@ But this doesn't mean that they are actively developed.
 
 ## Creative Bootstrap 4 theme
 
-Last check: 08/2019 
+![img](https://www.e107sk.com/img/preview_creative_preview.png)
+
+Last check: 09/2019 
 Minimal e107 version: 2.2.2
 ToDo: remove dependency on JM Core 
-Next development: not planned
+Actual state: demo is broken with latest version
+Next development: fix demo
 
 
 ## Freelancer Bootstrap 4 theme
@@ -22,6 +25,12 @@ Next development: not planned
 Last check: 09/2019 
 Minimal e107 version: 2.2.2
 Next development: possible
+
+## Donate with [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKG5N3F6QL99J)
+
+If you think this theme is useful and you want it will be futher supported, then donating a small amount would be very cool.
+
+[![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKG5N3F6QL99J)
 
 
 
