@@ -478,3 +478,20 @@ line-height: inherit;
     background: #0054a6;
     color: white;
 }
+
+/* fix for core forum.css */
+#forum-viewtopic .label-info {
+    display: initial; 
+    margin: 5px auto;
+    padding: 5px 10px;
+} 
+
+/* something was changed with finfobar from version 1, so overriding  */
+.finfobar{
+	border: none;
+	color:#444;
+	background-color:transparent;
+	padding: 3px;
+	font-size: 95%;
+	text-align: left;
+}

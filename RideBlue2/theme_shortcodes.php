@@ -20,61 +20,9 @@ class theme_shortcodes extends e_shortcode
 		
 	}
 
-/*
-	function sc_news_summary()
-	{
-		$sc = e107::getScBatch('news');
-		$data = $sc->getScVar('news_item');
-
-		return "<span class='label label-danger'>".e107::getParser()->toHTML($data['news_summary'],'BODY')."</span>";
-	}*/
 
 
-	function sc_bootstrap_branding()
-	{
-		$pref = e107::pref('theme', 'branding');
-
-		switch($pref)
-		{
-			case 'logo':
-
-				return e107::getParser()->parseTemplate('{SITELOGO: h=30}',true);
-
-			break;
-
-			case 'sitenamelogo':
-
-				return "<span class='pull-left'>".e107::getParser()->parseTemplate('{SITELOGO: h=30}',true)."</span>".SITENAME;
-
-			break;
-
-			case 'sitename':
-			default:
-
-				return SITENAME;
-
-			break;
-		}
-
-	}
-
-
-
-	function sc_bootstrap_nav_align()
-	{
-		$pref = e107::pref('theme', 'nav_alignment');
-
-		if($pref == 'right')
-		{
-			return "navbar-right";
-		}
-		else
-		{
-			return "";
-		}
-	}
-
-
+ 
 
 	function sc_bootstrap_usernav($parm='')
 	{

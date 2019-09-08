@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Theme name="RideBlue2" version="2.0.2" date="2017-10-23" compatibility="2.1.7">
-	<author name ="Jimako" email="" url="http://e107.sk" />
+<e107Theme name="RideBlue2" version="2.0.3" date="2019-09-2308" compatibility="2.2.1">
+	<author name ="Jimako" email="" url="https://www.e107sk.com" />
 	<summary>RideBlue theme by veskoto with e107 Bootstrap</summary>
 	<description>RideBlue theme by veskoto with e107 Bootstrap</description>
 	<category>generic</category>
