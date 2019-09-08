@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Freelancer" version="4.0.1" date="2019-06-24" compatibility="2.2.1">
+	<author name ="Jimako" email="jimako@jimako.sk" url="https://www.e107sk.com/" />
+	<summary>e107 Freelancer Bootstrap4 theme</summary>
+	<description>e107 Bootstrap 4 theme based on freelancer portfolio theme created by Start Bootstrap.</description>
+	<category>generic</category>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+	</keywords>
+	<libraries>
+		<library name="bootstrap" version="4" scope="all"/>
+		<library name="fontawesome" version="5" scope="all"/>
+	</libraries>
+	<screenshots>
+		<image>preview_frontend.png</image>
+		<image>freelancer-responsive-preview.jpg</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='default' title='Default'  default='true' />
+    <layout name='homepage' title='Home Page' >
+			<custompages>FRONTPAGE</custompages>
+		</layout>
+     <layout name='full' title='Full width page' >
+			<custompages>forum.php  /forum/</custompages>
+		</layout>
+		<layout name='sidebar_right' title='Blog sidebar-right' default='true'   >
+			<custompages>/news/</custompages>	
+		</layout>
+     <layout name='singlesignup' title='Full width page with spaces on sides' >
+			<custompages>login.php signup.php fpw.php /signup/ /login/</custompages>
+		</layout>
+		<layout name='bare' title='Starter Bare template for development' >
+			<custompages>guide</custompages>
+		</layout>
+	</layouts>
+	<themePrefs>
+		<pref name='cardmenu_look'>1</pref>
+	</themePrefs>
+</e107Theme>

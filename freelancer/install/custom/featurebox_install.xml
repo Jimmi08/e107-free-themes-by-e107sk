@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.2.1" timestamp="1560411748" >
+	<pluginPrefs>
+		<featurebox name="menu_category">bootstrap_carousel</featurebox>
+	</pluginPrefs>
+	<database>
+	<dbTable name="featurebox">
+		<item>
+			<field name="fb_id">1</field>
+			<field name="fb_title">Slide 1</field>
+			<field name="fb_text"><![CDATA[[html]<p>Default Message - this is the default</p>[/html]]]></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">3</field>
+			<field name="fb_image">{e_THEME}freelancer/install/1900x1080.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">2</field>
+		</item>
+		<item>
+			<field name="fb_id">2</field>
+			<field name="fb_title">Slide 2</field>
+			<field name="fb_text"><![CDATA[[html]<p>Suspendisse ac dui purus. Cras eleifend, velit sed dapibus pharetra, elit dolor mattis tellus, ac luctus nisi massa at ligula. Ut sagittis, neque consequat elementum convallis, lorem nulla molestie arcu, eu rutrum velit quam at metus! Nullam eu eleifend magna. Praesent eget leo felis, vel euismod nibh. Morbi sem eros, pellentesque eu scelerisque id, pretium id enim. Mauris aliquet molestie dui vel ultricies. Etiam consequat quam sed tellus facilisis sollicitudin. Vivamus malesuada iaculis metus.</p>[/html]]]></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">4</field>
+			<field name="fb_image">{e_THEME}freelancer/install/1900x1080.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">2</field>
+		</item>
+		<item>
+			<field name="fb_id">3</field>
+			<field name="fb_title">Slide 3</field>
+			<field name="fb_text"><![CDATA[[html]<p>Suspendisse ac dui purus. Cras eleifend, velit sed dapibus pharetra, elit dolor mattis tellus, ac luctus nisi massa at ligula. Ut sagittis, neque consequat elementum convallis, lorem nulla molestie arcu, eu rutrum velit quam at metus! Nullam eu eleifend magna. Praesent eget leo felis, vel euismod nibh. Morbi sem eros, pellentesque eu scelerisque id, pretium id enim. Mauris aliquet molestie dui vel ultricies. Etiam consequat quam sed tellus facilisis sollicitudin. Vivamus malesuada iaculis metus.</p>[/html]]]></field>
+			<field name="fb_mode">0</field>
+			<field name="fb_class">0</field>
+			<field name="fb_rendertype">0</field>
+			<field name="fb_template">bootstrap_carousel_default</field>
+			<field name="fb_order">4</field>
+			<field name="fb_image">{e_THEME}freelancer/install/1900x1080.png</field>
+			<field name="fb_imageurl"></field>
+			<field name="fb_category">2</field>
+		</item>
+	</dbTable>
+	<dbTable name="featurebox_category">
+		<item>
+			<field name="fb_category_id">1</field>
+			<field name="fb_category_title">Unassigned</field>
+			<field name="fb_category_icon"></field>
+			<field name="fb_category_template">bootstrap3_carousel</field>
+			<field name="fb_category_random">0</field>
+			<field name="fb_category_class">0</field>
+			<field name="fb_category_limit">0</field>
+			<field name="fb_category_parms"></field>
+		</item>
+		<item>
+			<field name="fb_category_id">2</field>
+			<field name="fb_category_title">Carousel</field>
+			<field name="fb_category_icon"></field>
+			<field name="fb_category_template">bootstrap_carousel</field>
+			<field name="fb_category_random">0</field>
+			<field name="fb_category_class">0</field>
+			<field name="fb_category_limit">0</field>
+			<field name="fb_category_parms"></field>
+		</item>
+		<item>
+			<field name="fb_category_id">3</field>
+			<field name="fb_category_title">Tabs</field>
+			<field name="fb_category_icon"></field>
+			<field name="fb_category_template">unassigned</field>
+			<field name="fb_category_random">0</field>
+			<field name="fb_category_class">255</field>
+			<field name="fb_category_limit">0</field>
+			<field name="fb_category_parms"></field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

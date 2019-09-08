@@ -1,0 +1,565 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.3 (git)" timestamp="1481899040" >
+<prefs>
+		<core name="frontpage"><![CDATA[array (
+  0 => 'index.php',
+)]]></core>
+	</prefs>
+	<database>
+	<dbTable name="generic">
+		<item>
+			<field name="gen_id">1</field>
+			<field name="gen_type">wmessage</field>
+			<field name="gen_datestamp">1145848343</field>
+			<field name="gen_user_id">1</field>
+			<field name="gen_ip">Hello World!</field>
+			<field name="gen_intdata">0</field>
+			<field name="gen_chardata"><![CDATA[[html]<p>Freelancer is a free bootstrap theme created by Start Bootstrap. The only difference is that e107 is managing the content. The text you are reading is the &quot;Welcome Message&quot; and the items below are&nbsp; standard page with category Portfolio.</p>[/html]]]></field>
+		</item>
+	</dbTable>
+	<dbTable name="links">
+		<item>
+			<field name="link_id">1</field>
+			<field name="link_name">Home</field>
+			<field name="link_url">index.php</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">0</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">4</field>
+			<field name="link_name">Contact</field>
+			<field name="link_url">#contact</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">3</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">5</field>
+			<field name="link_name">News</field>
+			<field name="link_url">news.php</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">4</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">255</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">3</field>
+			<field name="link_name">About</field>
+			<field name="link_url">#about</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">2</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">2</field>
+			<field name="link_name">Portfolio</field>
+			<field name="link_url">#portfolio</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">1</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+	</dbTable>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">7</field>
+			<field name="page_title">ABOUT</field>
+			<field name="page_sef">freelancer-about-1</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p><span>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</span></p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1371420000</field>
+			<field name="page_rating_flag">1</field>
+			<field name="page_comment_flag">1</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">9999</field>
+			<field name="menu_name">freelancer-about-1</field>
+			<field name="menu_title">About Me</field>
+			<field name="menu_text"><![CDATA[[html]<p><span>Whether you&#039;re a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</span></p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">about</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text">Download Theme</field>
+		</item>
+		<item>
+			<field name="page_id">11</field>
+			<field name="page_title">ABOUT FREELANCER</field>
+			<field name="page_sef">about-freelancer</field>
+			<field name="page_chapter">0</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1482311566</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10004</field>
+			<field name="menu_name">footer-3</field>
+			<field name="menu_title">ABOUT FREELANCER</field>
+			<field name="menu_text"><![CDATA[[html]<p><span>Freelance is a free to use, open source Bootstrap theme created by </span><a href=&quot;http://startbootstrap.com/&quot;>Start Bootstrap</a>&nbsp;and customized for e107 Bootstrap CMS. It&#039;s one page theme, but can be used now as multipage solution.<span></span></p>[/html]]]></field>
+			<field name="menu_image"></field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">default</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	<dbTable name="page_chapters">
+		<item>
+			<field name="chapter_id">2</field>
+			<field name="chapter_parent">1</field>
+			<field name="chapter_name">Portfolio</field>
+			<field name="chapter_sef">portfolio</field>
+			<field name="chapter_meta_description">Lorem ipsum dolor sit amet consectetur.</field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_image"></field>
+			<field name="chapter_order">20</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields">{
+    "__tabs__": {
+        "additional": "Additional"
+    }
+}</field>
+		</item>
+		<item>
+			<field name="chapter_id">1</field>
+			<field name="chapter_parent">0</field>
+			<field name="chapter_name">Home Page</field>
+			<field name="chapter_sef">home-page</field>
+			<field name="chapter_meta_description"></field>
+			<field name="chapter_meta_keywords"></field>
+			<field name="chapter_manager">0</field>
+			<field name="chapter_icon"></field>
+			<field name="chapter_image"></field>
+			<field name="chapter_order">10</field>
+			<field name="chapter_template">default</field>
+			<field name="chapter_visibility">0</field>
+			<field name="chapter_fields"></field>
+		</item>
+	</dbTable>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">1</field>
+			<field name="page_title">Log Cabin</field>
+			<field name="page_sef">portfolio_01</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}freelancer/install/cabin.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">2</field>
+			<field name="page_title">Tasty Cake</field>
+			<field name="page_sef">portfolio_02</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}freelancer/install/cake.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">3</field>
+			<field name="page_title">Circus Tent</field>
+			<field name="page_sef">portfolio_03</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}freelancer/install/circus.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">4</field>
+			<field name="page_title">Controller</field>
+			<field name="page_sef">portfolio_04</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}freelancer/install/game.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">5</field>
+			<field name="page_title">Locked Safe</field>
+			<field name="page_sef">portfolio_05</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}freelancer/install/safe.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">6</field>
+			<field name="page_title">Submarine</field>
+			<field name="page_sef">portfolio_05</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1466170560</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">10</field>
+			<field name="page_fields"></field>
+			<field name="menu_name"></field>
+			<field name="menu_title"></field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}freelancer/install/submarine.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template"></field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url"></field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	<dbTable name="menus">
+		<item>
+			<field name="menu_id">128</field>
+			<field name="menu_name">footer-3</field>
+			<field name="menu_location">103</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">11</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">131</field>
+			<field name="menu_name">footer-3</field>
+			<field name="menu_location">103</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">11</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">131</field>
+			<field name="menu_name">footer-3</field>
+			<field name="menu_location">103</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">11</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">148</field>
+			<field name="menu_name">footer-3</field>
+			<field name="menu_location">103</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">11</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">150</field>
+			<field name="menu_name">footer-3</field>
+			<field name="menu_location">103</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">11</field>
+			<field name="menu_layout">full</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">152</field>
+			<field name="menu_name">footer-3</field>
+			<field name="menu_location">103</field>
+			<field name="menu_order">2</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">11</field>
+			<field name="menu_layout">sidebar_right</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">140</field>
+			<field name="menu_name">contact_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">3</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">contact/</field>
+			<field name="menu_layout">sidebar_right</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">141</field>
+			<field name="menu_name">latestnews_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">6</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout">sidebar_right</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">142</field>
+			<field name="menu_name">news_categories_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">8</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout">sidebar_right</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">143</field>
+			<field name="menu_name">news_months_menu</field>
+			<field name="menu_location">1</field>
+			<field name="menu_order">10</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">news/</field>
+			<field name="menu_layout">sidebar_right</field>
+			<field name="menu_parms"></field>
+		</item>
+	</dbTable>
+	<dbTable name="links">
+		<item>
+			<field name="link_id">1</field>
+			<field name="link_name">Home</field>
+			<field name="link_url">index.php</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">0</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">2</field>
+			<field name="link_name">Portfolio</field>
+			<field name="link_url">#portfolio</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">1</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">3</field>
+			<field name="link_name">About</field>
+			<field name="link_url">#about</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">2</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">4</field>
+			<field name="link_name">Contact</field>
+			<field name="link_url">#contact</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">3</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">5</field>
+			<field name="link_name">News</field>
+			<field name="link_url">news/</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">4</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+		<item>
+			<field name="link_id">6</field>
+			<field name="link_name">Forum</field>
+			<field name="link_url">forum/</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">1</field>
+			<field name="link_order">7</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">0</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner">forum</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

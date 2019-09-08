@@ -1,0 +1,145 @@
+.s-message.fade {
+opacity: 1 !important;
+visibility: inherit;
+} 
+
+ 
+
+body.layout-sidebar_right {
+    padding-top: 104px;
+}
+
+body#layout-sidebar_right {
+    padding-top: 104px;
+}
+
+/* FEATUREBOX SUPPORT */
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
+/* fix for comment avatar */
+
+.rounded-circle img.rounded {
+    border-radius: 50%!important;
+}
+
+@media (min-width: 768px) {
+    .offset1 {
+        margin-left: 8.33333%;
+    }
+}
+
+.search-menu .btn {
+    border-radius: 0;
+}
+
+.badge {
+ margin-left: .25em;
+}
+
+#back-top a:hover {
+    background-color: rgba(23,162,184, 0.9);
+}
+ 
+#back-top a {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999999999;
+    color: #eee;
+    background-color: rgba(23,162,184, 0.3);    
+    -webkit-transition: all .25s ease;
+    -moz-transition: all .25s ease;
+    -ms-transition: all .25s ease;
+    -o-transition: all .25s ease;
+    transition: all .25s ease;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+#back-top a i {
+    font-size: 2em;
+}
+
+
+#back-top .fa {
+    width: 30px;
+}
+
+ 
+
+#signupform {
+  width: 100%;
+}
+
+ 
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+ 
+
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+.form-label-group>label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #495057;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+ 
+.bbcode-panel a.e-pointer { 
+    color: #fff!important;
+}
+.bbcode-panel a.btn.btn-default { 
+    color: #fff!important;
+    background-color: #1a252f;
+    border-color: #151e27;
+}
+
+ 
+.g-recaptcha {
+  margin-top: 20px;
+}
