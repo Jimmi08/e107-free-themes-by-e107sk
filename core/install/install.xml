@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.1.4 (git)" timestamp="1483603241" >
+	<database>
+	<dbTable name="menus">
+		<item>
+			<field name="menu_id">25</field>
+			<field name="menu_name">e107-themes</field>
+			<field name="menu_location">0</field>
+			<field name="menu_order">0</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">2</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">26</field>
+			<field name="menu_name">e107-handbook</field>
+			<field name="menu_location">0</field>
+			<field name="menu_order">0</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">3</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">43</field>
+			<field name="menu_name">e107-handbook</field>
+			<field name="menu_location">2</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">3</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">50</field>
+			<field name="menu_name">e107-handbook</field>
+			<field name="menu_location">2</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">3</field>
+			<field name="menu_layout">sidebar_left</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">45</field>
+			<field name="menu_name">e107-plugins</field>
+			<field name="menu_location">3</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">1</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">49</field>
+			<field name="menu_name">e107-handbook</field>
+			<field name="menu_location">2</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">3</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">48</field>
+			<field name="menu_name">e107-themes</field>
+			<field name="menu_location">4</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">2</field>
+			<field name="menu_layout"></field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">51</field>
+			<field name="menu_name">e107-plugins</field>
+			<field name="menu_location">3</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">1</field>
+			<field name="menu_layout">sidebar_left</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">52</field>
+			<field name="menu_name">e107-plugins</field>
+			<field name="menu_location">3</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">1</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">54</field>
+			<field name="menu_name">e107-themes</field>
+			<field name="menu_location">4</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">2</field>
+			<field name="menu_layout">homepage</field>
+			<field name="menu_parms"></field>
+		</item>
+		<item>
+			<field name="menu_id">55</field>
+			<field name="menu_name">e107-themes</field>
+			<field name="menu_location">4</field>
+			<field name="menu_order">1</field>
+			<field name="menu_class">0</field>
+			<field name="menu_pages"></field>
+			<field name="menu_path">2</field>
+			<field name="menu_layout">sidebar_left</field>
+			<field name="menu_parms"></field>
+		</item>
+	</dbTable>
+	<dbTable name="page">
+		<item>
+			<field name="page_id">1</field>
+			<field name="page_title">Article 1</field>
+			<field name="page_sef">article-1</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec libero ipsum; imperdiet at risus non, dictum sagittis odio! Nulla facilisi. Pellentesque adipiscing facilisis pharetra. Morbi imperdiet augue in ligula luctus, et iaculis est porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. In ultricies vitae nisi ut porttitor. Curabitur lectus tellus, feugiat a elit vel, gravida iaculis dui. Nulla vulputate turpis dui, ac faucibus enim dignissim non. Ut non tellus suscipit, scelerisque orci sed, scelerisque sapien. Aenean convallis sodales nulla in porttitor. In pretium ante sapien, a tempor eros blandit nec. Nulla non est nibh? Fusce lacinia quam adipiscing magna posuere dapibus. Sed mollis condimentum rhoncus. Morbi sollicitudin tellus a ligula luctus, ac varius arcu ullamcorper. Mauris in aliquet tellus, nec porttitor dui. Quisque interdum euismod mi sed bibendum. Vivamus non odio quis quam lacinia rhoncus in nec nibh. Integer vitae turpis condimentum, laoreet diam nec viverra fusce.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1371420000</field>
+			<field name="page_rating_flag">1</field>
+			<field name="page_comment_flag">1</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">9999</field>
+			<field name="menu_name">e107-plugins</field>
+			<field name="menu_title">e107 Plugins</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}core/install/e107_plugins.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">image-only</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url">http://e107.org/plugins</field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">2</field>
+			<field name="page_title">Article 2</field>
+			<field name="page_sef">article-2</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam a nunc eget nulla rutrum fringilla sed vel nisl. Suspendisse at erat a neque pulvinar sodales. Etiam dictum erat erat. Pellentesque dictum convallis massa, eu varius sapien gravida a. Suspendisse auctor, mi a tempor tincidunt, lorem felis gravida libero, nec mattis eros felis eu neque. Etiam vel sagittis ipsum. Morbi at libero accumsan mauris tincidunt adipiscing sed vitae mauris. Aenean suscipit consectetur dignissim. Aliquam ornare diam vitae libero suscipit eget facilisis nisl ultrices? Curabitur luctus turpis ac lorem iaculis id interdum massa blandit! Curabitur placerat massa at neque accumsan porta. Nulla sed tortor id sapien dapibus auctor at eget mi. Sed ultrices lacinia viverra.Mauris in purus mauris. Nulla facilisi. Suspendisse dui enim, dapibus sed accumsan non, gravida eget nulla. Praesent ullamcorper, est ac viverra congue, nisl lacus imperdiet sem, et laoreet velit mauris sed leo. Donec erat mi, luctus quis suscipit pretium, luctus sed orci. Proin eu ultricies sem. Nam mollis turpis non erat fermentum congue.Nullam adipiscing, purus et varius blandit, arcu nisi pretium urna, a euismod eros eros quis turpis! Aliquam quis mi turpis, in varius neque. Aliquam erat volutpat. Vestibulum venenatis ipsum dapibus ante dictum egestas. Pellentesque eget nisi ligula, id accumsan eros. Aenean vitae felis vitae sapien mattis pellentesque non nec dolor. Nulla facilisi.Quisque in tortor turpis, sed venenatis nunc. Nunc tellus elit, suscipit et accumsan ac, mollis et risus. Phasellus consectetur sapien in felis semper non tempor tortor mollis. Ut id leo vel magna rhoncus aliquet. Nunc eget sollicitudin felis. Vestibulum tempor, justo et congue dignissim, augue ipsum malesuada libero, id suscipit felis mi vitae erat. Etiam suscipit lacinia sapien, ac gravida nisi lobortis non. Suspendisse dictum risus in est egestas egestas. Aenean et nisi sed odio sollicitudin placerat vel ut magna. Nulla facilisi. Proin condimentum ultricies vulputate. Morbi dapibus elit a tellus elementum congue! In vitae aliquet leo. Proin tempus tincidunt magna, sit amet malesuada ipsum ornare sed. Sed lorem augue, aliquam sit amet hendrerit sed; venenatis in massa. Sed iaculis amet.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1366149600</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">9999</field>
+			<field name="menu_name">e107-themes</field>
+			<field name="menu_title">e107 Themes</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}core/install/e107_themes.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">image-only</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url">http://e107.org/themes</field>
+			<field name="menu_button_text"></field>
+		</item>
+		<item>
+			<field name="page_id">3</field>
+			<field name="page_title">Article 3</field>
+			<field name="page_sef">article-3</field>
+			<field name="page_chapter">2</field>
+			<field name="page_metakeys"></field>
+			<field name="page_metadscr"></field>
+			<field name="page_text"><![CDATA[[html]<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum porttitor a justo ut tristique. Nam molestie sem at leo lobortis, vel luctus ligula tempus. Sed sagittis rutrum lectus vel suscipit. Sed in ligula vitae massa sagittis adipiscing vitae vel sem. Fusce nec rhoncus purus. Aenean mollis magna tellus; non consequat leo feugiat eu. Donec mauris velit, euismod nec facilisis quis, hendrerit nec lorem. Aliquam et lorem sed enim tempus sodales. Vestibulum ut enim adipiscing ipsum semper eleifend in in dolor. Fusce tempor risus velit, in fringilla tellus faucibus eget. Maecenas aliquet nunc nec nulla auctor, sed tristique est pellentesque. Maecenas tristique blandit dolor, nec egestas ligula aliquam eu. Morbi porta leo iaculis, hendrerit lorem interdum, porta dui. Integer tempor convallis quam, eget tempus neque blandit sit amet. Quisque dictum libero elit, ut vehicula lectus accumsan a. Nam laoreet vulputate massa vel viverra. Sed tempus blandit sapien, in viverra urna aliquet quis. Aliquam erat volutpat. Nulla accumsan posuere.</p>[/html]]]></field>
+			<field name="page_author">1</field>
+			<field name="page_datestamp">1336600800</field>
+			<field name="page_rating_flag">0</field>
+			<field name="page_comment_flag">0</field>
+			<field name="page_password"></field>
+			<field name="page_class">0</field>
+			<field name="page_ip_restrict"></field>
+			<field name="page_template">default</field>
+			<field name="page_order">9999</field>
+			<field name="menu_name">e107-handbook</field>
+			<field name="menu_title">e107 Handbook</field>
+			<field name="menu_text"></field>
+			<field name="menu_image">{e_THEME}core/install/e107_handbook.png</field>
+			<field name="menu_icon"></field>
+			<field name="menu_template">image-only</field>
+			<field name="menu_class">0</field>
+			<field name="menu_button_url">http://e107.org/developer-manual</field>
+			<field name="menu_button_text"></field>
+		</item>
+	</dbTable>
+	<dbTable name="generic">
+		<item>
+			<field name="gen_id">1</field>
+			<field name="gen_type">wmessage</field>
+			<field name="gen_datestamp">1145848343</field>
+			<field name="gen_user_id">1</field>
+			<field name="gen_ip"></field>
+			<field name="gen_intdata">0</field>
+			<field name="gen_chardata"><![CDATA[[html]<p><strong class=&quot;bold&quot;>Welcome to your new website!</strong><br><br><span>e107 has been installed successfully and is now ready to accept content. Your administration section is </span><a class=&quot;bbcode&quot; href=&quot;{e_ADMIN}admin.php&quot; rel=&quot;external&quot; target=&quot;_blank&quot;>located here</a><span>, click to go there now. You will need to login using the name and password which you entered during the installation process.</span><br><br><strong class=&quot;bbcode bold&quot;>Support</strong><br><a class=&quot;bbcode&quot; href=&quot;http://e107.org/&quot; rel=&quot;external&quot; target=&quot;_blank&quot;>e107 Homepage</a><br><a class=&quot;bbcode&quot; href=&quot;http://e107help.org/&quot; rel=&quot;external&quot; target=&quot;_blank&quot;>e107 Help</a><br><a class=&quot;bbcode&quot; href=&quot;http://e107.org/developer-manual/&quot; rel=&quot;external&quot; target=&quot;_blank&quot;>e107 Developer Manual</a><br><br><span>Thank you for trying e107, we hope it fulfills your website needs.</span></p>[/html]]]></field>
+		</item>
+	</dbTable>
+	<dbTable name="links">
+		<item>
+			<field name="link_id">13</field>
+			<field name="link_name">e107 CMS</field>
+			<field name="link_url">http://e107.org/</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">3</field>
+			<field name="link_order">12</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">1</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">14</field>
+			<field name="link_name">e107 Plugins</field>
+			<field name="link_url">http://e107.org/plugins/</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">3</field>
+			<field name="link_order">13</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">1</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">15</field>
+			<field name="link_name">e107 Themes</field>
+			<field name="link_url">http://e107.org/themes/</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">3</field>
+			<field name="link_order">14</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">1</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">16</field>
+			<field name="link_name">e107 Handbook</field>
+			<field name="link_url"> http://e107.org/developer-manual</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">3</field>
+			<field name="link_order">15</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">1</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+		<item>
+			<field name="link_id">17</field>
+			<field name="link_name">e107 Showcase</field>
+			<field name="link_url">http://e107.org/showcase</field>
+			<field name="link_description"></field>
+			<field name="link_button"></field>
+			<field name="link_category">3</field>
+			<field name="link_order">16</field>
+			<field name="link_parent">0</field>
+			<field name="link_open">1</field>
+			<field name="link_class">0</field>
+			<field name="link_function"></field>
+			<field name="link_sefurl"></field>
+			<field name="link_owner"></field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

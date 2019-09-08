@@ -38,6 +38,9 @@ Last check: 02/2017
 
 Last check: 12/2016
 
+## Core2 Bootstrap 3 theme
+
+Last check: 08/2016
 
 
 

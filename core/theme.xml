@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Core" version="2.1.0" date="2017-01-17" compatibility="2.1.4">
+	<author name ="e107" email="noreply@e107.org" url="https://github.com/e107inc/core" />
+	<summary>Core theme with twiter bootstrap support.</summary>
+	<description>This is the 'core' theme from e107 v1.x ported for use with e107 v2.1.4 or higher. It now also uses twitter bootstrap for a responsive layout on multiple devices.</description>
+	<category>generic</category>
+	<plugins>
+		<plugin name='featurebox' url='core' />
+		<plugin name='gallery' url='core' />
+   		<plugin name='rss_menu' url='core' />
+		<plugin name='social' url='core' />
+		<plugin name='banner' url='core' />				
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>core</word>
+	</keywords>
+	<screenshots>
+		<image>preview.png</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='homepage' title='Homepage Option 1' default='false'>
+			<custompages>FRONTPAGE</custompages>	
+		</layout>
+		<layout name='full' title='Full width page'  >
+            <custompages>forum content signup fwp calendar_menu</custompages>																	            
+		</layout>
+		<layout name='sidebar_right' title='Blog sidebar-right' default='true' >
+			<custompages>/news</custompages>	
+		</layout>
+		<layout name='sidebar_left' title='Blog sidebar-left' default='false' >
+			<custompages>/page</custompages>	
+		</layout>
+	</layouts>
+</e107Theme>
