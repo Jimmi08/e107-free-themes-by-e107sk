@@ -46,6 +46,11 @@ Last check: 01/2018
 
 Last check: 07/2017 
 
+## Black & White Bootstrap 3 theme
+
+Created: 06/2017
+Last check: 11/2017 
+
 ## Solid Bootstrap 3 theme
 
 Last check: 02/2017 

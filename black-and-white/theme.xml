@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Black N White" version="2.1.0" date="2017-06-22" compatibility="2.0">
+	<author name ="Jimako" email="jimako@jimako.sk" url="https://www.e107.sk" />
+	<summary>Advanced, unique and powerful, clean responsive blog template based on Bootstrap 3, HTML5, CSS3</summary>
+	<description>This template is free for personal and commercial use, please don’t remove the ThemeWagon credit link from this free HTML5 template until you donate.</description>
+	<category>generic</category>
+	<plugins>
+		<plugin name='gallery' url='core' />
+		<plugin name='social' url='core' />
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+	</keywords>
+	<screenshots>
+		<image>preview_frontend-min.jpg</image>
+		<image>preview_responsive-min.jpg</image>
+	</screenshots>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='homepage' title='Home Page' default='false'>
+			<custompages>FRONTPAGE</custompages>	
+		</layout>
+		<layout name='full' title='Blog Page'  default='true'   >
+            <custompages>forum</custompages>    
+		</layout>
+		<layout name='contact' title='Contact Page' default='false'>
+			<custompages>/contact</custompages>		
+		</layout>
+		<layout name='about' title='About Page' default='false' >
+			<custompages>/page</custompages>	
+		</layout>
+		<layout name='single' title='Single Page' default='false' >
+		<custompages>news/,news.php?</custompages>	
+ 	
+		</layout>
+	</layouts>
+</e107Theme>

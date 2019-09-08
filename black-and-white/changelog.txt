@@ -1,0 +1,3 @@
+2.1 fixed preferencies
+2.0 initial release
+
