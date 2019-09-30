@@ -1,4 +1,6 @@
- 	 	<section class="section-light top-inner">
+<?php 
+
+$LAYOUT['blog'] = ' 	 	<section class="section-light top-inner">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -15,7 +17,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>{---CAPTION---}{MENUAREA=5}</h2>
+					<h2>{THEME_PAGETITLE}{MENU=5}</h2>
 				</div>
 			</div>
 		</div>
@@ -30,7 +32,7 @@
 				</div>
 				<div class="col-md-4">
           {SETSTYLE=menu}
-          {MENUAREA=1}
+          {MENU=1}
 				</div>
 			</div>
 		</div>
@@ -40,18 +42,18 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="block block-light block-center"> {MENUAREA=20}</div>
+					<div class="block block-light block-center"> {MENU=20}</div>
 				</div>
 				<div class="col-md-3">
-					<div class="block block-light block-center">   {MENUAREA=21}</div>
+					<div class="block block-light block-center">   {MENU=21}</div>
 				</div>
 				<div class="col-md-3">
-					<div class="block block-light block-center">  {MENUAREA=22}</div>
+					<div class="block block-light block-center">  {MENU=22}</div>
 				</div>
 				<div class="col-md-3">
-					<div class="block block-light block-center">  {MENUAREA=23}</div>
+					<div class="block block-light block-center">  {MENU=23}</div>
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>';
 

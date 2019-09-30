@@ -1,4 +1,6 @@
- 	 	<section class="section-light top-inner">
+<?php 
+
+$LAYOUT['full'] = ' 	 	<section class="section-light top-inner">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6">
@@ -17,7 +19,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>{---CAPTION---}{MENUAREA=5}</h2>
+					<h2>{THEME_PAGETITLE}</h2>
 				</div>
 			</div>
 		</div>
@@ -59,4 +61,4 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section> ';

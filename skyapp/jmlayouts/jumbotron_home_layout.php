@@ -1,4 +1,6 @@
-  <!-- Main jumbotron for a primary marketing message or call to action -->
+<?php
+
+$LAYOUT['jumbotron_home'] =  '  <!-- Main jumbotron for a primary marketing message or call to action -->
 	<section class="section-showcase">
 		<div class="container showcase-content">
      {WMESSAGE=hide}
@@ -23,13 +25,13 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">          
-					<div class="block block-primary"> {MENUAREA=10} </div>
+					<div class="block block-primary"> {MENU=10} </div>
 				</div>
 				<div class="col-md-4">          
-					<div class="block block-secondary">{MENUAREA=11} </div>
+					<div class="block block-secondary">{MENU=11} </div>
 				</div>
 				<div class="col-md-4"> 
-					<div class="block block-primary"> {MENUAREA=12}	</div>
+					<div class="block block-primary"> {MENU=12}	</div>
 				</div>
 			</div>
 		</div>
@@ -39,16 +41,16 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-3">
-					<div class="block block-light block-center"> {MENUAREA=20}</div>
+					<div class="block block-light block-center"> {MENU=20}</div>
 				</div>
 				<div class="col-md-3">
-					<div class="block block-light block-center">   {MENUAREA=21}</div>
+					<div class="block block-light block-center">   {MENU=21}</div>
 				</div>
 				<div class="col-md-3">
-					<div class="block block-light block-center">  {MENUAREA=22}</div>
+					<div class="block block-light block-center">  {MENU=22}</div>
 				</div>
 				<div class="col-md-3">
-					<div class="block block-light block-center">  {MENUAREA=23}</div>
+					<div class="block block-light block-center">  {MENU=23}</div>
 				</div>
 			</div>
 		</div>
@@ -57,18 +59,18 @@
 	<section class="section-light extra-pad">
 		<div class="container">
 			<div class="row">
-        {MENUAREA=3}
+        {MENU=3}
 			</div>
 		</div>
 	</section>
 	{SETSTYLE=none}
 	<section class="section-primary extra-pad">
 		<div class="container">
-			<div class="row"> {MENUAREA=4}</div>
+			<div class="row"> {MENU=4}</div>
 		</div>
 	</section>
 	
 	{---}
 	
-	</div>
+	</div>';
  

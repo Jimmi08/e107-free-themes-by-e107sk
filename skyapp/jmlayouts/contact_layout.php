@@ -1,3 +1,6 @@
+<?php 
+
+$LAYOUT['contact'] = '
 	<section class="section-map">
 		<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2947.561497782143!2d-71.0621316!3d42.373183600000004!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e370ed675fcd1b%3A0x5309f0ed69db33f1!2s44+Main+St%2C+Boston%2C+MA+02129!5e0!3m2!1sen!2sus!4v1411337388236" width="1600" height="400" frameborder="0" style="border:0"></iframe>
 	</section>
@@ -30,4 +33,4 @@
 				</div>
 			</div>
 		</div>
-	</section>
+	</section>';

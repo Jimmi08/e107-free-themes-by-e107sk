@@ -68,9 +68,6 @@ define('COMMENTOFFSTRING', '');
 
 define('PRE_EXTENDEDSTRING', '<br />');
  
-class skyapp_theme
-{
-   
    
 		/**
 		 * @param string $text
@@ -120,13 +117,13 @@ class skyapp_theme
   	        {
   	            echo '<h1>'.$caption.'</h1>';
   	        }
-            echo   '<p class="lead">'.$this->remove_ptags($text)."</p>" ; 
+            echo   '<p class="lead">'.remove_ptags($text)."</p>" ; 
     return;
   	}  
  
   	if($style == 'none')
   	{          
-  		echo  $this->remove_ptags($text) ;
+  		echo  remove_ptags($text) ;
   		return;
   	}
   	
@@ -176,7 +173,7 @@ class skyapp_theme
   	}   
       
   	// default.
-  
+   
   	if(!empty($caption))
   	{
   		echo '<h2 class="caption">'.$caption.'</h2>';
@@ -191,30 +188,77 @@ class skyapp_theme
   	
   	
   }
-    
-    
-}
-
  
-$NEWSCAT = "\n\n\n\n<!-- News Category -->\n\n\n\n
-	<div style='padding:2px;padding-bottom:12px'>
-	<div class='newscat_caption'>
-	{NEWSCATEGORY}
-	</div>
-	<div style='width:100%;text-align:left'>
-	{NEWSCAT_ITEM}
-	</div>
-	</div>
-";
+$LAYOUT['_header_'] = '	
+<header class="header-main">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+		  <div class="container">
+			<div class="navbar-header">
+			  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+			  <a class="navbar-brand" href="{SITEURL}">{BOOTSTRAP_BRANDING}</a>
+			</div>
+			<div class="collapse navbar-collapse">
+			  <ul class="nav navbar-nav">
+        {NAVIGATION: type=main&layout=main}
+			  </ul>
+			  <ul class="nav navbar-nav navbar-sub pull-right">
+        {MEMBER_LOGIN: layout=main}
+        {USERBOX: layout=main}
+			  </ul>
+			</div><!--/.nav-collapse -->
+		  </div>
+		</div>
+	</header>
+<!-- Page Content -->';
 
 
-$NEWSCAT_ITEM = "\n\n\n\n<!-- News Category Item -->\n\n\n\n
-		<div style='width:100%;display:block'>
-		<table style='width:100%'>
-		<tr><td style='width:2px;vertical-align:middle'>&#8226;&nbsp;</td>
-		<td style='text-align:left;height:10px'>
-		{NEWSTITLELINK}
-		</td></tr></table></div>
-";
+$LAYOUT['_footer_'] = '
+{SETSTYLE=footer} 
+	<footer class="footer-main">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">   
+          {MENU=105}
+          <h4>Footer links</h4>
+					{NAVIGATION: type=main&layout=footer}
+				</div>
+				<div class="col-md-4">
+					{MENU=106}
+				</div>
+				<div class="col-md-4">
+					{MENU=107}
+				</div>
+			</div>
+		</div>
+  <div id="footer-rights">
+		<div class="container">
+				<small >{SITEDISCLAIMER}</small>
+		</div>
+	</div>
+</footer>';
+
+$LAYOUT['jumbotron_home'] = '{MENU=10}{MENU=11}{MENU=12}{MENU=20}{MENU=21}{MENU=22}{MENU=23}{---}';
+$LAYOUT['full'] = '{MENU=5}{MENU=20}{MENU=21}{MENU=22}{MENU=23}{---}';
+$LAYOUT['contact'] = '{MENU=20}{MENU=21}{MENU=22}{MENU=23}{---}';
+$LAYOUT['blog'] = '{MENU=1}{MENU=5}{MENU=20}{MENU=21}{MENU=22}{MENU=23}{---}';
+
+/* ALL settings for header and footer are in layout options in admin area, 
+for new header or footer just add file and it to list of available headers and 
+footers in options_XXX.php  file in layouts folder */
+  
+/*  NOW ARE CORRECT LAYOUTS SETS.  THEY ARE DISPLAYED IN MENU MANAGER TOO */
+if(is_dir($path."layouts")) {
+   $layouts_folder = "layouts"; 
+}
+else {
+   $layouts_folder = "jmlayouts"; 
+}  
+ 
+include($layouts_folder.'/'.THEME_LAYOUT.'_layout.php');
 
 ?>                                  
