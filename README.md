@@ -8,24 +8,33 @@ But this doesn't mean that they are actively developed.
 ![img](https://www.e107sk.com/img/preview_creative_preview.png)
 
 Last check: 09/2019 
+
 Minimal e107 version: 2.2.2
+
 ToDo: remove dependency on JM Core 
+
 Actual state: demo is broken with latest version
+
 Next development: fix demo
 
 
 ## Freelancer Bootstrap 4 theme
 
 Last check: 06/2019 
+
 Minimal e107 version: 2.2.2
+
 Next development: not planned
+
 
 ## SkyApp Bootstrap 3 theme
 
 ![img](https://www.e107sk.com/media/img/0x0/2019-08/preview_skyapp.png)
 
 Last check: 09/2019 
+
 Minimal e107 version: 2.2.1
+
 Next development: possible
 
 ## Relive Bootstrap 3 theme
