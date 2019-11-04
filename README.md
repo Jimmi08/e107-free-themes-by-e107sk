@@ -71,10 +71,18 @@ Last check: 02/2017
 Last check: 12/2016
 
 ## Core2 Bootstrap 3 theme
-
+s
 Last check: 08/2016
 
+## InfadeBlack Theme
 
+Last check: 09/2019
+
+Originally BLACKv2 theme made by infade.net in 2006 (yes, it's no mistaken). I needed to test no bootstrap theme, so I decided to use this theme. I changed the theme name to InfadeBlack on the honour of the original author.  
+
+More info: https://www.e107sk.com/news/view/56/infadeblack-theme/
+
+![img](https://www.e107sk.com/media/img/0x0/2019-09/e107_theme_infadeblack00.jpg)
 
 
 

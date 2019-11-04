@@ -1,0 +1,494 @@
+/*
++---------------------------------------------------------------+
+|	e107 website system
+|
+|	©William Moffett 2001-2005
+|	http://e107.net
+|	que@e107.net
+|
+|	Released under the terms and conditions of the
+|	GNU General Public License (http://gnu.org).
++---------------------------------------------------------------+
+*/
+ 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+ 
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* CORE STYLES */
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color: #cbcbcb;
+	background-repeat: repeat-x; background-color:#333333; margin:0px 0px; padding:0px; text-align: center;
+}
+
+a { 
+	color: #fff; 
+	text-decoration:none;
+}
+
+a:hover { 
+	color: #ccc; 
+	text-decoration: underline;
+}
+
+p {}
+
+h1, h2, h3, h4, h5, h6{
+	font-size: 10px;
+	color: #FFF;
+	background-color:#000;
+	border: 1px solid #000;
+	margin:2px;
+	padding:4px;
+	background: url(images/menuline.png) top left no-repeat;
+	
+}
+
+table {
+	margin: 0px;
+	padding: 0px;
+	border: none;
+	border-collapse: collapse;
+}
+
+td { 
+	text-align:left; 
+	vertical-align:top; 
+	padding-left:2px; 
+	padding-right:2px;
+	}
+
+blockquote {}
+
+ul, ol {}
+
+form { }
+
+input{
+	margin:2px;
+}
+
+hr { 
+	margin-top:2px;
+	height:1px;
+	border:none;
+	background-color:#3f3f3f;
+}
+
+/* MAIN TABLE */
+
+.alientable {
+	margin:0px auto;
+	padding: 0px;
+	width: 87%;
+}
+
+/* GFX LAYOUT */
+
+.header_left {
+	padding:0px;
+	background-image: url(images/header_left.png);
+	background-repeat: no-repeat;
+	height: 225px;
+	width: 45px;
+}
+
+.header_center {
+	padding:0px;
+	background-image: url(images/header_tile.png);
+	background-repeat: repeat-x;
+	height: 225px;
+}
+
+.headcenter_left{
+	padding:0px;
+	height: 225px;
+	width:100%;
+	background: url(images/header_center_left.png) top left no-repeat;
+}
+
+.headcenter_right{
+	position:relative;
+	padding:0px;
+	height: 225px;
+	width:100%;
+	background: url(images/header_center_right.png) top right no-repeat;
+}
+
+#sitename{
+	display:none;
+}
+
+#sitetag{
+	display:none;
+}
+
+#logo span{
+	display:none;
+}
+
+.header_right {
+	padding:0px;
+	background-image: url(images/header_right.png);
+	background-repeat: no-repeat;
+	height: 225px;
+	width: 42px;
+}
+
+.content_left {
+	padding:0px;
+	background-image: url(images/left_tile.png);
+	width: 45px;
+	background-repeat: repeat-y;
+	vertical-align: top;
+}
+
+.content_center {
+	padding:0px;
+	background-color: #0B0B0B;
+	font-size: 12px;
+	color: #cbcbcb;
+	vertical-align: top;
+}
+
+.content_right {
+	padding:0px;
+	background-image: url(images/right_tile.png);
+	width: 42px;
+	background-repeat: repeat-y;
+	vertical-align: top;
+}
+
+.left_menu {
+	padding:0px;
+	width: 15%;
+	vertical-align:top;
+	border-right: 1px solid #1f1f1f;
+}
+
+.content {
+	padding:0px;
+	width: auto;
+	vertical-align:top;
+}
+
+.right_menu {
+	padding:0px;
+	width: 15%;
+	vertical-align:top;
+	border-left: 1px solid #1f1f1f;
+}
+
+.footer_left {
+	padding:0px;
+	background-image: url(images/footer_left.png);
+	background-repeat: no-repeat;
+	width: 45px;
+	height: 79px;
+}
+
+.footer_center {
+	padding:0px;
+	background-image: url(images/footer_tile.png);
+	height: 93px;
+}
+
+.footer_right {
+	padding:0px;
+	background-image: url(images/footer_right.png);
+	height: 93px;
+	width: 42px;
+}
+
+.fc_left {
+	padding:0px;
+	background-image: url(images/footer_center_left.png);
+	width: 154px;
+	text-align:left;
+	padding-top:20px;
+}
+
+.fc_center {
+	padding:0px;
+	background-image: url(images/footer_center_center.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 93px;
+	width: auto;
+	text-align:center;
+
+}
+
+#fc_center{
+
+	padding-top:30px; 
+}
+
+.fc_right {
+	padding:0px;
+	background-image: url(images/footer_center_right.png);
+	width: 156px;
+	text-align:right;
+}
+
+.fc_right span{
+	display:none;
+
+}
+
+/* NAVIGATION */
+
+#navigation{
+	height: 21px;
+	position: absolute;
+	top: 190px;
+	text-align: center;
+  left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#navigation li{
+	list-style: none;
+	float: left;
+	height: 21px;
+	list-style-type: none;
+}
+
+#navigation a{
+	width: 104px; 
+	height: 21px;
+	font-size: 10px;
+	color: #fff;
+	line-height: 20px;
+	text-decoration: none;
+	background: url(images/nav_button.gif) no-repeat; 
+	background-position: 0px -50px;
+	display: block;
+
+}
+
+#navigation a:hover{
+	color: #ccc;
+	background-position: 0px -25px;
+}
+
+#navigation a.onpage {
+	color: #fff;
+	background-position: 0px 0px;
+}
+
+#navigation a:hover.onpage {
+	color: #ccc;
+	background-position: 0px 0px;
+}
+
+/* E107 STYLES */
+
+.bodytable {
+	padding: 8px;
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #929293;
+}
+
+.indent{
+	background-color:#1f1f1f;
+	border: 1px solid #3f3f3f;
+	margin:2px;
+	padding:4px; 
+}
+	.indentchat{
+	background-color:#282828;
+	border: 1px solid #282828;
+	margin:2px;
+	padding:4px; 
+	display:block;
+	text-decoration:none;
+	font-weight:bold;
+	color: #cbcbcb;
+	background: url(images/chatblock.jpg) top left no-repeat;
+}
+
+.mediumtext {
+	font: 10px verdana, tahoma, arial, sans-serif;
+	color: #ffffff;
+}
+
+.smalltext {
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+	color: #cbcbcb;
+}
+
+.tbox {
+	background-color: #1f1f1f;
+	border: #39393b 1px solid;
+	color: #fff;
+	font: 10px verdana, tahoma, arial, helvetica, sans-serif;
+	background-image: url(images/chatbg.png);
+  padding: 5px;
+}
+
+.form-control {
+    padding: 5px;
+}
+
+.helpbox {
+	background-color: #1f1f1f;
+	border: #39393b 1px solid;
+	color: #fff;
+	font: 9px tahoma, verdana, arial, helvetica, sans-serif;
+	
+}
+
+.small {
+	background-color: #0B0B0B;
+	border: #0B0B0B 1px solid;
+	color: #999999;
+	font: 8px tahoma, verdana, arial, helvetica, sans-serif;
+}
+
+.button{
+	margin:2px 2px;
+	background-color: #1f1f1f;
+	border: #39393b 1px solid;
+	color: #cbcbcb;
+	font: 9px verdana, tahoma, arial, helvetica, sans-serif;
+	text-align:center;
+  padding: 5px;
+}
+
+/* FORUM STYLES */
+
+.fcaption {
+	padding:0px 4px;
+	height:21px;
+	line-height:21px;
+	background: #282828 url(images/ncbg.png) top left repeat-x;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	color: #fff;
+	font-weight:bold;
+}
+
+.fcaption span.smalltext{
+	color: #ccc;
+}
+
+.fcaption span.smalltext a:hover{
+	color: #fff;
+}
+
+.fcaption a {
+	color: #fff;
+	text-decoration: none;
+}
+
+.fcaption a:hover {
+	color: #0B6394;
+}
+
+a.forumlink{
+	color: #0B6394;
+	text-decoration: none;
+}
+
+a.forumlink:hover{
+	color: #fff;
+}
+
+.fborder {
+	border: #000 1px solid;
+	background-color: transparent;
+}
+
+.forumheader{
+   background-color: #000;
+	padding:0px 4px;
+	height:20px;
+	line-height:16px;
+	font-weight:bold;
+	background-image : url(images/ncbg.png);
+	color: #d9d9d9;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+}
+
+.forumheader2{
+   background-color: #000;
+	color: #cbcbcb;
+	padding: 4px;
+	border: #000 1px solid;
+	background-image: url(images/chatbg.png);
+}
+ .forumheader3{
+   background-color: #000;
+	color: #cbcbcb;
+	padding: 4px;
+	border: #000 1px solid;
+	background-image: url(images/chatbg.png);
+}
+ .forumheader4{
+	background-color: #000;
+	font: 10px verdana, tahoma, arial, sans-serif;
+	color: #fff;
+	padding: 4px;
+	border: #000 1px solid;
+	background-image: url(images/chatbg.png);
+}
+
+.finfobar{
+	color: #cbcbcb;
+	padding: 4px;
+	border: #252525 1px solid;
+	background: #1f1f1f;
+}
+
+
+/* pagination fix */
+.pager li {
+ display: inline-block;
+}
+
+.pager li.next{
+ float: right;
+}
+
+
+
