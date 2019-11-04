@@ -85,6 +85,16 @@ More info: https://www.e107sk.com/news/view/56/infadeblack-theme/
 ![img](https://www.e107sk.com/media/img/0x0/2019-09/e107_theme_infadeblack00.jpg)
 
 
+## Call of Duty: Ghosts theme
+
+I found some version of this theme during cleaning my comp. I don't think it was original 0.6 version, maybe some attempt to fix if for Alpha version. If I am not mistaken, it was downloaded from e107hungary site. So I prepared it for version 2.3 (2.2.2git). 
+It's not boostrap theme, so it's not responsive.
+
+![img](https://www.e107sk.com/media/img/0x0/2019-11/cod_ghost01.jpg)
+
+
+
+
 
 ## Donate with [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKG5N3F6QL99J)
 
