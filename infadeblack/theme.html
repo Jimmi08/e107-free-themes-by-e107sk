@@ -1,16 +1,47 @@
-<body id="page-top" class="{LAYOUT_ID}" {BODY_ONLOAD}>  
-  <table class='alientable'>  
-    <tr>{---HEADER---}   
-    </tr>  
-    <tr>
-    <td class='content_left'><img src='{THEME}images/content_left.png' width='45' height='225' alt='' /> </td>   
-      <td class='content_center'> 
-    {---LAYOUT---}   
-    </td>    
-    <td class='content_right'><img src='{THEME}images/content_right.png' width='42' height='225' alt='' /> </td>
-    </tr>  
-    <tr>{---FOOTER---}   
-    </tr>  
+<body id="page-top" class="{LAYOUT_ID}" {BODY_ONLOAD}>     
+  <table class='alientable'>       
+    <tr>        
+      <td class='header_left'>&nbsp;</td>        
+      <td class='header_center'>          
+        <div class='headcenter_left'>            
+          <div class='headcenter_right'>              
+            <h1 id='sitename'>{SITENAME}</h1>              
+            <h2 id='sitetag'>{SITETAG}</h2>              
+            <div id='logo'>    		
+              <span>    		{LOGO}     		
+              </span>            
+            </div>    	       {UL}           
+          </div>          
+        </div>        </td>        
+      <td class='header_right'>&nbsp;</td>       
+    </tr>       
+    <tr>    
+      <td class='content_left'>
+        <img src='{THEME}images/content_left.png' width='45' height='225' alt='' /> </td>          
+      <td class='content_center'>{---LAYOUT---}</td>         
+      <td class='content_right'>
+        <img src='{THEME}images/content_right.png' width='42' height='225' alt='' /> </td>    
+    </tr>       
+    <tr>                 
+      <td class='footer_left'>&nbsp;</td>        
+      <td class='footer_center'>    	
+        <table style='width:100%'>    	  
+          <tr>    	    
+            <td class='fc_left'>&nbsp;</td>    	    
+            <td class='fc_center'>    		
+              <div id='fc_center' class='smalltext'>    		{SITEDISCLAIMER}     		
+              </div>    	    </td>    	    
+            <td class='fc_right'>    		
+              <div id='copy'>    		
+                <p class='smalltext'>  
+                {DREAMDISCLAIMER}           
+                <i>BLACKv2</i> copyright Infade.net 2006 &nbsp;     		
+                </p>    		
+              </div>    	    
+            </td>    	  
+          </tr>    	
+        </table>          </td>        
+      <td class='footer_right'>&nbsp;</td>          
+    </tr>     
   </table>
 </body> 
-
