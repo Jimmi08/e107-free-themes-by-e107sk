@@ -22,9 +22,6 @@ define(THEME_LEGACY,false);
 e107::library('load', 'fontawesome');
 define("FONTAWESOME", 4);
  
- 
-e107::css("theme", "js/e107fix.css" ); 
-
 e107::js("theme", "js/alert.js", 'jquery');
 e107::js("theme", "js/transition.js", 'jquery');
 e107::js("theme", "js/collapse.js", 'jquery');
