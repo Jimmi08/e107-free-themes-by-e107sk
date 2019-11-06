@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Theme name="Call of Duty: Ghosts" version="1.0" date="2019-07-26" compatibility="2.0">
+<e107Theme name="Call of Duty: Ghosts" version="1.0" date="2019-11-06" compatibility="2.3.0">
 	<author name ="Jimako" email="jimako@e107sk.com" url="https://www.e107sk.com/" />
 	<summary>Original author: CsaSzy from csaszy.hu from 2013.12</summary>
-	<description>Updated some old theme </description>
+	<description>Original author: CsaSzy from csaszy.hu from 2013.12. Basic Update for HTML layouts.  </description>
 	<category>generic</category>
+	<keywords>
+		<word>legacy</word>
+		<word>clean</word>
+		<word>community</word>
+	</keywords>
 	<stylesheets>
 		<css file="style.css" name="Default"/>
 	</stylesheets>
