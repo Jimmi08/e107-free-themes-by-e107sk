@@ -7,7 +7,7 @@
 |	CsaSzy Themes
 |	http://csaszy.hu/
 |	varcsa77@gmail.com
-|
+|                                       
 +------------------------------------------------+
 */
 
@@ -23,9 +23,7 @@ define("THEME_DISCLAIMER", "<br /><i>".LAN_THEME_6."</i>");
 
 //$no_core_css = TRUE;
 define("CORE_CSS", false);
-
-e107::css("theme", "js/e107fix.css" ); 
-
+ 
 e107::js("theme", "js/alert.js", 'jquery');
 e107::js("theme", "js/transition.js", 'jquery');
 e107::js("theme", "js/collapse.js", 'jquery');
