@@ -1,5 +1,11 @@
 # InfadeBlack Theme
 
+This theme was known as BLACKv2 theme made by infade.net in 2006 (yes, it's no mistaken).  You can still download it from some servers. 
+
+Then there is PenquinBlackv1.1 by PsykoPenguin from January 2011, which it looks the same.  Maybe it's the same man.
+
+Then there is an attempt to fix this theme for version 2 by LaocheXe. Very good one.
+
 ## Warning
 This theme is not responsive, it is not bootstrap theme. No demo content. Add menus via Menu Manager
 
