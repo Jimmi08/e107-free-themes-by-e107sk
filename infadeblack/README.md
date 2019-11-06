@@ -4,7 +4,9 @@
 This theme is not responsive, it is not bootstrap theme. No demo content. Add menus via Menu Manager
 
 ## Requirements
+
 Minimal e107 version: 2.3
+
 Tested with php 7.2 and 7.3
 
 ## Preview
@@ -14,8 +16,11 @@ Tested with php 7.2 and 7.3
 ## Description
 
 3 columns table layout with main and vertical navigation
+
 dark theme (dark imode supported)
+
 old shortcodes replaced
+
 tested with clanwars, calender, forum, clanforum plugins
 
 ## Required plugins
