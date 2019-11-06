@@ -17,10 +17,14 @@ if(!defined("e_THEME")){ exit; }
 // load translated strings
 e107::lan('theme');
 
-define(THEME_LEGACY,false); 
+define(THEME_LEGACY, false); 
 
-e107::library('load', 'fontawesome');
+define("IMODE", "dark");
+//$no_core_css = TRUE;
+define("CORE_CSS", false);
+
 define("FONTAWESOME", 4);
+e107::library('load', 'fontawesome');
  
 e107::js("theme", "js/alert.js", 'jquery');
 e107::js("theme", "js/transition.js", 'jquery');

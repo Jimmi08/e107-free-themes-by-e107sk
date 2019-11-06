@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Theme name="InfadeBlack"  version="2.1.0" date="2019-09-21" compatibility="2.3">
+<e107Theme name="InfadeBlack"  version="2.1.0" date="2019-11-06" compatibility="2.3">
 	<author name ="Jimako" email="jimako@e107sk.com" url="https://www.e107sk.com/" />
 	<summary>BLACKv2 by Infade  updated for e107 v2 </summary>
 	<description>Original author name added to theme name to respect their work</description>
@@ -16,11 +16,6 @@
 		<css file="style.css" name="Default"  />
 	</stylesheets>
 	<layouts>
-		<layout name='default' title='Default layout' default='true'>
-			<custompages>FRONTPAGE</custompages>	
-		</layout>
-		<layout name='full' title='Full layout' default='false'>
-			<custompages>forum.php, forum_viewforum.php, forum_viewtopic.php, forum_post.php, stats.php, faq.php, calendar.php</custompages>	
-		</layout>
+		<layout name='default' title='Default' default='true' />
 	</layouts>
 </e107Theme>

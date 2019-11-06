@@ -662,9 +662,11 @@ a.forumlink:hover{
 .affix {
   position: fixed;
 }
-
-
+ 
 div.bbcode-panel a {
-color: black;
+	color: black;
+	background: white;
+	padding: 10px 5px;
 }
 
+ 
