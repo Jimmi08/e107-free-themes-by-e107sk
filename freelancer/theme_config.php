@@ -1,17 +1,16 @@
 <?php
 
 if (!defined('e107_INIT')) { exit; }
-
-// Dummy Theme Configuration File.
+ 
 class theme_config implements e_theme_config
 {
-	var $help_links = array();
+	private $helpLinks = array();
 
 	function __construct()
 	{
-		$this->help_links = 
+		$this->helpLinks = 
 		array( 
-			'support'		=> array('url' => 'https://www.e107sk.com/forum/themes-in-active-mode/', 
+			'support'		=> array('url' => '', 
 							'label' => LAN_JM_ADMIN_HELP_02,
 							'name' => LAN_JM_ADMIN_HELP_03),
 			'documentation'	=> array('url' => 'https://www.e107sk.com/documentation/e107-bootstrap4-free-theme/?cat.201', 
@@ -33,9 +32,7 @@ class theme_config implements e_theme_config
 
 
 	function config()
-	{
-		// v2.1.4 format.
-
+	{ 
 		$fields = array(
 		  'headerimage' => array('title' => LAN_THEMEPREF_05, 'type'=>'image', 'help'=>''),
 			'inlinecss'  	=> array('title' => LAN_THEMEPREF_01, 'type'=>'textarea', 'writeParms'=>array('size'=>'block-level'),'help'=>''),
@@ -44,17 +41,16 @@ class theme_config implements e_theme_config
 		);
 
 		return $fields;
-
 	}
 
 	function help()
 	{  
-		$content .= '<h2 class="text-center">' . LAN_JM_ADMIN_HELP_01 . '</h2>';
-		foreach($this->help_links AS $helplink) {
-			if($helplink['url'] != '') {
-				$content .= '<p class="text-center">' .$helplink['label'] . '</p>';
+		$content = '<h2 class="text-center">' . LAN_JM_ADMIN_HELP_01 . '</h2>';
+		foreach($this->helpLinks AS $helpLink) {
+			if(!empty($helpLink['url'])) {
+				$content .= '<p class="text-center">' .$helpLink['label'] . '</p>';
 				$content .= '<p class="text-center">';
-				$content .= '<a href="' .$helplink['url'] . '" target="_blank">' .$helplink['name'] . '</a>';
+				$content .= '<a href="' .$helpLink['url'] . '" target="_blank">' .$helpLink['name'] . '</a>';
 				$content .= '</p>';
 			}
 		}
@@ -67,5 +63,4 @@ class theme_config implements e_theme_config
 	 	return '';
 	}
 }
-
-?>
+ 
