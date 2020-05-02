@@ -13,10 +13,27 @@
 
 class theme_shortcodes extends e_shortcode
 {
-	function __construct()
-	{
-		
-	}
+    var $override = true;
+    var $file_extension = '.html';
+    var $sitetheme      = 'bootstrap4';
+    
+    private $pm_prefs       = null;
+    private $pm             = null;
+    private $userReg        = false;
+    
+    function __construct()
+    {
+        if( e107::isInstalled('pm') )
+        {
+            e107::includeLan(e_PLUGIN.'pm/languages/'.e_LANGUAGE.'.php');
+            require_once(e_PLUGIN."pm/pm_func.php");
+    
+            $this->pm = new pmbox_manager();      
+            $this->pm_prefs = $this->pm->prefs();	
+        }
+             
+    }
+
 
   // standard contact menu could be used too. It left it here for future improvement of validation - custom solution could be possible
 	function sc_freelancer_contactform($parm='')

@@ -33,7 +33,7 @@ If you think this theme is useful and you want it will be futher supported, then
 
 [![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKG5N3F6QL99J)
 
-![img](https://www.e107sk.com/img/preview_creative.png)
+![img](https://www.e107sk.com/img/freelancer-responsive-preview.jpg)
 
 
 

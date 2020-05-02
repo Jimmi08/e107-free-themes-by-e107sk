@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Theme name="Freelancer" version="4.0.1" date="2019-06-24" compatibility="2.2.1">
-	<author name ="Jimako" email="jimako@jimako.sk" url="https://www.e107sk.com/" />
+<e107Theme name="Freelancer" version="4.1.0" date="2020-05-02" compatibility="2.3.0">
+	<author name ="Jimako" email="jimako@e107sk.com" url="https://www.e107sk.com/" />
 	<summary>e107 Freelancer Bootstrap4 theme</summary>
 	<description>e107 Bootstrap 4 theme based on freelancer portfolio theme created by Start Bootstrap.</description>
 	<category>generic</category>
@@ -13,7 +13,7 @@
 		<library name="fontawesome" version="5" scope="all"/>
 	</libraries>
 	<screenshots>
-		<image>preview_frontend.png</image>
+		<image>preview_responsive.jpg</image>
 		<image>freelancer-responsive-preview.jpg</image>
 	</screenshots>
 	<stylesheets>
@@ -28,7 +28,7 @@
 			<custompages>forum.php  /forum/</custompages>
 		</layout>
 		<layout name='sidebar_right' title='Blog sidebar-right' default='true'   >
-			<custompages>/news/</custompages>	
+			<custompages>/news/ news.php</custompages>	
 		</layout>
      <layout name='singlesignup' title='Full width page with spaces on sides' >
 			<custompages>login.php signup.php fpw.php /signup/ /login/</custompages>

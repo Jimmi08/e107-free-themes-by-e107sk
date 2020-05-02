@@ -1,8 +1,3 @@
-.s-message.fade {
-opacity: 1 !important;
-visibility: inherit;
-} 
-
  
 
 body.layout-sidebar_right {
@@ -143,3 +138,40 @@ body#layout-sidebar_right {
 .g-recaptcha {
   margin-top: 20px;
 }
+
+/* START LOGIN TEMPLATE DEFAULT define("CORE_CSS", false); */
+#login-page .img-fluid,
+#login-template .img-fluid {
+	margin-right: auto!important; 
+	margin-left: auto!important;
+	display: block!important;
+}
+
+#login-page .form-group,
+#login-template .form-group {
+	text-align: center!important;
+}
+
+#login-page h1,
+#login-template h1, 
+#login-page h2,
+#login-template h2  {
+ text-align: center;
+}
+
+#login-template {
+    max-width: 330px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* END LOGIN TEMPLATE DEFAULT define("CORE_CSS", false); */
+/* START LOGIN TEMPLATE CUSTOM */
+/* END LOGIN TEMPLATE CUSTOM */
+
+/* START USER TEMPLATE */
+/* END USER TEMPLATE */
+
+
+

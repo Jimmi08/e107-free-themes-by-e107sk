@@ -1,6 +1,20 @@
-<?php 
-//Note:  DEFAULT_MENUAREA shortcode is part of JM Theme plugin
-$LAYOUT['_footer_'] = ' 
+<body class="{LAYOUT_ID}"  id="page-top"  >
+
+<nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
+	<div class="container">
+	  <a class="navbar-brand js-scroll-trigger" href="{SITEURL}">{SITENAME}</a>
+	  <button class="navbar-toggler navbar-toggler-right text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+		Menu
+		<i class="fas fa-bars"></i>
+	  </button>
+	  <div class="collapse navbar-collapse" id="navbarResponsive">
+			{NAVIGATION=main} {BOOTSTRAP_USERNAV: placement=top}
+	  </div>
+	</div>
+  </nav>	
+   
+{---LAYOUT---}
+
 {SETSTYLE=footer}
 <footer class="footer text-center">
     <div class="container">
@@ -8,12 +22,12 @@ $LAYOUT['_footer_'] = '
         {SETSTYLE=footer}
         <!-- Footer Location -->
         <div class="col-lg-4 mb-5 mb-lg-0">  
-            <h4 class="text-uppercase mb-4">'.LAN_FL_THEME_11.'</h4> 
+            <h4 class="text-uppercase mb-4">{LAN=LAN_FL_THEME_11}</h4> 
             {SITECONTACTINFO}{MENU=101}
         </div>
         <!-- Footer Social Icons -->
         <div class="col-lg-4 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">'.LAN_FL_THEME_10.'</h4>
+            <h4 class="text-uppercase mb-4">{LAN=LAN_FL_THEME_10}</h4>
             {MENU=102}{XURL_ICONS: size=2x} 
         </div>
         <!-- Footer About Text -->
@@ -39,4 +53,4 @@ $LAYOUT['_footer_'] = '
     </a>
 </div>
 {FREELANCER_MODALPORTFOLIO}
-';
+</body>  

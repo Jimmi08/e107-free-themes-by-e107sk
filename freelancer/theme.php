@@ -6,8 +6,10 @@
 if (!defined('e107_INIT')) { exit; }
 
 define("BOOTSTRAP", 	4);
-define("FONTAWESOME", 	5);
-define('VIEWPORT', 		"width=device-width, initial-scale=1.0");
+define("FONTAWESOME", 	5);          
+define("CORE_CSS", false);
+
+e107::meta('viewport', 'width=device-width, initial-scale=1.0');
  
 e107::lan('theme');
  
@@ -31,64 +33,58 @@ $inlinejs = e107::pref('theme', 'inlinejs');
 if($inlinejs) { 
 	e107::js("footer-inline", $inlinejs);
 }
-
-define('BODYTAG', '<body id="page-top" class="index layout-'.THEME_LAYOUT.'" />');
  
+if(e_PAGE == 'login.php') {
 
-//e107::js("footer-inline", 	"$('.e-tip').tooltip({container: 'body'})"); // activate bootstrap tooltips. 
+	define('e_IFRAME','1');  
 
-// Legacy Stuff.
-define('OTHERNEWS_COLS',false); // no tables, only divs. 
-define('OTHERNEWS_LIMIT', 3); // Limit to 3. 
-define('OTHERNEWS2_COLS',false); // no tables, only divs. 
-define('OTHERNEWS2_LIMIT', 3); // Limit to 3. 
-define('COMMENTLINK', 	e107::getParser()->toGlyph('fa-comment'));
-define('COMMENTOFFSTRING', '');
-
-define('PRE_EXTENDEDSTRING', '<br />');
-
-
-/**
- * @param string $caption
- * @example  []Heading 1
- * @example  [Heading2] 
- * @return empty string if correct syntax is used
- */
-function checkcaption( $caption ) 
-{
-	// get rid of any leading and trailing spaces
-	$title = trim( $caption );
-	// check the first and last character, if [ and ] set the title to empty  - this always doesn't work because admin stuff in captions
-	if ( $title[0]== '[' && $title[strlen($title) - 1] == ']' ) $title = '';   
-	// so just put [] at the beginning of menu title
-	if ( $title[0]== '[' && $title[1] == ']' ) $title = '';  
-	return $title;
 }
 
-/* moved here from theme shortcodes 
-it's needed because W3C validation
-they are added by tinymce
-*/ 
-function remove_ptags($text='')
+////////////////////////////////////////////////////////////////////////////////
+class theme implements e_theme_render
 {
-    $text =  str_replace(array("<!-- bbcode-html-start --><p>","</p><!-- bbcode-html-end -->"), "", $text);
-    return $text; 
-}
 
 
-/**
- * @param string $caption
- * @param string $text
- * @param string $id : id of the current render
- * @param array $info : current style and other menu data. 
- */
-function tablestyle($caption, $text, $id='', $info=array()) 
-{
-//	global $style; // no longer needed. 
+    /**
+     * @param string $caption
+     * @example  []Heading 1
+     * @example  [Heading2] 
+     * @return empty string if correct syntax is used
+     */
+    function checkcaption( $caption ) 
+    {
+    	// get rid of any leading and trailing spaces
+    	$title = trim( $caption );
+    	// check the first and last character, if [ and ] set the title to empty  - this always doesn't work because admin stuff in captions
+    	if ( $title[0]== '[' && $title[strlen($title) - 1] == ']' ) $title = '';   
+    	// so just put [] at the beginning of menu title
+    	if ( $title[0]== '[' && $title[1] == ']' ) $title = '';  
+    	return $title;
+    }
+
+	/**
+	 * @param string $text
+	 * @return string without p tags added always with bbcodes
+	 * note: this solves W3C validation issue and CSS style problems
+	 * use this carefully, mainly for custom menus, let decision on theme developers
+	 */
+
+	function remove_ptags($text = '') // FIXME this is a bug in e107 if this is required.
+	{
+
+		$text = str_replace(array("<!-- bbcode-html-start --><p>", "</p><!-- bbcode-html-end -->"), "", $text);
+
+		return $text;
+	}
+
+ 
+	function tablestyle($caption, $text, $mode = '', $data = array())
+	{
+ 	global $style; // no longer needed. 
 	
-	$style = $info['setStyle'];
+	$style = $data['setStyle'];
 	
-	echo "<!-- tablestyle: style=".$style." id=".$id." -->\n\n";
+	echo "<!-- tablestyle: style=".$style." id=".$mode." -->\n\n";
 	
 	$type = $style;
 	if(empty($caption))
@@ -97,18 +93,18 @@ function tablestyle($caption, $text, $id='', $info=array())
 	}
 	
   /* FIX more than one tablerender on page reason: correct h* tags */
-  if (strpos($id, 'comment') !== false) { $style = 'default'; }
+  if (strpos($mode, 'comment') !== false) { $style = 'default'; }
  
   /* in case standard menu is used with listgroup area */
   /* this will be upgraded in version 2.2.2 */
   if($style == 'listgroup') {
-    if (strpos($id, 'search') !== false) { $style = 'cardmenu'; }
-    if (strpos($id, 'contact-menu') !== false) { $style = 'cardmenu'; }  
-    if (strpos($id, 'clock') !== false) { $style = 'cardmenu'; }
-    if (strpos($id, 'other_news2') !== false) { $style = 'cardmenu'; }  
-    if (strpos($id, 'news_categories_menu') !== false) { $style = 'cardmenu'; } 
-    if (strpos($id, 'lastseen') !== false) { $style = 'cardmenu'; }   
-    if (strpos($id, 'online_extended') !== false) { $style = 'cardmenu'; }      
+    if (strpos($mode, 'search') !== false) { $style = 'cardmenu'; }
+    if (strpos($mode, 'contact-menu') !== false) { $style = 'cardmenu'; }  
+    if (strpos($mode, 'clock') !== false) { $style = 'cardmenu'; }
+    if (strpos($mode, 'other_news2') !== false) { $style = 'cardmenu'; }  
+    if (strpos($mode, 'news_categories_menu') !== false) { $style = 'cardmenu'; } 
+    if (strpos($mode, 'lastseen') !== false) { $style = 'cardmenu'; }   
+    if (strpos($mode, 'online_extended') !== false) { $style = 'cardmenu'; }      
   }
 
   /* FIX for card without body for some menus */
@@ -116,7 +112,7 @@ function tablestyle($caption, $text, $id='', $info=array())
     if($style == 'cardmenu')  { $style = 'menu'; }
   }
 	  
-  echo "<!-- tablestyle final: style=".$style." id=".$id." -->\n\n";
+  echo "<!-- tablestyle final: style=".$style." id=".$mode." -->\n\n";
   
    
 	if($style == 'contact')
@@ -148,7 +144,7 @@ function tablestyle($caption, $text, $id='', $info=array())
 	{   
         if(!empty($caption))
         {
-            echo '<h4 class="text-uppercase mb-4">'.checkcaption($caption).'</h4>';
+            echo '<h4 class="text-uppercase mb-4">'.$this->checkcaption($caption).'</h4>';
         }	
         echo $text;	
 		return;
@@ -158,7 +154,7 @@ function tablestyle($caption, $text, $id='', $info=array())
 	{   
         if(!empty($caption))
         {
-            echo '<h5 class="card-title text-center">'.checkcaption($caption).'</h5>';
+            echo '<h5 class="card-title text-center">'.$this->checkcaption($caption).'</h5>';
         }	
         echo $text;	
 		return;
@@ -217,11 +213,11 @@ function tablestyle($caption, $text, $id='', $info=array())
 
 	if($style == 'bare')
 	{
-	  echo  remove_ptags($text) ;
+	  echo  $this->remove_ptags($text) ;
 		return;
 	}
 
- if($id == 'wm') // Example - If rendered from 'welcome message' 
+ if($mode == 'wm') // Example - If rendered from 'welcome message' 
  {
  
     echo '
@@ -237,7 +233,7 @@ function tablestyle($caption, $text, $id='', $info=array())
     </div>
 
     <!-- Masthead Subheading -->
-    <p class="masthead-subheading font-weight-light mb-0">'.remove_ptags($text).'</p> ';
+    <p class="masthead-subheading font-weight-light mb-0">'.$this->remove_ptags($text).'</p> ';
     return; 
  
  }
@@ -252,94 +248,10 @@ function tablestyle($caption, $text, $id='', $info=array())
  			
 	return;
 	
+}	
 	
-	
 }
 
-
-/* Fix for Menu Manager *******************************************************/
-/* Explanation:  List of available menuareas to add new menu is done by parsing code 
-of theme.php file 
-/*  using separate files causes not available menuareas dropdown in menu manager
  
-/******************************************************************************/
-/* BELLOW ARE FALSE $LAYOUTS JUST FOR MENU MANAGER, they are ignored later */
-$LAYOUT['homepage'] =  '    
-{MENU=1}{---}{MENU=2} 
-{MENU=101}{MENU=102}{MENU=103} 
-';
-
-$LAYOUT['full'] =  '
-{MENU=1}{---}
-{MENU=101}{MENU=102}{MENU=103} 
-'; 
-
-$LAYOUT['sidebar_right'] =  '
-{---}{MENU=1}{MENU=2}
-{MENU=101}{MENU=102}{MENU=103}
-'; 
-
-$LAYOUT['singlesignup'] =  '
-{---}
-'; 
-
-$LAYOUT['bare'] =  '
-{---}
-'; 
-
-$LAYOUT['default'] = '
-{MENU=1}{---}
-{MENU=101}{MENU=102}{MENU=103} 
-'; 
-
-// applied before every layout.
-$headerpath = THEME.'headers/header-default.php';
-if(file_exists($headerpath)) {        
-   include_once($headerpath);
-} 
-else {
- $LAYOUT['_header_'] = "";
-}
-
-// applied after every layout. 
-$footerpath = THEME.'footers/footer-default.php';
-if(file_exists($footerpath)) {        
-   include_once($footerpath);
-} 
-else {
- $LAYOUT['_footer_'] = "";
-}
-
-
-$finallayout = THEME.'layouts/'.THEME_LAYOUT.'_layout.php';
  
-if(file_exists($finallayout)) {        
-    include_once($finallayout);
-} 
- else {
-    //do nothing, let possibility to use old layout
-} 
-
- 
-$NEWSCAT = "\n\n\n\n<!-- News Category -->\n\n\n\n
-	<div style='padding:2px;padding-bottom:12px'>
-	<div class='newscat_caption'>
-	{NEWSCATEGORY}
-	</div>
-	<div style='width:100%;text-align:left'>
-	{NEWSCAT_ITEM}
-	</div>
-	</div>
-";
-
-
-$NEWSCAT_ITEM = "\n\n\n\n<!-- News Category Item -->\n\n\n\n
-		<div style='width:100%;display:block'>
-		<table style='width:100%'>
-		<tr><td style='width:2px;vertical-align:middle'>&#8226;&nbsp;</td>
-		<td style='text-align:left;height:10px'>
-		{NEWSTITLELINK}
-		</td></tr></table></div>
-";
-
 ?>
