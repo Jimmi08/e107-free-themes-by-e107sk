@@ -4,8 +4,8 @@
 		$links = array();
 		$links['supportforum']    =  "https://www.e107sk.com/forum/themes-in-active-mode/";
 		$links['documentation']   =  "https://www.e107sk.com/documentation/e107-bootstrap4-free-theme/?cat.201";	
-    $links['demo']            =  "https://www.e107sk.com/demo/freelancer/";	
-    $links['github']          =  "https://github.com/Jimmi08/e107-theme-freelancer/";	    
+    $links['demo']            =  "https://www.e107sk.com/bootstrap/freelancer/";	
+    $links['github']          =  "https://github.com/Jimmi08/e107-free-themes-by-e107sk/tree/master/freelancer";	    
     $links['download']        =  "https://www.e107sk.com/download/40/e107-bootstrap-4-freelancer-theme";    
     
     

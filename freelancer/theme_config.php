@@ -29,7 +29,7 @@ class theme_config implements e_theme_config
 
 	function help()
 	{  
-     include('e_help.php');
+     include('help/theme_help.php');
      return $helptext;   
       
 	}
