@@ -16,7 +16,7 @@ define("LAN_THEMEPREF_05", "Header image");
 
 
 define("LAN_JM_ADMIN_HELP_01", "Help & Support");
-define("LAN_JM_ADMIN_HELP_02", "The support forum for this theme is available on:  ");
+define("LAN_JM_ADMIN_HELP_02", "The support forum for this item is available on:  ");
 define("LAN_JM_ADMIN_HELP_03", "Support Forum");
 define("LAN_JM_ADMIN_HELP_04", "There is documentation too. Something is missing or not clear? Create a question on the forum, we will add the answer asap.:   ");
 define("LAN_JM_ADMIN_HELP_05", "Documentation");
