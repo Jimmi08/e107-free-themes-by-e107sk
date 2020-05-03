@@ -1,6 +1,8 @@
 <?php
 
 if (!defined('e107_INIT')) { exit; }
+
+
  
 class theme_config implements e_theme_config
 {
@@ -8,6 +10,8 @@ class theme_config implements e_theme_config
 
 	function __construct()
 	{
+		e107::themeLan('admin','freelancer', true);
+		
 		$this->helpLinks = 
 		array( 
 			'support'		=> array('url' => '', 
@@ -26,8 +30,6 @@ class theme_config implements e_theme_config
 							'label' => LAN_JM_ADMIN_HELP_10,
 							'name' => LAN_JM_ADMIN_HELP_11),														
 		);			 
-
-		e107::themeLan('admin','freelancer', true);
 	}
 
 
