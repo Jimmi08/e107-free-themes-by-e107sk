@@ -14,10 +14,10 @@ class theme_config implements e_theme_config
 		
 		$this->helpLinks = 
 		array( 
-			'support'		=> array('url' => '', 
+			'support'		=> array('url' => 'https://www.e107sk.com/forum/themes-in-active-mode/', 
 							'label' => LAN_JM_ADMIN_HELP_02,
 							'name' => LAN_JM_ADMIN_HELP_03),
-			'documentation'	=> array('url' => 'https://www.e107sk.com/documentation/e107-bootstrap4-free-theme/?cat.201', 
+			'documentation'	=> array('url' => 'https://www.e107sk.com/e107-themes/startbootstrap-templates-e107-bootstrap-freelancer-theme/?cat.192', 
 							'label' => LAN_JM_ADMIN_HELP_04,
 							'name' => LAN_JM_ADMIN_HELP_05),
 			'demo'	=> array('url' => 'https://www.e107sk.com/bootstrap/freelancer/', 

@@ -9,7 +9,6 @@
 		<word>clean</word>
 	</keywords>
 	<libraries>
-		<library name="bootstrap" version="4" scope="all"/>
 		<library name="fontawesome" version="5" scope="all"/>
 	</libraries>
 	<screenshots>
@@ -19,23 +18,23 @@
 	<stylesheets>
 		<css file="style.css" name="Default"  />
 	</stylesheets>
-	<layouts>
-		<layout name='default' title='Default'  default='true' />
-    <layout name='homepage' title='Home Page' >
+	<layouts>	
+    	<layout name='homepage' title='Home Page' >
 			<custompages>FRONTPAGE</custompages>
 		</layout>
-     <layout name='full' title='Full width page' >
+     	<layout name='full' title='Full width page' >
 			<custompages>forum.php  /forum/</custompages>
 		</layout>
 		<layout name='sidebar_right' title='Blog sidebar-right' default='true'   >
 			<custompages>/news/ news.php</custompages>	
 		</layout>
-     <layout name='singlesignup' title='Full width page with spaces on sides' >
+     	<layout name='singlesignup' title='Full width page with spaces on sides' >
 			<custompages>login.php signup.php fpw.php /signup/ /login/</custompages>
 		</layout>
 		<layout name='bare' title='Starter Bare template for development' >
 			<custompages>guide</custompages>
 		</layout>
+		<layout name='default' title='Default'  default='true' />
 	</layouts>
 	<themePrefs>
 		<pref name='cardmenu_look'>1</pref>

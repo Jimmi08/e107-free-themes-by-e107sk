@@ -139,6 +139,12 @@ body#layout-sidebar_right {
   margin-top: 20px;
 }
 
+/* START GENERAL DEFAULT */
+.badge-square {
+    border-radius: 0;
+}
+/* END GENERAL DEFAULT */
+
 /* START LOGIN TEMPLATE DEFAULT define("CORE_CSS", false); */
 #login-page .img-fluid,
 #login-template .img-fluid {

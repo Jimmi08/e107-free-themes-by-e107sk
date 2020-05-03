@@ -18,6 +18,8 @@ define("LAN_FL_THEME_06", "Message");
 define("LAN_FL_THEME_07", "Please enter a message.");
 define("LAN_FL_THEME_08", "Phone Number");
 define("LAN_FL_THEME_09", "Please enter your phone number.");
+define("LAN_FL_THEME_10", "Menu");
+
 
 
 define("LAN_FL_THEME_10", "Around the Web");
