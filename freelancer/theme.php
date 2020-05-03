@@ -38,7 +38,7 @@ class theme implements e_theme_render
 		*/
 
 		e107::js("theme", 	'js/scripts.js', 'jquery'); 
- 
+		e107::js("theme", 	'custom.js', 'jquery'); 
 
 		$this->getInlineCodes();
 
@@ -238,6 +238,14 @@ class theme implements e_theme_render
 		{
 			echo  $this->remove_ptags($text) ;
 			return;
+		}
+
+		if($style == 'default') {
+			if(!empty($caption))
+			{
+				echo '<h3 class="text-heading">' . $caption . '</h3>';
+			}
+			echo $text;
 		}
 
 		if($mode == 'wm') // Example - If rendered from 'welcome message' 

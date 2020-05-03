@@ -23,28 +23,19 @@ $(document).ready(function() {
     $('ul.pagination').find('a').each(function() {
   	 $(this).addClass('page-link');
   	} );
-    
-    // fade in #back-top
-    $(function () {
-        $(window).scroll(function () {
-            if ($(this).scrollTop() > 100) {
-                $('#back-top').fadeIn();
-            } else {
-                $('#back-top').fadeOut();
-            }
-        });
-
-        // scroll body to 0px on click
-        $('#back-top a').click(function () {
-            $('body,html').animate({
-                scrollTop: 0
-            }, 500);
-            return false;
-        });
-    }); 
-
+  
     $('span.badge').each(function() {
       	 $(this).addClass('badge-primary');
-  	} );               
+	  } );   
+	  
+	$('ul.login-menu-logged').addClass('flex-column');
+	
+	$('ul.login-menu-logged').find('li ').each(function() {
+		$(this).addClass('nav-item');
+	} ); 
+
+	$('ul.login-menu-logged').find(' li a ').each(function() {
+		$(this).addClass('nav-link');
+	} );	  
 });
  

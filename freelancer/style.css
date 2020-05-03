@@ -179,5 +179,9 @@ body#layout-sidebar_right {
 /* START USER TEMPLATE */
 /* END USER TEMPLATE */
 
-
+@media (min-width: 768px) {
+section {
+	padding: 9rem 0;
+	}
+}
 
