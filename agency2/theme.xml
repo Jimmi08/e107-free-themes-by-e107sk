@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Theme name="Agency2" version="2.1.0" date="2020-05-02" compatibility="2.3.0">
+	<author name ="e107 Inc" email="jimako@e107sk.com" url="https://github.com/e107inc/agency2" />
+	<summary>Agency Bootstrap 4 e107 theme</summary>
+	<description>Agency 2 is an agency portfolio theme for Bootstrap 4 created by Start Bootstrap. This theme features several content sections, a responsive portfolio grid with hover effects, full page portfolio item modals, a responsive timeline.</description>
+	<category>generic</category>
+	<plugins>
+		<plugin name='gallery' url='core' />
+	</plugins>
+	<keywords>
+		<word>bootstrap</word>
+		<word>clean</word>
+		<word>business</word>
+	</keywords>
+	<screenshots>
+		<image>preview_frontend.jpg</image>
+	</screenshots>
+	<libraries>
+		<library name="fontawesome" version="5" scope="all"/>
+	</libraries>
+	<stylesheets>
+		<css file="style.css" name="Default"  />
+	</stylesheets>
+	<layouts>
+		<layout name='homepage' title='Home Page' >
+				<custompages>FRONTPAGE</custompages>
+		</layout>
+		<layout name='full' title='Full width page' >
+			<custompages>forum.php  /forum/</custompages>
+		</layout>
+		<layout name='sidebar_right' title='Blog sidebar-right'>
+			<custompages>/news/ news.php</custompages>	
+		</layout>
+     	<layout name='singlesignup' title='Full width page with spaces on sides' >
+			<custompages>login.php signup.php fpw.php /signup/ /login/</custompages>
+		</layout>
+		<layout name='bare' title='Starter Bare template for development' >
+			<custompages>guide</custompages>
+		</layout>
+		<layout name='default' title='Default'  default='true' />
+	</layouts>
+</e107Theme>
