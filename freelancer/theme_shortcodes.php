@@ -14,13 +14,11 @@
 class theme_shortcodes extends e_shortcode
 {
     var $override = true;
-    var $file_extension = '.html';
-    var $sitetheme      = 'bootstrap4';
-	
+
 	//needed for theme {THEME_PM_NAV}
     private $pm_prefs       = null;
     private $pm             = null;
-    private $userReg        = false;
+    private $userReg        = false;     
     
     function __construct()
     {
@@ -33,6 +31,9 @@ class theme_shortcodes extends e_shortcode
             $this->pm = new pmbox_manager();      
             $this->pm_prefs = $this->pm->prefs();	
         }
+        
+        //needed for variable header+footer
+        $this->sitetheme = e107::getPref('sitetheme');
              
     }
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Theme name="Creative" version="1.2.0" date="2019-08-17" compatibility="2.2.2">
+<e107Theme name="Creative" version="1.3.0" date="2020-04-20" compatibility="2.3.0">
 	<author name ="Jimako" email="jimako@e107sk.com" url="https://www.e107sk.com/" />
 	<summary>Bootstrap4 theme based on Creative theme by StartBootstrap </summary>
 	<description>Bootstrap4 theme based on Creative theme by StartBootstrap </description>

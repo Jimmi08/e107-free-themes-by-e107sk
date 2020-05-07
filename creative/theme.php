@@ -10,32 +10,8 @@ e107::lan('theme');
 e107::meta('viewport', 'width=device-width, initial-scale=1.0');
 //e107::meta('apple-mobile-web-app-capable','yes');
  
-$bootswatch = e107::pref('theme', 'bootswatch', false);
-if($bootswatch) {
-	e107::css('url', 'https://bootswatch.com/4/' . $bootswatch . '/bootstrap.min.css');
-	e107::css('url', 'https://bootswatch.com/4/' . $bootswatch . '/bootstrap.min.css');
-}
 
-$inlinecss = e107::pref('theme', 'inlinecss', false);
-if($inlinecss)
-{
-	e107::css("inline", $inlinecss);
-}
-$inlinejs = e107::pref('theme', 'inlinejs');
-if($inlinejs)
-{
-	e107::js("footer-inline", $inlinejs);
-}
-
-e107::css('url', 	'https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700');
-e107::css('url', 	'https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic');
-e107::css('theme', 	'assets/vendor/magnific-popup/magnific-popup.css');
-e107::css('theme', 	'assets/css/creative.min.css');
-
-e107::js("theme", 	'assets/vendor/jquery-easing/jquery.easing.min.js', 'jquery');
-e107::js("theme", 	'assets/vendor/magnific-popup/jquery.magnific-popup.min.js', 'jquery');
-e107::js("theme", 	'assets/js/creative.js', 'jquery'); 
-e107::js("theme", 	'custom.js', 'jquery'); 
+ 
 
 $login_iframe  = e107::pref('theme', 'login_iframe', false);
 if(THEME_LAYOUT == "singlelogin" && $login_iframe )  {
@@ -46,9 +22,46 @@ if(THEME_LAYOUT == "singlesignup" && $login_iframe )  {
 }
 
 
-class creative_theme
+////////////////////////////////////////////////////////////////////////////////
+class theme implements e_theme_render
 {
 
+	function __construct() {
+ 
+      e107::css('url', 	'https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700');
+      e107::css('url', 	'https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic');
+      e107::css('theme', 	'assets/vendor/magnific-popup/magnific-popup.css');
+
+      
+      
+      
+      $bootswatch = e107::pref('theme', 'bootswatch', false);
+      if($bootswatch) {
+      	e107::css('url', 'https://bootswatch.com/4/' . $bootswatch . '/bootstrap.min.css');
+      	e107::css('url', 'https://bootswatch.com/4/' . $bootswatch . '/bootstrap.min.css');
+      }
+      
+      
+      e107::css('theme', 	'css/styles.css');
+            
+      e107::js("theme", 	'assets/vendor/jquery-easing/jquery.easing.min.js', 'jquery');
+      e107::js("theme", 	'assets/vendor/magnific-popup/jquery.magnific-popup.min.js', 'jquery');
+      e107::js("theme", 	'js/scripts.js', 'jquery'); 
+      e107::js("theme", 	'custom.js', 'jquery');      
+    }
+    
+    function getInlineCodes() 
+	{
+		$inlinecss = e107::pref('theme', 'inlinecss', FALSE);
+		if($inlinecss) { 
+			e107::css("inline", $inlinecss);
+		}
+		$inlinejs = e107::pref('theme', 'inlinejs');
+		if($inlinejs) { 
+			e107::js("footer-inline", $inlinejs);
+		}
+	}
+    
 	/**
 	 * @param string $text
 	 * @return string without p tags added always with bbcodes
@@ -64,14 +77,14 @@ class creative_theme
 			return $text;
 		}
 
-		function tablestyle($caption, $text, $mode, $options = array())
+        function tablestyle($caption, $text, $mode = '', $data = array())
 		{
 
 			$style = varset($options['setStyle'], 'default');
 			
 			//this should be displayed only in e_debug mode
 			
-      echo "\n<!-- tablestyle initial:  style=" . $style . "  mode=" . $mode . "  UniqueId=" . varset($options['uniqueId']) . " -->\n\n";
+      echo "\n<!-- tablestyle initial:  style=" . $style . "  mode=" . $mode . "  UniqueId=" . varset($data['uniqueId']) . " -->\n\n";
 
 
 			if($mode == 'wmessage' OR $mode == 'wm')
@@ -80,13 +93,13 @@ class creative_theme
 			}
  
 			
-			if($style === 'listgroup' && empty($options['list']))
+			if($style === 'listgroup' && empty($data['list']))
 			{
 				$style = 'cardmenu';
 			}
 
  
-			if($style === 'cardmenu' && !empty($options['list']))
+			if($style === 'cardmenu' && !empty($data['list']))
 			{
 				$style = 'listgroup';
 			}
@@ -116,11 +129,11 @@ class creative_theme
 				$style = 'menu';
 			}
 
-			echo "\n<!-- tablestyle:  style=" . $style . "  mode=" . $mode . "  UniqueId=" . varset($options['uniqueId']) . " -->\n\n";
+			echo "\n<!-- tablestyle:  style=" . $style . "  mode=" . $mode . "  UniqueId=" . varset($data['uniqueId']) . " -->\n\n";
 
 			echo "\n<!-- \n";
 
-			echo json_encode($options, JSON_PRETTY_PRINT);
+			echo json_encode($data, JSON_PRETTY_PRINT);
 
 			echo "\n-->\n\n";
 
