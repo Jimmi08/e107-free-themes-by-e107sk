@@ -85,3 +85,22 @@ ul.social-buttons li a {
 .layout-singlelogin .fixed-top {
   position: initial;
 }
+
+/* Core Calenddar */
+.datetimepicker table tr td.active:active, .datetimepicker table tr td.active:hover:active, 
+.datetimepicker table tr td.active.disabled:active, 
+.datetimepicker table tr td.active.disabled:hover:active, 
+.datetimepicker table tr td.active.active, 
+.datetimepicker table tr td.active:hover.active, 
+.datetimepicker table tr td.active.disabled.active, 
+.datetimepicker table tr td.active.disabled:hover.active {
+	background-color: #ff550b!important;
+	background: #ff550b!important;
+	background-image: linear-gradient(to bottom,#ff550b,#ff550b)
+}
+ 
+.datetimepicker table tr td.day:hover {
+    background: #eee;
+	cursor: pointer;
+	color: #ff550b!important; 
+}

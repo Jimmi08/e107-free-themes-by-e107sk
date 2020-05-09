@@ -2,23 +2,24 @@
 
 /*  - {ELEMENTS: mode=masthead&template=imageheader} */
 $JMELEMENTS_TEMPLATE['imageheader']['start'] =  '
-  <!-- Masthead -->
-  <header class="masthead" style="
+        <!-- Masthead-->
+        <header class="masthead" style="
       background: -webkit-gradient(linear,left top,left bottom,from(rgba(92,77,66,.8)),to(rgba(92,77,66,.8))),url({SECTION_BGIMAGE});
       background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url({SECTION_BGIMAGE}); ">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center justify-content-center text-center">
-        <div class="col-lg-10 align-self-end">
-          <h1 class="text-uppercase text-white font-weight-bold">{SECTION_TITLE}</h1>
-          <hr class="divider my-4">
-        </div>
-        <div class="col-lg-8 align-self-baseline">
-          <p class="text-white-75 font-weight-light mb-5">{SECTION_SUBTITLE}</p>
-          <a class="btn btn-primary btn-xl js-scroll-trigger" href="{SECTION_URL}">{SECTION_TEXT}</a>
-        </div>
-      </div>
-    </div>
-  </header>
+            <div class="container h-100">
+                <div class="row h-100 align-items-center justify-content-center text-center">
+                    <div class="col-lg-10 align-self-end">
+                        <h1 class="text-uppercase text-white font-weight-bold">{SECTION_TITLE}</h1>
+                        <hr class="divider my-4" />
+                    </div>
+                    <div class="col-lg-8 align-self-baseline">
+                        <p class="text-white-75 font-weight-light mb-5">{SECTION_SUBTITLE}</p>
+                        <a class="btn btn-primary btn-xl js-scroll-trigger" href="{SECTION_URL}">{SECTION_TEXT}</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+ 
  ';
 $JMELEMENTS_TEMPLATE['imageheader']['item'] =  '';
 $JMELEMENTS_TEMPLATE['imageheader']['end'] =  '';
