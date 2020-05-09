@@ -59,6 +59,51 @@ class theme implements e_theme_render
 		}
 	}
 
+	function getInlineCodes() 
+	{
+		$inlinecss = e107::pref('theme', 'inlinecss', FALSE);
+		if($inlinecss) { 
+			e107::css("inline", $inlinecss);
+		}
+		$inlinejs = e107::pref('theme', 'inlinejs');
+		if($inlinejs) { 
+			e107::js("footer-inline", $inlinejs);
+		}
+
+	}
+
+	/**
+     * @param string $caption
+     * @example  []Heading 1
+     * @example  [Heading2] 
+     * @return empty string if correct syntax is used
+     */
+    function checkcaption( $caption ) 
+    {
+    	// get rid of any leading and trailing spaces
+    	$title = trim( $caption );
+    	// check the first and last character, if [ and ] set the title to empty  - this always doesn't work because admin stuff in captions
+    	if ( $title[0]== '[' && $title[strlen($title) - 1] == ']' ) $title = '';   
+    	// so just put [] at the beginning of menu title
+    	if ( $title[0]== '[' && $title[1] == ']' ) $title = '';  
+    	return $title;
+	}
+
+	/**
+	 * @param string $text
+	 * @return string without p tags added always with bbcodes
+	 * note: this solves W3C validation issue and CSS style problems
+	 * use this carefully, mainly for custom menus, let decision on theme developers
+	 */
+
+	function remove_ptags($text = '') // FIXME this is a bug in e107 if this is required.
+	{
+
+		$text = str_replace(array("<!-- bbcode-html-start --><p>", "</p><!-- bbcode-html-end -->"), "", $text);
+
+		return $text;
+	}
+
 	/**
 	 * @param string $caption
 	 * @param string $text

@@ -124,6 +124,18 @@ a.tag {
     width: initial;
 }
 
+.sitedisclaimer {
+    background: #222;
+    padding: 20px 0;
+	text-align: center;
+	color: #fff;
+}
+
+.sitedisclaimer a {
+    margin-bottom: 4px;
+    color: #00b3fe;
+}
+
 .badge {
     background-color: #00b3fe;
 }

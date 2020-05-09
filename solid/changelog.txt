@@ -5,7 +5,11 @@
 - fixed featurebox css (result bootstrap version change)
 - fixed https for imported css  
 - removed theme user template
-
+- fixed teammember template (it was part of user template)
+- replaced bootstrap user navigation
+- removed not used shortcode bootstrap branding
+- added sitedesclaimer bootom footer
+- added support for inline codes
 
 ### Version 2.1.2 (git)– 
 - Fix hardcoded date on project page with shortcode
