@@ -152,16 +152,4 @@ $PAGE_TEMPLATE['default']['related']['end'] 					= "
 </div>
 	</div>
 </div>";                       
-	
-	
-
-
-
-
-
-
-
-	
-	
-	
-?>
+ 

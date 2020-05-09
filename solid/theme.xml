@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Theme name="Solid" version="2.1.2 (git)" date="2017-01-18" compatibility="2.1.5 (git) ">
-	<author name ="Jimako" email="" url="http://e107.sk" />
+<e107Theme name="Solid" version="2.2.0" date="2020-05-09" compatibility="2.3.0">
+	<author name ="Jimako" email="" url="https://www.e107sk.com" />
 	<summary>SOLID - Bootstrap 3 Theme</summary>
 	<description>Original Solid theme is a 7 pages theme ideal for web agencies and freelancers. Uses Font Awesome, Masonry Javascript, PrettyPhoto lightbox and nice hover effects thanks Codrops. With e107 it can be multipage site for any purpose.</description>
 	<category>generic</category>
 	<plugins>
 		<plugin name='gallery' url='core' />
-    <plugin name='faqs' url='core' />
+    	<plugin name='faqs' url='core' />
 		<plugin name='social' url='core' />
 		<plugin name='featurebox' url='core' />
 		<plugin name='tagcloud' url='core' />
@@ -15,6 +15,10 @@
 		<word>bootstrap</word>
 		<word>clean</word>
 	</keywords>
+	<libraries>
+		<library name="bootstrap" version="3" scope="all"/>
+		<library name="fontawesome" version="4"  scope="all"/>
+	</libraries>
 	<screenshots>
 		<image>preview_frontend.png</image>
 		<image>preview_responsive.png</image>

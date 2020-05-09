@@ -104,7 +104,4 @@ $CONTACT_TEMPLATE['menu'] =  '
 	// Customize the email subject
 	// Variables:  CONTACT_SUBJECT and CONTACT_PERSON as well as any custom fields set in the form. )
 	$CONTACT_TEMPLATE['email']['subject'] = "{CONTACT_SUBJECT}";
-
-	
-
-?>
+ 

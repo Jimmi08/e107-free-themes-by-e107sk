@@ -17,7 +17,7 @@
 	$MENU_TEMPLATE['buttom-image']['body'] 				= '<div>{CMENUIMAGE}</div>{CPAGEBUTTON}';
 	$MENU_TEMPLATE['buttom-image']['end'] 				= '</div>'; 
  
-  $MENU_TEMPLATE['image-only']['start'] 			= '{SETIMAGE: w=750&h=530&crop=1}<div class="cpage-menu {CMENUNAME}">';
+    $MENU_TEMPLATE['image-only']['start'] 			= '{SETIMAGE: w=750&h=530&crop=1}<div class="cpage-menu {CMENUNAME}">';
 	$MENU_TEMPLATE['image-only']['body'] 				= '{CMENUIMAGE}';
 	$MENU_TEMPLATE['image-only']['end'] 				= '</div>'; 
 	       
@@ -34,4 +34,4 @@
 	$MENU_TEMPLATE['clients']['start'] 					= ' <h3>{CMENUTITLE} </h3>'; 
 	$MENU_TEMPLATE['clients']['body'] 					= '{CMENUBODY}'; 
 	$MENU_TEMPLATE['clients']['end'] 					= ''; 
-?>
+

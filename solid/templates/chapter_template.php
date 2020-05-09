@@ -106,7 +106,7 @@ $CHAPTER_TEMPLATE['nav']['listChapters']['submenu_end'] 			= '</ul>';
 
 $CHAPTER_TEMPLATE['nav']['listBooks'] = $CHAPTER_TEMPLATE['nav']['listChapters'];
 $CHAPTER_TEMPLATE['nav']['listPages'] = $CHAPTER_TEMPLATE['nav']['listChapters'];
-$CHAPTER_TEMPLATE['nav']['showPage']  = $CHAPTER_TEMPLATE['nav']['listChapters'];
+$CHAPTER_TEMPLATE['nav']['showPage'] = $CHAPTER_TEMPLATE['nav']['listChapters'];
 
 
 // Used by e107_plugins/page/chapter_menu.php & /page.php?bk=x
@@ -195,4 +195,4 @@ $CHAPTER_TEMPLATE['portfolio']['listItems']['end'] 					= "
 		</div><!-- portfolio container -->
 	</div><!--/Portfoliowrap -->
 ";	
-?>
+ 

@@ -4,6 +4,7 @@ Original Solid theme is a 7 pages theme ideal for web agencies and freelancers. 
 With e107 it can be multipage site for any purpose.
  
  
+
 ### Version 2.1.1 – January 18th, 2017
 * Removed workaround for standalone login page
 * Fixed correct calls scripts in footer
@@ -42,15 +43,15 @@ All demo is created with core plugins, just for new menus is used themeoptions p
 
 Portfolio page uses newest version of isotope because filtering. 
 
-[Theme Demo](http://solid.e107.sk/)
+[Theme Demo](https://www.e107sk.com/bootstrap/solid/)
 
 [Original theme](http://blacktie.co/2014/05/solid-multipurpose-theme/)
 
 
 ####Support
-* [e107 SK](http://e107.sk)
-* [e107 Q&A](http://e107help.org)
-* [e107 oficiálna stránka](http://e107.org)
+* [e107 SK](https://www.e107sk.com)
+* [e107 Q&A](https://e107help.org)
+* [e107 oficiálna stránka](https://e107.org)
 
 
 ####Licencia

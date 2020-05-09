@@ -132,19 +132,11 @@ a.tag {
     height: 450px;
 }
  
-#layout-homepage .carousel-control.right  {
+.layout-homepage .carousel-control.right  {
   background: none;
 }
 
-#layout-homepage .carousel-control.left  {
+.layout-homepage .carousel-control.left  {
   background: none;
 }
-
-/* to remove shadow background under slider */ 
-.carousel-control.left {
-  background-image: none;
-}
-
-.carousel-control.right {
-  background-image: none;
-}
+ 
