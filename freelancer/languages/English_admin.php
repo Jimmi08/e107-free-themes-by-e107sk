@@ -26,4 +26,4 @@ define("LAN_JM_ADMIN_HELP_08", "Github repository:  ");
 define("LAN_JM_ADMIN_HELP_09", "Github");
 define("LAN_JM_ADMIN_HELP_10", "Download. There can be a newer version available than on e107.org   ");
 define("LAN_JM_ADMIN_HELP_11", "Download");
-?>
+ 

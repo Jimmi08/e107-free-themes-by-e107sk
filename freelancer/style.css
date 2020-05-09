@@ -185,3 +185,48 @@ section {
 	}
 }
 
+
+/* CORE CALENDER LOOK */
+.datetimepicker table tr td.active:active, .datetimepicker table tr td.active:hover:active, 
+.datetimepicker table tr td.active.disabled:active, 
+.datetimepicker table tr td.active.disabled:hover:active, 
+.datetimepicker table tr td.active.active, 
+.datetimepicker table tr td.active:hover.active, 
+.datetimepicker table tr td.active.disabled.active, 
+.datetimepicker table tr td.active.disabled:hover.active {
+	background-color: #1abc9c!important;
+	background: #1abc9c!important;
+	background-image: linear-gradient(to bottom,#1abc9c,#1abc9c)
+}
+ 
+.datetimepicker table tr td.day:hover {
+    background: #eee;
+	cursor: pointer;
+	color: #1abc9c!important; 
+}
+
+
+/* USER TEMPLATE DEFAULT define("CORE_CSS", false); */
+
+.panel-profile .user-avatar {
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: -90px;
+    margin-bottom: 15px;
+    border: 5px solid #fff;
+    border-radius: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* USER TEMPLATE CUSTOM */
+
+.user-view-nextprev .page-link {
+    background-color: transparent;
+    border: 1px solid #f0f0f0;
+    border-color: #f0f0f0;
+    -webkit-transition: all .35s;
+    -moz-transition: all .35s;
+    transition: all .35s;
+}
