@@ -3,6 +3,14 @@ Our free themes are supported on our forum [https://www.e107sk.com/forum](url)
 
 But this doesn't mean that they are actively developed.
 
+## 01. Solid Bootstrap 3 theme
+
+Last check: 05/2020
+
+Version 2.2 combatible with e107 2.3.0
+
+![img](https://www.e107sk.com/img/preview_solid_responsive.png)
+
 ## Creative Bootstrap 4 theme
 
 ![img](https://www.e107sk.com/img/preview_creative_preview.png)
@@ -61,14 +69,6 @@ Last check: 07/2017
 
 Created: 06/2017
 Last check: 11/2017 
-
-## Solid Bootstrap 3 theme
-
-Last check: 05/2020
-
-Version 2.2 combatible with e107 2.3.0
-
-![img](https://www.e107sk.com/img/preview_solid_responsive.png)
 
 ## CounterStrike Bootstrap 3 theme
 
