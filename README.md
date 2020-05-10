@@ -64,7 +64,11 @@ Last check: 11/2017
 
 ## Solid Bootstrap 3 theme
 
-Last check: 02/2017 
+Last check: 05/2020
+
+Version 2.2 combatible with e107 2.3.0
+
+![img](https://www.e107sk.com/img/preview_solid_responsive.png)
 
 ## CounterStrike Bootstrap 3 theme
 
