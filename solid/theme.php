@@ -130,12 +130,31 @@ class theme implements e_theme_render
 			echo '	'.$text.'</div>';
 			return;		
 		}
+        
+        switch($id) 
+		{
+			case "login_page":
+				$style = "singleform";             
+			break;
+		}
 		
+        switch($style)
+		{                              
+            case "singleform" :
+			if(!empty($caption))
+			{
+				echo '<h1 class="display-5 singleform-heading">'.$caption.'</h1>';
+			}
+			echo '<div class="singleform-body"><div class="wrapper">'.$text.'</div></div>';
+            return;     
+        }    
+        
+           
 		if($style == 'none')
 		{
 		 echo $text; 
 		 return;
-	  }
+	    }
 	  
 		if($style == 'footer-menu' )
 		{

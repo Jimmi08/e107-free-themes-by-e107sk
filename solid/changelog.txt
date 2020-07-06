@@ -1,3 +1,6 @@
+### Version 2.2.1 – 2020-07-06
+* fixed missing brand name
+
 ### Version 2.2.0 (git)
 - updated for new 2.3.0 standarts
 - fixed social template
