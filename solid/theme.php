@@ -134,6 +134,8 @@ class theme implements e_theme_render
         switch($id) 
 		{
 			case "login_page":
+            case "coppa":
+            case "signup":
 				$style = "singleform";             
 			break;
 		}
