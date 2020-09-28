@@ -8,18 +8,7 @@ if (!defined('e107_INIT')) { exit; }
 
 // doesn't work in construct, tested
 e107::lan('theme'); 
-e107::meta('viewport', 'width=device-width, initial-scale=1, shrink-to-fit=no');
 
-// it can't be in construct, because nexprev doesn't work then  
-define("BOOTSTRAP", 4);   
-
-
-// $no_core_css doesn't work       
-define("CORE_CSS", false);
-
-e107::css('url', 	'https://fonts.googleapis.com/css?family=Montserrat:400,700');
-e107::css('url', 	'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
-e107::css('theme', 	'css/styles.css');
  
 
 ////////////////////////////////////////////////////////////////////////////////
@@ -28,6 +17,19 @@ class theme implements e_theme_render
 
 	function __construct() {
 
+
+        e107::meta('viewport', 'width=device-width, initial-scale=1, shrink-to-fit=no');
+        
+        // it can't be in construct, because nexprev doesn't work then  
+        define("BOOTSTRAP", 4);   
+        
+        
+        // $no_core_css doesn't work       
+        define("CORE_CSS", false);
+        
+        e107::css('url', 	'https://fonts.googleapis.com/css?family=Montserrat:400,700');
+        e107::css('url', 	'https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+        e107::css('theme', 	'css/styles.css');
 
 		e107::js("theme", 	'js/bootstrap.bundle.min.js', 'jquery');
 		e107::js("theme", 	'js/jquery.easing.min.js', 'jquery');
