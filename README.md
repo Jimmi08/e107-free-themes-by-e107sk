@@ -3,82 +3,26 @@ Our free themes are supported on our forum [https://www.e107sk.com/forum](url)
 
 But this doesn't mean that they are actively developed.
 
-## 01. Solid Bootstrap 3 theme
+## 2019/06 Landing Zero 2 Bootstrap 3 theme
 
-Last check: 05/2020
 
-Version 2.2 combatible with e107 2.3.0
 
-![img](https://www.e107sk.com/img/preview_solid_responsive.png)
-
-## Creative Bootstrap 4 theme
+## 2019/05 Creative Bootstrap 4 theme
 
 ![img](https://www.e107sk.com/img/preview_creative_preview.png)
 
-Last check: 09/2019 
+Created: 09/2019
 
-Minimal e107 version: 2.2.2
+Last check: 05/2020  
+
+Minimal e107 version: 2.3.0
 
 ToDo: remove dependency on JM Core 
 
-Actual state: demo is broken with latest version
-
-Next development: fix demo
+Actual state: Not finished
 
 
-## Freelancer Bootstrap 4 theme
-
-Last check: 06/2019 
-
-Minimal e107 version: 2.2.2
-
-Next development: not planned
-
-
-## SkyApp Bootstrap 3 theme
-
-![img](https://www.e107sk.com/media/img/0x0/2019-08/preview_skyapp.png)
-
-Last check: 09/2019 
-
-Minimal e107 version: 2.2.1
-
-Next development: possible
-
-## Relive Bootstrap 3 theme
-
-Last check: 10/2018 
-
-## Industrial Bootstrap 3 theme
-
-Last check: 06/2018 
-
-## Khatru2 Bootstrap 3 theme
-
-Last check: 06/2018 
-
-## NightVision2 Bootstrap 3 theme
-
-Last check: 01/2018 
-
-## RideBlue2 Bootstrap 3 theme
-
-Last check: 07/2017 
-
-## Black & White Bootstrap 3 theme
-
-Created: 06/2017
-Last check: 11/2017 
-
-## CounterStrike Bootstrap 3 theme
-
-Last check: 12/2016
-
-## Core2 Bootstrap 3 theme
-s
-Last check: 08/2016
-
-## InfadeBlack Theme
+## 2019/04 InfadeBlack Theme
 
 Last check: 09/2019
 
@@ -89,7 +33,28 @@ More info: https://www.e107sk.com/news/view/56/infadeblack-theme/
 ![img](https://www.e107sk.com/media/img/0x0/2019-09/e107_theme_infadeblack00.jpg)
 
 
-## Call of Duty: Ghosts theme
+## 2019/03 SkyApp Bootstrap 3 theme
+
+![img](https://www.e107sk.com/media/img/0x0/2019-08/preview_skyapp.png)
+
+Last check: 09/2019 
+
+Minimal e107 version: 2.2.1
+
+Next development: possible
+
+## 2019/02 Freelancer Bootstrap 4 theme
+
+Last check: 06/2019 
+
+Minimal e107 version: 2.2.2
+
+Next development: not planned
+
+
+## 2019/01 Call of Duty: Ghosts theme
+
+Last check: 04/2019
 
 I found some version of this theme during cleaning my comp. I don't think it was original 0.6 version, maybe some attempt to fix if for Alpha version. If I am not mistaken, it was downloaded from e107hungary site. So I prepared it for version 2.3 (2.2.2git). 
 It's not boostrap theme, so it's not responsive.
@@ -97,12 +62,91 @@ It's not boostrap theme, so it's not responsive.
 ![img](https://www.e107sk.com/media/img/0x0/2019-11/cod_ghost01.jpg)
 
 
+## 2018/04 Relive Bootstrap 3 theme
+
+Last check: 10/2018 
+
+## 2018/03 Industrial Bootstrap 3 theme
+
+Last check: 06/2018 
+
+## 2018/02 Khatru2 Bootstrap 3 theme
+
+Last check: 06/2018 
+
+## 2018/01 NightVision2 Bootstrap 3 theme
+
+Last check: 01/2018 
+
+## 2017/06 Agency2 Bootstrap4 theme
+
+Created: 12/2017
+Last check: 05/2020
+
+## 2017/05 RideBlue2 Bootstrap 3 theme
+
+Last check: 07/2017 
+
+## 2017/04 Black & White Bootstrap 3 theme
+
+Created: 06/2017
+Last check: 11/2017 
+
+## 2017/03 Landinzero Bootstrap 3 theme
+
+Created: 03/2017
+Last check: 03/2017 
+Replaced with LandingZero2
+
+## 2017/02 AppStrap Bootstrap4 theme
+
+Created: 01/2017
+Last check: 12/2018 
+
+## 2017/01 Agency Bootstrap 3 theme
+
+Created: 01/2017
+Last check: 12/2017
+Replaced with Agency2
+
+## 2016/03 CounterStrike Bootstrap 3 theme
+
+Last check: 12/2016
+
+## 2016/02 Core2 Bootstrap 3 theme
+
+Last check: 08/2016
+
+## 2016/01 Solid Bootstrap 3 theme
+
+Last check: 05/2020
+
+Version 2.2 combatible with e107 2.3.0
+
+![img](https://www.e107sk.com/img/preview_solid_responsive.png)
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
 ## Donate with [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKG5N3F6QL99J)
 
-If you think this theme is useful and you want it will be futher supported, then donating a small amount would be very cool.
+If you think this theme is useful and want it to be further supported, then donating a small amount would be very cool.
 
 [![Paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=FKG5N3F6QL99J)
 

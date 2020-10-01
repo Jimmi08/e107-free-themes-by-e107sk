@@ -8,20 +8,17 @@
  */
 
 if (!defined('e107_INIT')) { exit; }
- 
-e107::lan('theme');
-  
- 
-////// Multilanguages/ /////////////////////////////////////////////////////////
 
-e107::lan('theme');
- 
  
 class theme implements e_theme_render
 {
 	function __construct() {
 
 		//define("CORE_CSS", false);
+ 
+		////// Multilanguages/ /////////////////////////////////////////////////////////
+
+		e107::lan('theme');
 		
 		////// Theme meta tags /////////////////////////////////////////////////////////
 		e107::meta('viewport', 'width=device-width, initial-scale=1.0');
@@ -57,11 +54,13 @@ class theme implements e_theme_render
 			e107::js("theme", "assets/js/custom.js"); 
 			e107::js("theme", "assets/js/portfolio-page.js");  
 		}
+	
+		$this->getInlineCodes();
 	}
 
 	function getInlineCodes() 
 	{
-		$inlinecss = e107::pref('theme', 'inlinecss', FALSE);
+		$inlinecss = e107::pref('theme', 'custom_css', FALSE);
 		if($inlinecss) { 
 			e107::css("inline", $inlinecss);
 		}

@@ -2,6 +2,10 @@
 
 Original Solid theme is a 7 pages theme ideal for web agencies and freelancers. Uses Font Awesome, Masonry Javascript, PrettyPhoto lightbox and nice hover effects thanks Codrops. 
 With e107 it can be multipage site for any purpose.
+
+### Version 2.2.2 – 2020-10-01
+* fixed inline css
+* added custom css themeoptions
  
 ### Version 2.2.1 – 2020-07-06
 * fixed missing brand name
