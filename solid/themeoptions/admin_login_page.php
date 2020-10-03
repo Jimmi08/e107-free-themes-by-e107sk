@@ -29,7 +29,7 @@ class themeoptions_adminArea extends leftmenu_adminArea
 
 $code = '$(document).ready(function(){
 	   $("#etrigger-submit").html("Save Settings");
-	   $("h4.caption").html("' . LAN_JM_THEMEOPTIONS_LAN_05 . '");
+	   $("h4.caption").html("' . LAN_JM_THEMEOPTIONS_03 . '");
 	});';
 
 e107::js('inline', $code);
@@ -37,31 +37,31 @@ e107::js('inline', $code);
 class themeoptions_ui extends e_admin_ui
 {
 
-	protected $_pluginName = 'themeoptions';
-	protected $_listOrder = ' DESC';
+	protected $pluginName = 'themeoptions';
+	protected $listOrder = ' DESC';
 
-	protected $_table = NULL;
-	protected $_fieldpref = array();
-	protected $_prefs = array();
+	protected $table = NULL;
+	protected $fieldpref = array();
+	protected $prefs = array();
 
-	protected $_fields = array(
+	protected $fields = array(
 
-		'pref_login_iframe' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_LAN_06 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_LAN_06_HELP . '</small>',
+		'pref_login_iframe' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_03_01 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_03_01_HELP . '</small>',
 			'tab' => 0, 'type' => 'method', 'data' => false, 'help' => '', 'writeParms' => array('size' => 'block-level'),
 		),
-		'pref_hide_logo' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_LAN_07 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_LAN_07_HELP . '</small>',
+		'pref_hide_logo' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_03_02 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_03_02_HELP . '</small>',
 			'tab' => 0, 'type' => 'method', 'data' => false, 'help' => '', 'writeParms' => array('size' => 'block-level'),
 		),
-		'pref_hide_sitename' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_LAN_08 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_LAN_08_HELP . '</small>',
+		'pref_hide_sitename' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_03_03 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_03_03_HELP . '</small>',
 			'tab' => 0, 'type' => 'method', 'data' => false, 'help' => '', 'writeParms' => array('size' => 'block-level'),
 		),
-		'pref_loginbox_width' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_LAN_09 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_LAN_09_HELP . '</small>',
+		'pref_loginbox_width' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_03_04  . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_03_04_HELP . '</small>',
 			'tab' => 0, 'type' => 'method', 'data' => false, 'help' => '', 'writeParms' => array('size' => 'block-level'),
 		),
 
 	);
 
-	protected $_afterSubmitOptions = array('edit');
+	protected $afterSubmitOptions = array('edit');
 
 	public function init()
 	{

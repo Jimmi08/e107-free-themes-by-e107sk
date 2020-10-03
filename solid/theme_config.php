@@ -5,9 +5,6 @@ if (!defined('e107_INIT'))
 	exit;
 }
 
-$custom_theme_prefs = e107::pref('theme');
-
- 
 // Dummy Theme Configuration File.
 class theme_config implements e_theme_config
 {
@@ -43,10 +40,10 @@ class theme_config implements e_theme_config
 		);
 
 		$fields = array(
-			'teammemberclass' => array('title' => LAN_THEMEPREF_00, 'type' => 'userclass', 'help' => ''),
-			'custom_css' => array('title' => LAN_JM_THEMEOPTIONS_LAN_02, 'type' => 'method', 'data' => false, 'help' => ''),
+			//'teammemberclass' => array('title' => LAN_THEMEPREF_00, 'type' => 'userclass', 'help' => ''),
+			//'custom_css' => array('title' => LAN_JM_THEMEOPTIONS_LAN_02, 'type' => 'method', 'data' => false, 'help' => ''),
 			'inlinejs' => array('title' => LAN_THEMEPREF_02, 'type' => 'textarea', 'writeParms' => array('size' => 'block-level'), 'help' => ''),
-			'login_page' => array('title' => LAN_JM_THEMEOPTIONS_LAN_05, 'type' => 'method', 'data' => false, 'help' => ''),
+			//'login_page' => array('title' => LAN_JM_THEMEOPTIONS_LAN_05, 'type' => 'method', 'data' => false, 'help' => ''),
 		);
 
 	   //return $fields;
@@ -58,7 +55,7 @@ class theme_config implements e_theme_config
  
         $themeoptions['custom_css'] = e_THEME . e107::getPref('sitetheme') . "/themeoptions/admin_" . "custom_css" . ".php";
         
-        $buttons  = e107::getNav()->renderAdminButton($themeoptions['custom_css'], "<b>" . LAN_JM_THEMEOPTIONS_LAN_01 . "</b><br>" , LAN_JM_THEMEOPTIONS_LAN_02,  "P" , '<i class="S32 e-themes-32"></i>',  "div");
+        $buttons  = e107::getNav()->renderAdminButton($themeoptions['custom_css'], "<b>" . LAN_JM_THEMEOPTIONS_01 . "</b><br>" , LAN_JM_THEMEOPTIONS_01_HELP,  "P" , '<i class="S32 e-themes-32"></i>',  "div");
          
         //$ns->setStyle('flexpanel');
         $mainPanel  = "<div class='panel panel-default' >";

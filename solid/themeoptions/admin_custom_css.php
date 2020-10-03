@@ -69,7 +69,7 @@ class themeoptions_adminArea extends leftmenu_adminArea
 
 $code = '$(document).ready(function(){ 
 	   $("#etrigger-submit").html("Save Settings");
-	   $("h4.caption").html("'.LAN_JM_THEMEOPTIONS_LAN_02.'");
+	   $("h4.caption").html("'.LAN_JM_THEMEOPTIONS_02.'");
 	});';
 
 e107::js('inline', $code);
@@ -86,7 +86,7 @@ class themeoptions_ui extends e_admin_ui
  
  
 	protected $fields = array (
-			'pref_custom_css' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_LAN_03 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_LAN_04 . '</small>',
+			'pref_custom_css' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_02_01 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_02_01_HELP . '</small>',
 			'tab' => 0,
 			'type' => 'method',
 			'data' => false,
