@@ -62,46 +62,95 @@ require_once("admin_leftmenu.php");
 class themeoptions_adminArea extends leftmenu_adminArea
 { 
       function init()       {
-       $this->defaultMode = 'custom_css';   
+       $this->defaultMode = 'custom_css';
+       $this->setAction = "edit";   
       } 
 }
+
+$code = '$(document).ready(function(){ 
+	   $("#etrigger-submit").html("Save Settings");
+	   $("h4.caption").html("'.LAN_JM_THEMEOPTIONS_LAN_02.'");
+	});';
+
+e107::js('inline', $code);
 
 class themeoptions_ui extends e_admin_ui
 {
 	 
-	protected $pluginName = NULL;
+ 	protected $pluginName = 'themeoptions';
 	protected $listOrder = ' DESC';
-	protected $fields = NULL;
-	protected $fieldpref = array();
-
  
-	protected $prefs = array (
-		'custom_css' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_LAN_03 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_LAN_04 . '</small>',
+    protected $table = NULL; 
+	protected $fieldpref = array();
+    protected $prefs = array(); 
+ 
+ 
+	protected $fields = array (
+			'pref_custom_css' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_LAN_03 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_LAN_04 . '</small>',
 			'tab' => 0,
-			'type' => 'textarea',
-			'data' => 'str',
+			'type' => 'method',
+			'data' => false,
 			'help' => '',
 			'writeParms' => array('size'=>'block-level')
 		),
+			 
 	);
+    
+    protected $afterSubmitOptions = array('edit');
 
 	public function init()
 	{
+        $this->setDefaultAction('edit');
  
 	}
  
-	public function beforePrefsSave($new_data, $old_data)
+ 
+    
+    public function beforeCreate($new_data, $old_data)
 	{
-	    $pref = e107::getThemeConfig();
-        $theme_pref = $new_data;
-        $pref->setPref($theme_pref)->save(true,true,false);
-        unset($new_data);
-		return $new_data;
-	} 
+          $this->beforeUpdate($new_data, $old_data, NULL);
+	}
+    
+    // ------- Customize Update --------
+	
+	public function beforeUpdate($new_data, $old_data, $id)
+	{
+        $pref = e107::getThemeConfig();
+		$theme_pref = array();
+		$theme_pref['custom_css'] = $new_data['custom_css'];
+		
+		$pref->setPref($theme_pref)->save(true,true,false);
+ 
+	    $new_data['custom_css'] = '';
+		return false;
+	}
+    
+    
 }
 
 class themeoptions_form_ui extends e_admin_form_ui
 {
+ 
+   function pref_custom_css($curVal, $mode) {
+   
+        $custom_theme_prefs = e107::pref('theme');
+
+        switch ($mode)
+		{
+		case 'read': // Edit Page
+			$text = "Are you cheating?";
+			return $text;
+			break;
+ 
+		case 'write': // Edit Page
+            $name = 'custom_css';
+			$value = $custom_theme_prefs[$name];
+			$attributes = array('type' => 'textarea', 'data' => 'str', 'width' => 'auto');
+			$text = $this->renderElement($name, $value, $attributes);
+			return $text;
+			break;
+		}
+   }
  
 }
 
