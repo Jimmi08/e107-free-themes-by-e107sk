@@ -72,7 +72,7 @@ class theme implements e_theme_render
 				define('e_IFRAME', '0');
 			}
 			if($loginbox_width) {
-				$inlinecss = " #login-template { max-width:".$loginbox_width."   } ";
+				$inlinecss = " #login-template { min-width:".$loginbox_width."   } ";
 				e107::css("inline", $inlinecss);
 			}
 			

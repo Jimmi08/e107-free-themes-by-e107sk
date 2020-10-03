@@ -21,6 +21,10 @@
 	padding: 0px;
 } 
 
+html {
+  height: 100%; 
+}
+
 body { 
 	background: #ffffff; 
 	margin: 0; 

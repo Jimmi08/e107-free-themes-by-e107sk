@@ -6,6 +6,7 @@ With e107 it can be multipage site for any purpose.
 ### Version 2.3.0 – 2020-10-03
 * updated theme options
 * added login page setting
+* fixed login form 
 
 ### Version 2.2.2 – 2020-10-01
 * fixed inline css
