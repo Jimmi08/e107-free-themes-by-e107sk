@@ -5,14 +5,37 @@ if (!defined('e107_INIT'))
 	exit;
 }
 
-// Dummy Theme Configuration File.
+$sitetheme = e107::getPref('sitetheme');
+ 
+
+//TODO MOVE to separate option
+if (isset($_POST['importThemeDemo']))
+{
+	$xmlArray = array();
+	e107::getDebug()->log("Retrieving demo data from xml file");
+	$themepath = e_THEME . $sitetheme . "/install/install.xml";
+	$xmlArray = e107::getSingleton('xmlClass')->loadXMLfile($themepath);
+	$ret = e107::getSingleton('xmlClass')->e107Import($xmlArray);
+	if ($ret)
+	{
+		$mes = e107::getMessage();
+		$mes->add("Importing Theme Demo Content:", E_MESSAGE_SUCCESS);
+	}
+
+	$mes->render();
+}
+
 class theme_config implements e_theme_config
 {
-          
-	public function config()
+    var $sitetheme;
+    var $helpLinks = array();
+    
+	public function __construct()
 	{
-		e107::themeLan('admin', 'solid', true);
-
+		$this->sitetheme = e107::getPref('sitetheme');
+        
+        e107::themeLan('admin', $this->sitetheme , true);
+ 
 		$this->helpLinks =
 		array(
 			'support' => array('url' => 'https://www.e107sk.com/forum/themes-in-active-mode/',
@@ -38,50 +61,57 @@ class theme_config implements e_theme_config
 				'name' => LAN_JM_ADMIN_HELP_11,
 				'icon' => '<i class="S32 e-downloads-32"></i>'),
 		);
+	}     
+    
+    public function config()
+	{
 
-		$fields = array(
-			//'teammemberclass' => array('title' => LAN_THEMEPREF_00, 'type' => 'userclass', 'help' => ''),
-			//'custom_css' => array('title' => LAN_JM_THEMEOPTIONS_LAN_02, 'type' => 'method', 'data' => false, 'help' => ''),
-			'inlinejs' => array('title' => LAN_THEMEPREF_02, 'type' => 'textarea', 'writeParms' => array('size' => 'block-level'), 'help' => ''),
-			//'login_page' => array('title' => LAN_JM_THEMEOPTIONS_LAN_05, 'type' => 'method', 'data' => false, 'help' => ''),
-		);
+		return false;
 
-	   //return $fields;
- 
-	}        
+	}   
 
 	public function help()
 	{
- 
-        $themeoptions['custom_css'] = e_THEME . e107::getPref('sitetheme') . "/themeoptions/admin_" . "custom_css" . ".php";
-        
-        $buttons  = e107::getNav()->renderAdminButton($themeoptions['custom_css'], "<b>" . LAN_JM_THEMEOPTIONS_01 . "</b><br>" , LAN_JM_THEMEOPTIONS_01_HELP,  "P" , '<i class="S32 e-themes-32"></i>',  "div");
-         
-        //$ns->setStyle('flexpanel');
-        $mainPanel  = "<div class='panel panel-default' >";
-        $mainPanel .= "<div class='panel-body'>";
-        $mainPanel .=  $buttons;
-        $mainPanel .= "</div> ";
-        
-        $mainPanel  .= " ";
-        $mainPanel .= "<div class='panel-body'>";
-               
+
+		$themeoptions['custom_css'] = e_THEME . e107::getPref('sitetheme') . "/themeoptions/admin_" . "custom_css" . ".php";
+
+		$buttons = e107::getNav()->renderAdminButton($themeoptions['custom_css'], "<b>" . LAN_JM_THEMEOPTIONS_01 . "</b><br>", LAN_JM_THEMEOPTIONS_01_HELP, "P", '<i class="S32 e-themes-32"></i>', "div");
+
+		//$ns->setStyle('flexpanel');
+		$mainPanel = "<div class='panel panel-default' >";
+		$mainPanel .= "<div class='panel-body'>";
+		$mainPanel .= $buttons;
+		$mainPanel .= "</div> ";
+
+		$mainPanel .= " ";
+		$mainPanel .= "<div class='panel-body'>";
+
 		//$content = '<h2 class="text-center">' . LAN_JM_ADMIN_HELP_01 . '</h2>';
 		foreach ($this->helpLinks AS $helpLink)
 		{
 			if (!empty($helpLink['url']))
 			{
-		 
+
 				$mainPanel .= '<p class="text-center">';
 				//$content .= '<a href="' . $helpLink['url'] . '" target="_blank">' . $helpLink['name'] . '</a>';
-				$mainPanel .=  e107::getNav()->renderAdminButton($helpLink['url'], "<b>" . $helpLink['name'] . "</b><br>" , $helpLink['label'],  "P" , $helpLink['icon'],  "div");
+				$mainPanel .= e107::getNav()->renderAdminButton($helpLink['url'], "<b>" . $helpLink['name'] . "</b><br>", $helpLink['label'], "P", $helpLink['icon'], "div");
 
 				$mainPanel .= '</p>';
 			}
 		}
-        $mainPanel .= "</div></div>";
-                          
-		return $mainPanel ;   
+		$mainPanel .= "</div> ";
+
+		$text = '';
+
+		$text = "<div class='panel-body'>
+		        <form method='post' action='" . e_SELF . "?" . e_QUERY . "' id='core-db-import-form'>";
+		$text .= e107::getForm()->admin_button('importThemeDemo', 'Install Demo', 'other');
+		$text .= '</form></div>';
+
+		$mainPanel .= $text;
+		$mainPanel .= "</div>";
+
+		return $mainPanel;
 	}
 
 	public function process()

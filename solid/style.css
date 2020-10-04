@@ -222,4 +222,26 @@ a.tag {
 }
 
 
- 
+.tablestyle-coppa{
+     height: 70vh!important;
+}
+
+.tablestyle-signup {
+   width: 100%;
+}
+
+.tablestyle-signup  .checkbox  {
+   margin-left: 20px;
+}
+
+.tablestyle-signup  .bbcode-panel   {
+   width: auto;
+}
+
+.singleform-body .bbcode-panel .btn  {
+	color: black;
+	background: transparent;
+	padding: 8px;
+    width: auto;
+    height: auto;
+}

@@ -21,11 +21,12 @@ class theme implements e_theme_render
 		e107::css('theme', 'e107.css');
 
 		////// Multilanguages/ /////////////////////////////////////////////////////////
-
 		e107::lan('theme');
 
 		////// Theme meta tags /////////////////////////////////////////////////////////
 		e107::meta('viewport', 'width=device-width, initial-scale=1.0');
+        
+        ////////////////////////////////////////////////////////////////////////////////
 		e107::css('theme', 'assets/css/style.css');
 
 		e107::js('url', 'https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js', '', '2', '<!--[if lt IE 9]>', '');
@@ -61,12 +62,12 @@ class theme implements e_theme_render
 
 		$this->getInlineCodes();
 
-		//login page settings
-		
+        //login page settings		
 		if (e_PAGE == "login.php")
 		{
-			$login_iframe 	= e107::pref('theme', 'login_iframe', false);
-			$loginbox_width = e107::pref('theme', 'loginbox_width', false);
+			$login_iframe 	 = e107::pref('theme', 'login_iframe', false);
+			$loginbox_width  = e107::pref('theme', 'loginbox_width', false);
+			$loginform_width = e107::pref('theme', 'loginform_width', $loginbox_width);
 
 			if($login_iframe) {
 				define('e_IFRAME', '0');
@@ -74,6 +75,24 @@ class theme implements e_theme_render
 			if($loginbox_width) {
 				$inlinecss = " #login-template { min-width:".$loginbox_width."   } ";
 				e107::css("inline", $inlinecss);
+			}
+			 
+			if($loginform_width) {
+				$inlinecss = " #login-page { width:".$loginform_width."   } ";
+				e107::css("inline", $inlinecss);
+			}
+
+		}
+		//forgotten password
+		if (e_PAGE == "fpw.php")
+		{   
+			$fpw_iframe 	 = e107::pref('theme', 'fpw_iframe', true);
+
+			if($fpw_iframe) {
+				//define('e_IFRAME', '0');
+			}
+			else {
+				define('e_IFRAME', '1');
 			}
 			
 		}
@@ -92,7 +111,6 @@ class theme implements e_theme_render
 		{
 			e107::js("footer-inline", $inlinejs);
 		}
-
 	}
 
 	/**
@@ -145,7 +163,9 @@ class theme implements e_theme_render
 	{
 		$style = $info['setStyle'];
 
-		echo "<!-- tablestyle: style=" . $style . " id=" . $id . " -->\n\n";
+		if(e_DEBUG || e_DEVELOPER )  {
+			echo "<!-- tablestyle: style=".$style." id=".$id." -->\n\n";
+		}
 
 		//login page caption fix
 		if (e_PAGE == "login.php")
@@ -163,7 +183,23 @@ class theme implements e_theme_render
 			$type = 'box';
 		}
 
-		if ($id == 'wm') // Example - If rendered from 'welcome message'
+        //use only $style for tablerender
+		switch ($id)
+		{
+			case "wm":  // Example - If rendered from 'welcome message' 
+				$style = "wm";
+				$class = " class=tablestyle-".$id;
+				break;				
+			case "login_page":
+			case "coppa":
+			case "signup":
+			case "fpw":
+				$style = "singleform";
+				$class = " class=tablestyle-".$id;
+				break;
+		}
+        
+		if ($style == 'wm') // Example - If rendered from 'welcome message'
 		{
 			echo '<div class="col-lg-8 col-lg-offset-2">';
 			if (!empty($caption))
@@ -172,24 +208,23 @@ class theme implements e_theme_render
 			echo '	' . $text . '</div>';
 			return;
 		}
-
-		switch ($id)
-		{
-		case "login_page":
-		case "coppa":
-		case "signup":
-			$style = "singleform";
-			break;
+ 
+ 		if(e_DEBUG || e_DEVELOPER )  {      //after switch
+			echo "<!-- tablestyle: style=".$style." id=".$id." -->\n\n";
 		}
-
+        
 		switch ($style)
 		{
 		case "singleform":
+			echo "<div style='display:table; height:100%; margin: 0 auto;'".$class .">
+			<div style='display:table-cell; vertical-align:middle;'>";
+
 			if (!empty($caption))
 				{
 				echo '<h1 class="display-5 singleform-heading">' . $caption . '</h1>';
 			}
 			echo '<div class="singleform-body"><div class="wrapper">' . $text . '</div></div>';
+			echo '</div></div>';
 			return;
 		}
 
