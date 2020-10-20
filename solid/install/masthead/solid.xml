@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<e107Export version="2.3.0 (git)" timestamp="1603093559" >
+	<database>
+	<dbTable name="masthead">
+		<item>
+			<field name="element_id">1</field>
+			<field name="element_preview">{e_THEME}solid\/install\/featurebox_solid.jpg</field>
+			<field name="element_mode">featurebox</field>
+			<field name="element_title">Solid example Featurebox</field>
+			<field name="element_visibility">0</field>
+			<field name="element_image">{e_THEME}solid\/install\/featurebox_solid.jpg</field>
+			<field name="element_template">featurebox</field>
+			<field name="element_options">{
+    "fields": {
+        "masthead_heading": "Eyecatching Bootstrap Template.",
+        "masthead_subheading": "Show your work with this beautiful theme",
+        "masthead_subttitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. \r\nMore Lorem Ipsum added here too.",
+        "masthead_intro": "{SETSTYLE=none}{FEATUREBOX}",
+        "button_text": "",
+        "button_link": "",
+        "button_text_left": "",
+        "button_link_left": "",
+        "button_text_right": "",
+        "button_link_rigth": "",
+        "image_bg": "",
+        "image_01": "{e_THEME}solid\/install\/browser.png",
+        "image_02": ""
+    }
+}</field>
+		</item>
+		<item>
+			<field name="element_id">2</field>
+			<field name="element_preview">{e_THEME}solid\/install\/default_solid.jpg</field>
+			<field name="element_mode">solid</field>
+			<field name="element_title">Solid example Big Image</field>
+			<field name="element_visibility">0</field>
+			<field name="element_image">{e_THEME}solid\/install\/default_solid.jpg</field>
+			<field name="element_template">default</field>
+			<field name="element_options">{
+    "fields": {
+        "masthead_heading": "Eyecatching Bootstrap Template.",
+        "masthead_subheading": "Show your work with this beautiful theme",
+        "masthead_subttitle": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. More Lorem Ipsum added here too.",
+        "masthead_intro": "",
+        "button_text": "",
+        "button_link": "",
+        "button_text_left": "",
+        "button_link_left": "",
+        "button_text_right": "",
+        "button_link_rigth": "",
+        "image_bg": "",
+        "image_01": "{e_THEME}solid\/install\/browser.png",
+        "image_02": ""
+    }
+}</field>
+		</item>
+	</dbTable>
+	</database>
+</e107Export>

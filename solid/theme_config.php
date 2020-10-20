@@ -50,12 +50,10 @@ class theme_config implements e_theme_config
 				'label' => LAN_JM_ADMIN_HELP_06,
 				'name' => LAN_JM_ADMIN_HELP_07,
 				'icon' => '<i class="S32 e-fileinspector-32"></i>'),
-
 			'github' => array('url' => 'https://github.com/Jimmi08/e107-free-themes-by-e107sk/tree/master/solid',
 				'label' => LAN_JM_ADMIN_HELP_08,
 				'name' => LAN_JM_ADMIN_HELP_09,
                 'icon' => '<i class="fa fa-3x fa-github"></i>'),
-
 			'download' => array('url' => 'https://www.e107sk.com/easystore/e107-solid-theme/',
 				'label' => LAN_JM_ADMIN_HELP_10,
 				'name' => LAN_JM_ADMIN_HELP_11,
@@ -74,8 +72,11 @@ class theme_config implements e_theme_config
 	{
 
 		$themeoptions['custom_css'] = e_THEME . e107::getPref('sitetheme') . "/themeoptions/admin_" . "custom_css" . ".php";
-
+        $themeoptions['masthead'] = e_THEME . e107::getPref('sitetheme') . "/themeoptions/masthead/admin_config.php";
+        
 		$buttons = e107::getNav()->renderAdminButton($themeoptions['custom_css'], "<b>" . LAN_JM_THEMEOPTIONS_01 . "</b><br>", LAN_JM_THEMEOPTIONS_01_HELP, "P", '<i class="S32 e-themes-32"></i>', "div");
+        
+        $buttons .= e107::getNav()->renderAdminButton($themeoptions['masthead'], "<b>" . LAN_JM_THEMEOPTIONS_05 . "</b><br>", LAN_JM_THEMEOPTIONS_05_HELP, "P", '<i class="S32 e-themes-32"></i>', "div");
 
 		//$ns->setStyle('flexpanel');
 		$mainPanel = "<div class='panel panel-default' >";
@@ -119,32 +120,5 @@ class theme_config implements e_theme_config
 		return '';
 	}
 }
-
-class theme_config_form extends e_form
-{
-
-	public function custom_css()
-	{
-
-		$themeoptions['custom_css'] = e_THEME . e107::getPref('sitetheme') . "/themeoptions/admin_" . "custom_css" . ".php";
-
-		$text = '<a class="btn btn-primary" href="' . $themeoptions['custom_css'] . '">' . LAN_JM_THEMEOPTIONS_LAN_02 . '</a>';
-		 
-		return $text;
-		 
-
-	}
-
-	public function login_page()
-	{
-
-		$themeoptions['login_page'] = e_THEME . e107::getPref('sitetheme') . "/themeoptions/admin_" . "login_page" . ".php";
-
-		$text = '<a class="btn btn-primary" href="' . $themeoptions['login_page'] . '">' . LAN_JM_THEMEOPTIONS_LAN_05 . '</a>';
-		 
-		return $text;
-		
-
-	}
-}
+ 
                          

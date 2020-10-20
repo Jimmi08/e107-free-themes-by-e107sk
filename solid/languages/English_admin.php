@@ -23,6 +23,7 @@ define("LAN_JM_THEMEOPTIONS", "Theme Options");  //plugin name
 
 define("LAN_JM_THEMEOPTIONS_01", "Theme Options");   
 define("LAN_JM_THEMEOPTIONS_01_HELP", "Custom Css, Login Page + other");
+define("LAN_JM_THEMEOPTIONS_01_02", "Login / FPW settings"); 
 
 define("LAN_JM_THEMEOPTIONS_02", "Custom CSS");      
 define("LAN_JM_THEMEOPTIONS_02_01", "CSS Editor");      
@@ -30,7 +31,7 @@ define("LAN_JM_THEMEOPTIONS_02_01_HELP", '<p>Please add all your custom CSS here
 <p>Be aware that you can add file with name custom_style.css and put your css changes there. This file is loaded as last file from theme files and it is not part of upgrade pack, so it will not be overriden with update.');
 
 
-define("LAN_JM_THEMEOPTIONS_03", "Login Page Settings");  
+define("LAN_JM_THEMEOPTIONS_03", "Login Page");  
 
 define("LAN_JM_THEMEOPTIONS_03_01", "Display Login Page as standard page"); 
 define("LAN_JM_THEMEOPTIONS_03_01_HELP", "OFF - only login box is displayed, ON - header and footer are displayed"); 
@@ -52,6 +53,7 @@ define("LAN_JM_THEMEOPTIONS_04_01", "Teammember class");
 define("LAN_JM_THEMEOPTIONS_04_01_HELP", "Select userclass of members you want to display as team"); 
 
 define("LAN_JM_THEMEOPTIONS_05", "Master Header");  
+define("LAN_JM_THEMEOPTIONS_05_HELP", "Master Header");  
 
 define("LAN_JM_THEMEOPTIONS_05_01", "Image background for video [1920x1080px]"); 
 define("LAN_JM_THEMEOPTIONS_05_01_HELP", " "); 
@@ -76,7 +78,7 @@ define("LAN_JM_THEMEOPTIONS_06_02_HELP", " ");
 define("LAN_JM_THEMEOPTIONS_06_03", "Footer width"); 
 define("LAN_JM_THEMEOPTIONS_06_03_HELP", ""); 
  
-define("LAN_JM_THEMEOPTIONS_07", "Forgotten Password Page Settings"); 
+define("LAN_JM_THEMEOPTIONS_07", "Forgotten Password"); 
 
 define("LAN_JM_THEMEOPTIONS_07_01", "Display FPW Page as standard page"); 
 define("LAN_JM_THEMEOPTIONS_07_01_HELP", "OFF - only fpw box is displayed, ON - header and footer are displayed"); 

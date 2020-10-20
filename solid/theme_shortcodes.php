@@ -15,11 +15,50 @@ class theme_shortcodes extends e_shortcode
 {
 	
 	var $override = true;
-		
+	
+	private $themePrefs     = null;
+
 	function __construct()
 	{
-		
+		$this->themePrefs 	= e107::pref('theme');
+		$this->sitetheme  	= e107::getPref('sitetheme');
+
+		$this->themePrefs['masthead'] =  e107::pref('masthead');
 	}
+
+	/* Master Header with back compability */
+	/* {THEME_MASTERHEAD} */
+	function sc_theme_masterhead($parm = NULL)
+	{
+		$masterhead = varset($this->themePrefs['masthead']['wm_default'], '0');
+		
+		if(!e107::isInstalled('masthead') ) { $masterhead = '0'; }
+	 
+		/* it is not installed, original hardcoded solution */
+		if($masterhead == '0' ) { 
+			$text = '<div id="headerwrap">
+						<div class="container">
+								<div class="row">
+								{SETSTYLE=wmhome}
+								{WMESSAGE=force} 
+								{SETSTYLE=none}
+								{FEATUREBOX}
+								</div><!-- /row -->
+							</div> <!-- /container -->
+						</div><!-- /headerwrap -->
+					';
+			$wmessage = e107::getParser()->parseTemplate($text); 
+			return $wmessage;
+		}
+		else {
+				$text = '{MASTHEAD: mode='.$masterhead.'}'; 
+				 
+				$wmessage = e107::getParser()->parseTemplate($text); 
+		
+				return $wmessage;
+		}
+	}
+
 
 	function sc_custom_search($parm = NULL)
 	{

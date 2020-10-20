@@ -38,7 +38,7 @@ class leftmenu_adminArea extends e_admin_dispatcher
   	protected $adminMenu = array(
     	/*	'main/prefs'			=> array('caption'=> LAN_PREFS, 'perm' => '0', 'url'=>'admin_config.php'),       */
 		'custom_css/edit'	    => array('caption'=> LAN_JM_THEMEOPTIONS_02, 'perm' => '0', 'url'=>'admin_custom_css.php', 'action' => 'edit' ),
-		'login_page/edit'	    => array('caption'=> LAN_JM_THEMEOPTIONS_03, 'perm' => '0', 'url'=>'admin_login_page.php', 'action' => 'edit'),
+		'login_page/edit'	    => array('caption'=> LAN_JM_THEMEOPTIONS_01_02, 'perm' => '0', 'url'=>'admin_login_page.php', 'action' => 'edit'),
 		'teammemberclass/edit'	    => array('caption'=> LAN_JM_THEMEOPTIONS_04, 'perm' => '0', 'url'=>'admin_teammembers.php', 'action' => 'edit'),		
 		
 		'main/main'	    => array('caption'=> 'Back to Theme Manager', 'perm' => '0', 
