@@ -62,6 +62,9 @@ class themeoptions_ui extends e_admin_ui
 		'pref_loginform_width' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_03_05  . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_03_05_HELP . '</small>',
 		'tab' => 0, 'type' => 'method', 'data' => false, 'help' => '', 'writeParms' => array('size' => 'block-level'),
 		),
+		'pref_login_button_class' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_03_06  . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_03_06_HELP . '</small>',
+		'tab' => 0, 'type' => 'method', 'data' => false, 'help' => '', 'writeParms' => array('size' => 'block-level'),
+		), 
 		'pref_fpw_iframe' => array('title' => "<b>" . LAN_JM_THEMEOPTIONS_07_01 . '</b><br /><small>' . LAN_JM_THEMEOPTIONS_07_01_HELP . '</small>',
 		'tab' => 1, 'type' => 'method', 'data' => false, 'help' => '', 'writeParms' => array('size' => 'block-level'),
 		),
@@ -93,6 +96,7 @@ class themeoptions_ui extends e_admin_ui
 		$theme_pref['loginbox_width'] = $new_data['loginbox_width'];
 		$theme_pref['loginform_width'] = $new_data['loginform_width'];
 		$theme_pref['fpw_iframe'] = $new_data['fpw_iframe'];
+        $theme_pref['login_button_class'] = $new_data['login_button_class'];
 
 		$pref->setPref($theme_pref)->save(true, true, false);
 
@@ -210,6 +214,28 @@ class themeoptions_form_ui extends e_admin_form_ui
 			$name = 'loginform_width';
 			$value = $custom_theme_prefs[$name];
 			$attributes = array('type' => 'text', 'data' => 'str', 'width' => 'auto');
+			$text = $this->renderElement($name, $value, $attributes);
+			return $text;
+			break;
+		}
+	}
+    
+	public function pref_login_button_class($curVal, $mode)
+	{
+
+		$custom_theme_prefs = e107::pref('theme');
+
+		switch ($mode)
+		{
+		case 'read': // Edit Page
+			$text = "Are you cheating?";
+			return $text;
+			break;
+
+		case 'write': // Edit Page
+			$name = 'login_button_class';
+			$value = $custom_theme_prefs[$name];
+			$attributes = array('type' => 'text', 'data' => 'str', 'size' => 'block-level', 'writeParms' => array('size' => 'block-level'));
 			$text = $this->renderElement($name, $value, $attributes);
 			return $text;
 			break;

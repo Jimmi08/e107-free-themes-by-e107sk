@@ -1,5 +1,19 @@
 <?php
-// $Id$
+/*
+* e107 website system
+*
+* Copyright (C) 2008-2013 e107 Inc (e107.org)
+* Released under the terms and conditions of the
+* GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+*
+* e107 Solid theme
+*
+* #######################################
+* #     e107 website system theme       #
+* #     by Jimako                    	 #
+* #     https://www.e107sk.com          #
+* #######################################
+*/
 
 if (!defined('e107_INIT'))
 {

@@ -5,7 +5,7 @@
 
 ## Preview
 
-[![SkyApp Preview](https://www.e107sk.com/media/img/800x0/2019-08/preview_responsive.png)](https://www.e107sk.com/demo/skyapp/)
+[![SkyApp Preview](https://www.e107sk.com/media/img/800x0/2021-01/skyapp_preview.png)](https://www.e107sk.com/demo/skyapp/)
 
 **[View Live Preview](https://www.e107sk.com/demo/skyapp/)**
 
@@ -16,15 +16,10 @@ Released version 1.0.0
 ## Download and Installation
 
 Standard e107 installation.
-You can download theme from:
-- e107.org (not always latest version)
-- **[e107sk.com](https://www.e107sk.com/download/59/skyapp-e107-free-theme/)**
-- github repository is working version in progress 
 
 ## Copyright and License
 
 e107 stuff is released under GPL licence.
-Startbootstrap stuff is released under MIT licence.
 
 ## Credits
 
