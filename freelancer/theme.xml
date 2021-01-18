@@ -1,42 +1,43 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Theme name="Freelancer" version="4.1.1" date="2020-09-28" compatibility="2.3.0">
-	<author name ="Jimako" email="jimako@e107sk.com" url="https://www.e107sk.com/" />
-	<summary>e107 Freelancer Bootstrap4 theme</summary>
+<e107Theme name="Freelancer" version="4.2" date="2020-01-16" compatibility="2.3.1">
+	<author name ="Jimako" email="jimako@107sk.com" url="https://www.e107sk.com/" />
+	<summary>e107 Freelancer Bootstrap4 Lite Theme</summary>
 	<description>e107 Bootstrap 4 theme based on freelancer portfolio theme created by Start Bootstrap.</description>
 	<category>generic</category>
 	<keywords>
 		<word>bootstrap</word>
 		<word>clean</word>
 	</keywords>
+	<plugins>
+		<plugin name='gallery' url='core' />
+		<plugin name='hero' url='core' />
+	</plugins>
 	<libraries>
-		<library name="fontawesome" version="5" scope="all"/>
+		<library name="bootstrap" version="4" /> 
+		<library name="fontawesome" version="5"  />
 	</libraries>
-	<screenshots>
-		<image>preview_responsive.jpg</image>
-		<image>freelancer-responsive-preview.jpg</image>
-	</screenshots>
 	<stylesheets>
-		<css file="style.css" name="Default"  />
+		<css file="style.css" name="Default" exclude="bootstrap4"/>
 	</stylesheets>
-	<layouts>	
-    	<layout name='homepage' title='Home Page' >
+	<screenshots>
+		<image>freelancer_preview.jpg</image>
+	</screenshots>
+	<layouts>
+		<layout name='home' title='Home Page' >
 			<custompages>FRONTPAGE</custompages>
 		</layout>
-     	<layout name='full' title='Full width page' >
-			<custompages>forum.php  /forum/</custompages>
+		<layout name='full' title='Full' >
+			<custompages>forum/ download/ gallery</custompages>
 		</layout>
-		<layout name='sidebar_right' title='Blog sidebar-right' default='true'   >
-			<custompages>/news/ news.php</custompages>	
+		<layout name='contact' title='Contact Page' >
+			<custompages>contact</custompages>
 		</layout>
-     	<layout name='singlesignup' title='Full width page with spaces on sides' >
-			<custompages>login.php signup.php fpw.php /signup/ /login/</custompages>
+		<layout name='singleform' title='Shadowed centered form card' >
+			<custompages>login.php signup.php fpw.php usersettings.php</custompages>
 		</layout>
-		<layout name='bare' title='Starter Bare template for development' >
-			<custompages>guide</custompages>
-		</layout>
-		<layout name='default' title='Default'  default='true' />
+		<layout name='sidebar_right' title='Sidebar (right)' default='true' />
 	</layouts>
 	<themePrefs>
-		<pref name='cardmenu_look'>1</pref>
+		<pref name='branding'>sitename</pref>
 	</themePrefs>
 </e107Theme>
