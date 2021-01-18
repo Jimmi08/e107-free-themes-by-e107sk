@@ -7,7 +7,7 @@
 
 [![SkyApp Preview](https://www.e107sk.com/media/img/800x0/2021-01/skyapp_preview.png)](https://www.e107sk.com/demo/skyapp/)
 
-**[View Live Preview](https://www.e107sk.com/demo/skyapp/)**
+**[View Live Preview](https://www.e107sk.com/bootstrap/skyapp/)**
 
 ## Status
 
