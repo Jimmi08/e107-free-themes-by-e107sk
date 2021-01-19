@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<e107Theme name="RideBlue2" version="2.0.3" date="2019-09-08" compatibility="2.2.1">
+<e107Theme name="RideBlue2" price="10.00" currency="EUR" url="https://www.e107sk.com/easystore/e107-themes/e107-rideblue2-theme"  version="2.1.0" date="2021-01-19" compatibility="2.3.1">
 	<author name ="Jimako" email="" url="https://www.e107sk.com" />
 	<summary>RideBlue theme by veskoto with e107 Bootstrap</summary>
 	<description>RideBlue theme by veskoto with e107 Bootstrap</description>
 	<category>generic</category>
 	<plugins>
-		<plugin name='featurebox' url='core' />
 		<plugin name='gallery' url='core' />
 		<plugin name='social' url='core' />
 		<plugin name='banner' url='core' />				
@@ -15,21 +14,29 @@
 		<word>core</word>
 	</keywords>
 	<screenshots>
-		<image>preview.jpg</image>
-		<image>preview_responsive.jpg</image>
+		<image>rideblue2_preview.png</image>
 	</screenshots>
 	<stylesheets>
 		<css file="style.css" name="Default"  />
 	</stylesheets>
+	<libraries>
+		<library name="bootstrap" version="3" /> 
+		<library name="fontawesome" version="4"  />
+	</libraries>
 	<layouts>
 		<layout name='3columns' title='3 colums' default='true'>
 			<custompages>FRONTPAGE</custompages>	
 		</layout>
 		<layout name='full' title='Full width page'  >
-            <custompages>forum</custompages>																	            
+            <custompages>forum</custompages>															            
 		</layout>
 		<layout name='sidebar_right' title='Blog sidebar-right'  >
-			<custompages>user.php signup.php content/ sgallery/ calendar_menu/ blogcalendar_menu/</custompages>	
+			<custompages>user.php content/ calendar_menu/ blogcalendar_menu/</custompages>	
 		</layout>
 	</layouts>
+	<themePrefs>
+		<pref name='branding'>sitename</pref>
+		<pref name='inlinecss'></pref>
+		<pref name='inlinejs'></pref>
+	</themePrefs>
 </e107Theme>
