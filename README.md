@@ -193,8 +193,11 @@ Last check: 05/2020
 
 ## 2017/05 RideBlue2 Bootstrap 3 theme
 
+![img](https://www.e107sk.com/img/rideblue2_preview.png)
+
 Updated 0.7 theme
-Last check: 07/2017
+Updated for 2.3.1 standards
+Last check: 01/2021
 
 ## 2017/04 Black & White Bootstrap 3 theme
 

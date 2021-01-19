@@ -1,8 +1,0 @@
-2.0.1
-- Fixed look of news categories menu
-- Added inline css and js option in theme preferencies
-- Added lan support for admin area
-- Updated loading boostrap files (new library way)
-
-
-2.0.0 initial release
