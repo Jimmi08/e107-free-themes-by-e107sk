@@ -178,8 +178,9 @@ Updated 0.7 theme
 Last check: 01/2018
 
 
-
-******************* 2017 *******************
+*** 
+2017 
+***
 
 
 ## 2017/08 Cayman Bootstrap3 theme
