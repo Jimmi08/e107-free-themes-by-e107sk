@@ -207,7 +207,7 @@ Last check: 05/2020
 
 Updated 0.7 theme
 Updated for 2.3.1 standards
-Last check: 01/2021
+Last check: 04/2021, still works
 
 ## 2017/04 Black & White Bootstrap 3 theme
 
