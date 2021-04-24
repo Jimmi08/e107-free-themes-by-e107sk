@@ -5,13 +5,13 @@
 
 ## Preview
 
-[![SkyApp Preview](https://www.e107sk.com/media/img/800x0/2021-01/skyapp_preview.png)](https://www.e107sk.com/demo/skyapp/)
+[![SkyApp Preview](https://www.e107sk.com/media/img/800x0/2021-01/skyapp_preview.png)](https://www.e107sk.com/bootstrap/skyapp/)
 
 **[View Live Preview](https://www.e107sk.com/bootstrap/skyapp/)**
 
 ## Status
 
-Released version 1.0.0
+Released version 2.0.2
 
 ## Download and Installation
 

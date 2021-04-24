@@ -14,7 +14,10 @@ MAJOR version when you make incompatible API changes,
 MINOR version when you add functionality in a backwards-compatible manner, and
 PATCH version when you make backwards-compatible bug fixes.
  
- 
+# [2.0.2] - 2020-01-24
+
+- FIXED missing method for theme config - fatal error
+- FIXED missing default values for navbar branding options
  
 # [2.0.1] - 2020-01-18
 

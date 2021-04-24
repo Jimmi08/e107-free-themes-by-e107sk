@@ -118,11 +118,13 @@ More info: https://www.e107sk.com/news/infadeblack-theme.html
 ![img](https://www.e107sk.com/media/img/0x0/2020-12/e107_theme_infadeblack00.jpg)
 
 
-## 2019/03 SkyApp Bootstrap 4 theme
+## 2019/03 SkyApp Bootstrap 4 theme 
 
 ![img](https://www.e107sk.com/media/img/800x0/2021-01/skyapp_preview.png)
 
-Last check: 2020/01
+Last check: 2020/04
+
+Latest version: 2.0.2
 
 Minimal e107 version: 2.3.1
 
